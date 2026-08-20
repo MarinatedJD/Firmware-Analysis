@@ -1,0 +1,47 @@
+# Nmap 7.991 scan initiated Thu Aug  6 23:32:10 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -Pn -sS -sV -oN C:\\Users\\Admin\\Desktop\\Cambium_ServiceScan.txt 172.16.88.93
+Nmap scan report for 172.16.88.93
+Host is up (0.019s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     Dropbear sshd (protocol 2.0)
+80/tcp open  http    Cambium HTTP Server
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.991%I=7%D=8/6%Time=6A750B9E%P=i686-pc-windows-windows%r(
+SF:GetRequest,10E0,"HTTP/1\.0\x20200\x20OK\r\nVary:\x20Accept-Encoding\r\n
+SF:Content-Type:\x20text/html\r\nAccept-Ranges:\x20bytes\r\nETag:\x20\"798
+SF:322951\"\r\nLast-Modified:\x20Tue,\x2026\x20Oct\x202021\x2015:05:26\x20
+SF:GMT\r\nExpires:\x20Fri,\x2005\x20Nov\x202021\x2016:55:35\x20GMT\r\nCach
+SF:e-Control:\x20max-age=604800\r\nCache-Control:\x20public,\x20must-reval
+SF:idate,\x20proxy-revalidate\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-P
+SF:rotection:\x201;\x20mode=block\r\nContent-Length:\x208850\r\nConnection
+SF::\x20close\r\nDate:\x20Fri,\x2029\x20Oct\x202021\x2016:55:35\x20GMT\r\n
+SF:Server:\x20Cambium\x20HTTP\x20Server\r\n\r\n<!DOCTYPE\x20html>\n<html\x
+SF:20lang=\"en\">\n\x20\x20<head>\n\x20\x20\x20\x20<title>ePMP</title>\n\x
+SF:20\x20\x20\x20<meta\x20charset=\"utf-8\"/>\n\x20\x20\x20\x20<meta\x20co
+SF:ntent=\"Cambium\"\x20name=\"author\"/>\n\x20\x20\x20\x20<meta\x20conten
+SF:t=\"Cambium\x20ePMP\"\x20name=\"description\"/>\n\x20\x20\x20\x20<meta\
+SF:x20http-equiv=\"Pragma\"\x20content=\"no-cache\"/>\n\x20\x20\x20\x20<me
+SF:ta\x20http-equiv=\"Expires\"\x20content=\"-1\"/>\n\x20\x20\x20\x20<meta
+SF:\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\"/>\n\x20\x20\x
+SF:20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20in
+SF:itial-scale=1\.0\"/>\n\x20\x20\x20\x20<link\x20id=\"theme-link")%r(HTTP
+SF:Options,114,"HTTP/1\.0\x20200\x20OK\r\nAllow:\x20OPTIONS,\x20GET,\x20HE
+SF:AD,\x20POST\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201
+SF:;\x20mode=block\r\nCache-Control:\x20public,\x20must-revalidate,\x20pro
+SF:xy-revalidate\r\nContent-Length:\x200\r\nConnection:\x20close\r\nDate:\
+SF:x20Fri,\x2029\x20Oct\x202021\x2016:55:35\x20GMT\r\nServer:\x20Cambium\x
+SF:20HTTP\x20Server\r\n\r\n")%r(RTSPRequest,1F8,"HTTP/1\.0\x20400\x20Bad\x
+SF:20Request\r\nContent-Type:\x20text/html\r\nContent-Length:\x20345\r\nCo
+SF:nnection:\x20close\r\nDate:\x20Fri,\x2029\x20Oct\x202021\x2016:55:36\x2
+SF:0GMT\r\nServer:\x20Cambium\x20HTTP\x20Server\r\n\r\n<\?xml\x20version=\
+SF:"1\.0\"\x20encoding=\"iso-8859-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\
+SF:"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\n\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transition
+SF:al\.dtd\">\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20xml:la
+SF:ng=\"en\"\x20lang=\"en\">\n\x20<head>\n\x20\x20<title>400\x20Bad\x20Req
+SF:uest</title>\n\x20</head>\n\x20<body>\n\x20\x20<h1>400\x20Bad\x20Reques
+SF:t</h1>\n\x20</body>\n</html>\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug  6 23:35:16 2026 -- 1 IP address (1 host up) scanned in 185.38 seconds

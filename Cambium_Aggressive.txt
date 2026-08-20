@@ -1,0 +1,127 @@
+# Nmap 7.991 scan initiated Thu Aug  6 23:43:53 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -Pn -A -oN C:\\Users\\Admin\\Desktop\\Cambium_Aggressive.txt 172.16.88.93
+Nmap scan report for 172.16.88.93
+Host is up (0.043s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     Dropbear sshd (protocol 2.0)
+80/tcp open  http    Cambium HTTP Server
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Vary: Accept-Encoding
+|     Content-Type: text/html
+|     Accept-Ranges: bytes
+|     ETag: "798322951"
+|     Last-Modified: Tue, 26 Oct 2021 15:05:26 GMT
+|     Expires: Fri, 05 Nov 2021 17:07:18 GMT
+|     Cache-Control: max-age=604800
+|     Cache-Control: public, must-revalidate, proxy-revalidate
+|     X-Frame-Options: SAMEORIGIN
+|     X-XSS-Protection: 1; mode=block
+|     Content-Length: 8850
+|     Connection: close
+|     Date: Fri, 29 Oct 2021 17:07:18 GMT
+|     Server: Cambium HTTP Server
+|     <!DOCTYPE html>
+|     <html lang="en">
+|     <head>
+|     <title>ePMP</title>
+|     <meta charset="utf-8"/>
+|     <meta content="Cambium" name="author"/>
+|     <meta content="Cambium ePMP" name="description"/>
+|     <meta http-equiv="Pragma" content="no-cache"/>
+|     <meta http-equiv="Expires" content="-1"/>
+|     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+|     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+|     <link id="theme-link
+|   HTTPOptions: 
+|     HTTP/1.0 200 OK
+|     Allow: OPTIONS, GET, HEAD, POST
+|     X-Frame-Options: SAMEORIGIN
+|     X-XSS-Protection: 1; mode=block
+|     Cache-Control: public, must-revalidate, proxy-revalidate
+|     Content-Length: 0
+|     Connection: close
+|     Date: Fri, 29 Oct 2021 17:07:19 GMT
+|     Server: Cambium HTTP Server
+|   RTSPRequest: 
+|     HTTP/1.0 400 Bad Request
+|     Content-Type: text/html
+|     Content-Length: 345
+|     Connection: close
+|     Date: Fri, 29 Oct 2021 17:07:19 GMT
+|     Server: Cambium HTTP Server
+|     <?xml version="1.0" encoding="iso-8859-1"?>
+|     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+|     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+|     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+|     <head>
+|     <title>400 Bad Request</title>
+|     </head>
+|     <body>
+|     <h1>400 Bad Request</h1>
+|     </body>
+|_    </html>
+|_http-title: ePMP
+|_http-server-header: Cambium HTTP Server
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.991%I=7%D=8/6%Time=6A750E5D%P=i686-pc-windows-windows%r(
+SF:GetRequest,1680,"HTTP/1\.0\x20200\x20OK\r\nVary:\x20Accept-Encoding\r\n
+SF:Content-Type:\x20text/html\r\nAccept-Ranges:\x20bytes\r\nETag:\x20\"798
+SF:322951\"\r\nLast-Modified:\x20Tue,\x2026\x20Oct\x202021\x2015:05:26\x20
+SF:GMT\r\nExpires:\x20Fri,\x2005\x20Nov\x202021\x2017:07:18\x20GMT\r\nCach
+SF:e-Control:\x20max-age=604800\r\nCache-Control:\x20public,\x20must-reval
+SF:idate,\x20proxy-revalidate\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-P
+SF:rotection:\x201;\x20mode=block\r\nContent-Length:\x208850\r\nConnection
+SF::\x20close\r\nDate:\x20Fri,\x2029\x20Oct\x202021\x2017:07:18\x20GMT\r\n
+SF:Server:\x20Cambium\x20HTTP\x20Server\r\n\r\n<!DOCTYPE\x20html>\n<html\x
+SF:20lang=\"en\">\n\x20\x20<head>\n\x20\x20\x20\x20<title>ePMP</title>\n\x
+SF:20\x20\x20\x20<meta\x20charset=\"utf-8\"/>\n\x20\x20\x20\x20<meta\x20co
+SF:ntent=\"Cambium\"\x20name=\"author\"/>\n\x20\x20\x20\x20<meta\x20conten
+SF:t=\"Cambium\x20ePMP\"\x20name=\"description\"/>\n\x20\x20\x20\x20<meta\
+SF:x20http-equiv=\"Pragma\"\x20content=\"no-cache\"/>\n\x20\x20\x20\x20<me
+SF:ta\x20http-equiv=\"Expires\"\x20content=\"-1\"/>\n\x20\x20\x20\x20<meta
+SF:\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\"/>\n\x20\x20\x
+SF:20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20in
+SF:itial-scale=1\.0\"/>\n\x20\x20\x20\x20<link\x20id=\"theme-link")%r(HTTP
+SF:Options,114,"HTTP/1\.0\x20200\x20OK\r\nAllow:\x20OPTIONS,\x20GET,\x20HE
+SF:AD,\x20POST\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201
+SF:;\x20mode=block\r\nCache-Control:\x20public,\x20must-revalidate,\x20pro
+SF:xy-revalidate\r\nContent-Length:\x200\r\nConnection:\x20close\r\nDate:\
+SF:x20Fri,\x2029\x20Oct\x202021\x2017:07:19\x20GMT\r\nServer:\x20Cambium\x
+SF:20HTTP\x20Server\r\n\r\n")%r(RTSPRequest,1F8,"HTTP/1\.0\x20400\x20Bad\x
+SF:20Request\r\nContent-Type:\x20text/html\r\nContent-Length:\x20345\r\nCo
+SF:nnection:\x20close\r\nDate:\x20Fri,\x2029\x20Oct\x202021\x2017:07:19\x2
+SF:0GMT\r\nServer:\x20Cambium\x20HTTP\x20Server\r\n\r\n<\?xml\x20version=\
+SF:"1\.0\"\x20encoding=\"iso-8859-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\
+SF:"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\n\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transition
+SF:al\.dtd\">\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20xml:la
+SF:ng=\"en\"\x20lang=\"en\">\n\x20<head>\n\x20\x20<title>400\x20Bad\x20Req
+SF:uest</title>\n\x20</head>\n\x20<body>\n\x20\x20<h1>400\x20Bad\x20Reques
+SF:t</h1>\n\x20</body>\n</html>\n");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.991%E=4%D=8/6%OT=22%CT=1%CU=33564%PV=Y%DS=3%DC=T%G=Y%TM=6A750F0
+OS:A%P=i686-pc-windows-windows)SEQ(SP=104%GCD=3%ISR=109%TI=Z%CI=I%TS=7)SEQ(
+OS:SP=105%GCD=1%ISR=10A%TI=Z%CI=I%II=I%TS=7)SEQ(SP=105%GCD=1%ISR=10B%TI=Z%C
+OS:I=I%TS=7)SEQ(SP=107%GCD=1%ISR=10A%TI=Z%CI=I%TS=7)SEQ(SP=F7%GCD=1%ISR=FF%
+OS:TI=Z%CI=I%TS=7)OPS(O1=M5A0ST11NW4%O2=M5A0ST11NW4%O3=M5A0NNT11NW4%O4=M5A0
+OS:ST11NW4%O5=M5A0ST11NW4%O6=M5A0ST11)WIN(W1=6E4A%W2=6E4A%W3=6E4A%W4=6E4A%W
+OS:5=6E4A%W6=6E4A)ECN(R=Y%DF=Y%T=40%W=6F2E%O=M5A0NNSNW4%CC=N%Q=)T1(R=Y%DF=Y
+OS:%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%
+OS:T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIP
+OS:L=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=N)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 3 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 587/tcp)
+HOP RTT      ADDRESS
+1   7.00 ms  192.168.0.1
+2   8.00 ms  172.16.88.89
+3   23.00 ms 172.16.88.93
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug  6 23:47:38 2026 -- 1 IP address (1 host up) scanned in 224.90 seconds

@@ -1,0 +1,231 @@
+FIRMWARE SECURITY ANALYSIS LABORATORY
+INSTALLATION GUIDE
+
+This guide describes the installation and configuration of the laboratory environment used for firmware security analysis.
+
+The environment consists primarily of:
+- Ubuntu — firmware extraction and static analysis
+- Kali Linux — network and dynamic security analysis
+- Ghidra — reverse engineering
+- Binwalk — firmware identification and extraction
+- QEMU — emulation support
+- Firmadyne — firmware emulation support
+- Nmap — network and service discovery
+- Wireshark — network traffic analysis
+
+
+1. UBUNTU NETWORK CONFIGURATION
+
+Configure the IP address on the Ubuntu analysis machine.
+
+Open the Netplan configuration:
+
+sudo nano /etc/netplan/00-installer-config.yaml
+
+Use the following configuration:
+
+network:
+  version: 2
+  ethernets:
+    enp0s3:
+      dhcp4: no
+      addresses:
+        - 192.168.56.10/24
+      routes:
+        - to: default
+          via: 192.168.56.1
+      nameservers:
+        addresses:
+          - 8.8.8.8
+
+Apply the configuration:
+
+sudo netplan apply
+
+Verify the address:
+
+ip addr
+
+Test connectivity:
+
+ping 192.168.56.1
+
+
+2. UPDATE UBUNTU
+
+sudo apt update
+sudo apt upgrade -y
+
+
+3. INSTALL FIRMWARE ANALYSIS TOOLS
+
+Install Binwalk:
+
+sudo apt install binwalk
+
+Verify:
+
+binwalk --version
+
+
+4. INSTALL QEMU
+
+Install the QEMU packages specified in the laboratory guide:
+
+sudo apt install qemu-system qemu-utils
+sudo apt install qemu-system qemu-user
+sudo apt install qemu-system qemu-user-binfmt
+sudo apt install qemu-system kpartx
+sudo apt install qemu-system fdisk
+sudo apt install qemu-system unzip
+sudo apt install qemu-system gzip
+sudo apt install qemu-system bzip2
+sudo apt install qemu-system zip
+sudo apt install qemu-system wget
+sudo apt install qemu-system curl
+sudo apt install qemu-system net-tools
+
+If a package is unavailable:
+
+apt search qemu-system
+
+
+5. INSTALL ADDITIONAL ANALYSIS UTILITIES
+
+sudo apt install qemu-system wireshark
+sudo apt install qemu-system file
+sudo apt install qemu-system binutils
+sudo apt install qemu-system xxd
+
+
+6. INSTALL JAVA
+
+sudo apt install openjdk-21-jdk
+
+Verify:
+
+java --version
+
+
+7. INSTALL GHIDRA
+
+Ghidra is used for reverse engineering firmware binaries.
+
+Download Ghidra from:
+
+https://github.com/NationalSecurityAgency/ghidra/releases
+
+After downloading:
+
+cd ~/Downloads
+ls -lh
+cd ghidra_12.1.2_PUBLIC
+./ghidraRun
+
+Note: The exact Ghidra directory name may change depending on the version downloaded.
+
+
+8. INSTALL FIRMADYNE DEPENDENCIES
+
+Install PostgreSQL:
+
+sudo apt install postgresql postgresql-contrib
+
+Install additional dependencies:
+
+sudo apt install busybox fakeroot libguestfs-tools jq
+
+Firmadyne requires additional configuration beyond these packages. Follow the documentation for the installed version when completing the emulation setup.
+
+
+9. IDENTIFY THE FIRMWARE
+
+Place the firmware images inside the project's Firmware directory.
+
+Example:
+
+Firmware/
+├── ePMP-AC-v5.12.0.img
+└── BZ2.ipq53xx_8.6.11+18870.260526.1140.bin
+
+Identify the firmware type:
+
+file Firmware/ePMP-AC-v5.12.0.img
+
+file Firmware/BZ2.ipq53xx_8.6.11+18870.260526.1140.bin
+
+
+10. EXTRACT FIRMWARE WITH BINWALK
+
+For the Cambium Force 300 firmware:
+
+sudo binwalk -eM --run-as=root Firmware/ePMP-AC-v5.12.0.img
+
+For the BZ2 firmware:
+
+sudo binwalk -eM --run-as=root Firmware/BZ2.ipq53xx_8.6.11+18870.260526.1140.bin
+
+Inspect the extracted files:
+
+ls -lah
+
+
+11. KALI LINUX INSTALLATION
+
+Kali Linux is used primarily for network discovery and dynamic security testing.
+
+Update Kali:
+
+sudo apt update
+sudo apt full-upgrade -y
+
+
+12. INSTALL NETWORK ANALYSIS TOOLS
+
+sudo apt install nmap
+sudo apt install netcat-openbsd
+sudo apt install tcpdump
+sudo apt install wireshark
+sudo apt install net-tools
+sudo apt install curl
+sudo apt install wget
+sudo apt install dnsutils
+
+
+13. INSTALL WEB SECURITY TOOLS
+
+sudo apt install nikto
+sudo apt install dirb gobuster ffuf
+
+These tools should only be used during authorised testing of the laboratory device and management interface.
+
+
+14. INSTALL PASSWORD/AUDIT TOOLS
+
+sudo apt install hydra hashcat john
+
+Use these tools only for authorised security testing and controlled laboratory experiments.
+
+
+15. INSTALL PYTHON
+
+sudo apt install python3 python3-pip python3-venv
+
+Verify:
+
+python3 --version
+pip --version
+
+
+16. VERIFY THE INSTALLATION
+
+Run:
+
+nmap --version
+wireshark --version
+nikto -Version
+hydra -h
+binwalk --version
+python3 --version
+pip --version
+
