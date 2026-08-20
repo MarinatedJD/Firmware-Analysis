@@ -1,0 +1,4152 @@
+.
+├── 1DB250B.squashfs
+├── 4B39A2
+├── 4B39A2.zlib
+├── 4B3A63
+├── 4B3A63.zlib
+├── 59A2E0.xz
+├── 5E665.lzo
+├── 67698
+├── 67698.7z
+├── 67CFB
+├── 67CFB.7z
+├── 68A34
+├── 68A34.7z
+├── 85FC4
+├── 85FC4.7z
+├── 8DED4
+├── 95504
+├── _95504.extracted
+│   ├── [
+│   ├── [[
+│   ├── 00-minidump
+│   ├── 00-minidump2mem
+│   ├── 00_preinit.conf
+│   ├── 00-q6dump
+│   ├── 00-sysctl
+│   ├── 01_skb_recycler
+│   ├── 02-crypto-hash
+│   ├── 02_default_set_state
+│   ├── 02_sysinfo
+│   ├── 03_board_detect
+│   ├── 04-crypto-crc32c
+│   ├── 09-crypto-acompress
+│   ├── 09-crypto-aead
+│   ├── 09-crypto-arc4
+│   ├── 09-crypto-authenc
+│   ├── 09-crypto-cbc
+│   ├── 09-crypto-cmac
+│   ├── 09-crypto-ctr
+│   ├── 09-crypto-deflate
+│   ├── 09-crypto-des
+│   ├── 09-crypto-ecb
+│   ├── 09-crypto-echainiv
+│   ├── 09-crypto-gcm
+│   ├── 09-crypto-gf128
+│   ├── 09-crypto-ghash
+│   ├── 09-crypto-hmac
+│   ├── 09-crypto-manager
+│   ├── 09-crypto-md5
+│   ├── 09-crypto-null
+│   ├── 09-crypto-rng
+│   ├── 09-crypto-seqiv
+│   ├── 09-crypto-sha1
+│   ├── 09-crypto-sha256
+│   ├── 09-crypto-sha512
+│   ├── 09-crypto-user
+│   ├── 09-qca-nss-sfe
+│   ├── 10-default.conf
+│   ├── 10_indicate_failsafe
+│   ├── 10_indicate_preinit
+│   ├── 10_mmcblk
+│   ├── 11-br-netfilter.conf
+│   ├── 11_config_tcp_timestamps
+│   ├── 11-nf-conntrack.conf
+│   ├── 11-qcawifi
+│   ├── 11-wifi-fw
+│   ├── 13-vxlan
+│   ├── 15-teql
+│   ├── 2023_01_31_11_16_mcu_gd32e230_app_v9.bin
+│   ├── 2024_02_02_11_00_mcu_gd32e230_app_v5.bin
+│   ├── 20-lib-crc16
+│   ├── 20-usb-core
+│   ├── 21-usb-gadget
+│   ├── 25-dnsmasqsec
+│   ├── 25-nls-cp437
+│   ├── 25-nls-iso8859-1
+│   ├── 25-nls-utf8
+│   ├── 30-cfg80211-internal
+│   ├── 30_failsafe_wait
+│   ├── 30-fs-configfs
+│   ├── 30-fs-ext4
+│   ├── 30-fs-vfat
+│   ├── 30-pstore
+│   ├── 30-qca-ssdk-nohnat
+│   ├── 30-ramoops
+│   ├── 30-reed-solomon
+│   ├── 30-tun
+│   ├── 31-iptunnel
+│   ├── 31-iptunnel4
+│   ├── 31-iptunnel6
+│   ├── 31-qca-nss-dp
+│   ├── 31-qca-nss-ppe
+│   ├── 32-ip6-tunnel
+│   ├── 32-l2tp
+│   ├── 32-sit
+│   ├── 32-udptunnel4
+│   ├── 32-udptunnel6
+│   ├── 33-nat46
+│   ├── 34-ifb
+│   ├── 39-gre
+│   ├── 39-gre6
+│   ├── 40-bonding
+│   ├── 40-fs-msdos
+│   ├── 40_run_failsafe_hook
+│   ├── 40-scsi-core
+│   ├── 41-ata-ahci
+│   ├── 42-ip6tables
+│   ├── 43-ip6tables-extra
+│   ├── 43-ipt-nat6
+│   ├── 49-ipt-ipset
+│   ├── 50-cryptodev
+│   ├── 50-dnsmasq-migrate-ipset.sh
+│   ├── 50-dnsmasq-migrate-resolv-conf-auto.sh
+│   ├── 50-emesh-sp
+│   ├── 50_indicate_regular_preinit
+│   ├── 50-ipt-sctp
+│   ├── 50-usb-lib-composite
+│   ├── 50-wps
+│   ├── 51-i2c-core
+│   ├── 51-qca-nss-ppe-ds
+│   ├── 51-qca-nss-ppe-pppoe-mgr
+│   ├── 51-qca-nss-ppe-vlan-mgr
+│   ├── 51-wps-reset
+│   ├── 52-diag-char
+│   ├── 52-qca-mcs
+│   ├── 52-qca-nss-eip
+│   ├── 52-qca-nss-macsec
+│   ├── 52-qca-nss-ppe-bridge-mgr
+│   ├── 52-qca-nss-ppe-lag-mgr
+│   ├── 52-qca-nss-ppe-rule
+│   ├── 52-qca-nss-ppe-vp
+│   ├── 52-usb-f-diag
+│   ├── 52-usb-gdiag
+│   ├── 52-wps-supplicant
+│   ├── 53-qca-nss-ppe-mapt
+│   ├── 53-qca-nss-ppe-netlink
+│   ├── 53-qca-nss-ppe-tun
+│   ├── 53-qca-nss-ppe-vxlanmgr
+│   ├── 5.4.213
+│   ├── 54-qca-nss-ppe-tunipip6
+│   ├── 54-usb3
+│   ├── 54-usb-xhci-hcd
+│   ├── 54-wps-extender
+│   ├── 55-iio-core
+│   ├── 55-iio-kfifo-buf
+│   ├── 55-industrialio-triggered-buffer
+│   ├── 60-hwmon-ctf2302
+│   ├── 60-hwmon-lm63
+│   ├── 60-input-evdev
+│   ├── 60-leds-gpio
+│   ├── 60-st-lsm6dsvx
+│   ├── 61-hid
+│   ├── 61-input-gpio-keys
+│   ├── 65-dnsmasq-force-lan-up.sh
+│   ├── 70_initramfs_test
+│   ├── 70-sched-core
+│   ├── 71-sched-connmark
+│   ├── 73-sched
+│   ├── 75-rstp
+│   ├── 7850C0
+│   ├── 80211stats
+│   ├── 80_mount_root
+│   ├── 81_urandom_seed
+│   ├── 83-usb-dwc3-qcom-internal
+│   ├── 84-usb-dwc3-internal
+│   ├── 85-usb-phy-ipq5018
+│   ├── 874240
+│   ├── 874240.zlib
+│   ├── 874648
+│   ├── 874648.zlib
+│   ├── 874C50
+│   ├── 874C50.zlib
+│   ├── 875058
+│   ├── 875058.zlib
+│   ├── 88D2D5.xz
+│   ├── 90-spdtst
+│   ├── 99_10_failsafe_dropbear
+│   ├── 99_10_failsafe_login
+│   ├── 99_10_run_init
+│   ├── 99_20_ubnt_disable_services
+│   ├── 99_21_ubnt_ubntconf
+│   ├── 99_30_ubnt_qca_wifi_modules
+│   ├── 99_31_ubnt_remove_def_sysctl_d
+│   ├── 99-fq_codel
+│   ├── 99-qca-nss-ecm
+│   ├── 99-rsim-mcu-rename-iface
+│   ├── a
+│   ├── A3917C.cpio
+│   ├── a688
+│   ├── a693
+│   ├── a69e
+│   ├── a6a5
+│   ├── a6bf
+│   ├── acl.d
+│   ├── acl_dump.sh
+│   ├── acsdbgtool
+│   ├── act_connmark.ko
+│   ├── act_csum.ko
+│   ├── act_gact.ko
+│   ├── act_ipt.ko
+│   ├── act_mirred.ko
+│   ├── act_pedit.ko
+│   ├── act_police.ko
+│   ├── act_simple.ko
+│   ├── act_skbedit.ko
+│   ├── adjtimex
+│   ├── af_alg.ko
+│   ├── ahci.ko
+│   ├── alacritty
+│   ├── algif_aead.ko
+│   ├── algif_hash.ko
+│   ├── algif_rng.ko
+│   ├── algif_skcipher.ko
+│   ├── ansi
+│   ├── apscan.sh
+│   ├── apstats
+│   ├── AR900B_i.ini
+│   ├── arp
+│   ├── arping
+│   ├── arptable_filter.ko
+│   ├── arptables -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/arptables-legacy
+│   ├── arp_tables.ko
+│   ├── arptables-legacy
+│   ├── arpt_mangle.ko
+│   ├── ash -> busybox
+│   ├── askfirst
+│   ├── assocdenialnotify
+│   ├── ath
+│   ├── athdiag
+│   ├── athkey
+│   ├── ath_pktlog.ko
+│   ├── athstats
+│   ├── athstatsclr
+│   ├── autohsr -> ubntbox
+│   ├── autotxpow -> ubntbox
+│   ├── awk
+│   ├── b5043e70f9a75cde
+│   ├── banner
+│   ├── banner.failsafe
+│   ├── base64 -> busybox
+│   ├── base-files
+│   ├── base-files-essential
+│   ├── basename
+│   ├── bdwlan.b0002
+│   ├── bdwlan.b0060
+│   ├── bdwlan.b12
+│   ├── bdwlan.b16
+│   ├── bin
+│   ├── bonding.ko
+│   ├── boot
+│   ├── boot-ftm
+│   ├── brctl -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/libexec/brctl-bridge-utils
+│   ├── brctl-bridge-utils
+│   ├── bridge
+│   ├── bridge-stp
+│   ├── br-netfilter
+│   ├── build.properties
+│   ├── burnin.sh
+│   ├── busybox
+│   ├── busybox.control
+│   ├── button
+│   ├── ca-certificates.crt
+│   ├── caldata.sh
+│   ├── capabilities
+│   ├── cat -> busybox
+│   ├── cert.pem -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/etc/ssl/certs/ca-certificates.crt
+│   ├── certs
+│   ├── cfg80211.ko
+│   ├── cfg80211_support
+│   ├── cfg80211tool
+│   ├── cfg80211tool.1
+│   ├── cfg80211tool_mesh -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/cfg80211tool
+│   ├── cfgmtd -> ubntbox
+│   ├── cfr_test_app
+│   ├── chgrp -> busybox
+│   ├── chmod -> busybox
+│   ├── chown -> busybox
+│   ├── chroot
+│   ├── clear
+│   ├── cls_basic.ko
+│   ├── cls_flow.ko
+│   ├── cls_fw.ko
+│   ├── cls_matchall.ko
+│   ├── cls_route.ko
+│   ├── cls_u32.ko
+│   ├── cmp
+│   ├── cnsscli
+│   ├── cnssdaemon
+│   ├── code-100.json
+│   ├── code-104.json
+│   ├── code-108.json
+│   ├── code-112.json
+│   ├── code-116.json
+│   ├── code-120.json
+│   ├── code-124.json
+│   ├── code-12.json
+│   ├── code-136.json
+│   ├── code-140.json
+│   ├── code-144.json
+│   ├── code-148.json
+│   ├── code-152.json
+│   ├── code-156.json
+│   ├── code-158.json
+│   ├── code-162.json
+│   ├── code-16.json
+│   ├── code-170.json
+│   ├── code-175.json
+│   ├── code-178.json
+│   ├── code-180.json
+│   ├── code-184.json
+│   ├── code-188.json
+│   ├── code-191.json
+│   ├── code-196.json
+│   ├── code-203.json
+│   ├── code-208.json
+│   ├── code-20.json
+│   ├── code-212.json
+│   ├── code-214.json
+│   ├── code-218.json
+│   ├── code-222.json
+│   ├── code-231.json
+│   ├── code-233.json
+│   ├── code-234.json
+│   ├── code-238.json
+│   ├── code-242.json
+│   ├── code-246.json
+│   ├── code-248.json
+│   ├── code-250.json
+│   ├── code-254.json
+│   ├── code-258.json
+│   ├── code-260.json
+│   ├── code-266.json
+│   ├── code-268.json
+│   ├── code-276.json
+│   ├── code-288.json
+│   ├── code-28.json
+│   ├── code-292.json
+│   ├── code-300.json
+│   ├── code-304.json
+│   ├── code-308.json
+│   ├── code-312.json
+│   ├── code-316.json
+│   ├── code-31.json
+│   ├── code-320.json
+│   ├── code-328.json
+│   ├── code-32.json
+│   ├── code-332.json
+│   ├── code-334.json
+│   ├── code-336.json
+│   ├── code-340.json
+│   ├── code-344.json
+│   ├── code-348.json
+│   ├── code-352.json
+│   ├── code-356.json
+│   ├── code-360.json
+│   ├── code-368.json
+│   ├── code-36.json
+│   ├── code-372.json
+│   ├── code-376.json
+│   ├── code-380.json
+│   ├── code-384.json
+│   ├── code-388.json
+│   ├── code-392.json
+│   ├── code-398.json
+│   ├── code-400.json
+│   ├── code-404.json
+│   ├── code-40.json
+│   ├── code-410.json
+│   ├── code-414.json
+│   ├── code-418.json
+│   ├── code-422.json
+│   ├── code-426.json
+│   ├── code-428.json
+│   ├── code-434.json
+│   ├── code-438.json
+│   ├── code-440.json
+│   ├── code-442.json
+│   ├── code-446.json
+│   ├── code-44.json
+│   ├── code-454.json
+│   ├── code-458.json
+│   ├── code-462.json
+│   ├── code-470.json
+│   ├── code-474.json
+│   ├── code-478.json
+│   ├── code-480.json
+│   ├── code-484.json
+│   ├── code-48.json
+│   ├── code-492.json
+│   ├── code-496.json
+│   ├── code-498.json
+│   ├── code-499.json
+│   ├── code-4.json
+│   ├── code-500.json
+│   ├── code-504.json
+│   ├── code-50.json
+│   ├── code-512.json
+│   ├── code-516.json
+│   ├── code-51.json
+│   ├── code-524.json
+│   ├── code-528.json
+│   ├── code-52.json
+│   ├── code-530.json
+│   ├── code-531.json
+│   ├── code-533.json
+│   ├── code-534.json
+│   ├── code-540.json
+│   ├── code-548.json
+│   ├── code-554.json
+│   ├── code-558.json
+│   ├── code-566.json
+│   ├── code-56.json
+│   ├── code-570.json
+│   ├── code-574.json
+│   ├── code-578.json
+│   ├── code-580.json
+│   ├── code-581.json
+│   ├── code-583.json
+│   ├── code-584.json
+│   ├── code-585.json
+│   ├── code-586.json
+│   ├── code-591.json
+│   ├── code-598.json
+│   ├── code-600.json
+│   ├── code-604.json
+│   ├── code-608.json
+│   ├── code-60.json
+│   ├── code-616.json
+│   ├── code-620.json
+│   ├── code-626.json
+│   ├── code-630.json
+│   ├── code-634.json
+│   ├── code-638.json
+│   ├── code-642.json
+│   ├── code-643.json
+│   ├── code-646.json
+│   ├── code-64.json
+│   ├── code-652.json
+│   ├── code-654.json
+│   ├── code-659.json
+│   ├── code-660.json
+│   ├── code-662.json
+│   ├── code-663.json
+│   ├── code-666.json
+│   ├── code-670.json
+│   ├── code-674.json
+│   ├── code-678.json
+│   ├── code-682.json
+│   ├── code-686.json
+│   ├── code-688.json
+│   ├── code-68.json
+│   ├── code-702.json
+│   ├── code-703.json
+│   ├── code-704.json
+│   ├── code-705.json
+│   ├── code-70.json
+│   ├── code-710.json
+│   ├── code-716.json
+│   ├── code-724.json
+│   ├── code-72.json
+│   ├── code-740.json
+│   ├── code-744.json
+│   ├── code-752.json
+│   ├── code-756.json
+│   ├── code-764.json
+│   ├── code-768.json
+│   ├── code-76.json
+│   ├── code-780.json
+│   ├── code-784.json
+│   ├── code-788.json
+│   ├── code-792.json
+│   ├── code-796.json
+│   ├── code-800.json
+│   ├── code-804.json
+│   ├── code-807.json
+│   ├── code-818.json
+│   ├── code-826.json
+│   ├── code-831.json
+│   ├── code-832.json
+│   ├── code-833.json
+│   ├── code-834.json
+│   ├── code-840.json
+│   ├── code-84.json
+│   ├── code-850.json
+│   ├── code-854.json
+│   ├── code-858.json
+│   ├── code-860.json
+│   ├── code-862.json
+│   ├── code-876.json
+│   ├── code-882.json
+│   ├── code-887.json
+│   ├── code-894.json
+│   ├── code-8.json
+│   ├── code-92.json
+│   ├── code-96.json
+│   ├── common.sh
+│   ├── config
+│   ├── config.json
+│   ├── console
+│   ├── coredump -> ubntbox
+│   ├── core_limit
+│   ├── counters_wlan_prompt_hawkeye.sh
+│   ├── country-codes
+│   ├── cp -> busybox
+│   ├── cpio-root
+│   │   ├── bin
+│   │   │   ├── ash -> busybox
+│   │   │   ├── base64 -> busybox
+│   │   │   ├── busybox
+│   │   │   ├── cat -> busybox
+│   │   │   ├── chgrp -> busybox
+│   │   │   ├── chmod -> busybox
+│   │   │   ├── chown -> busybox
+│   │   │   ├── cp -> busybox
+│   │   │   ├── date -> busybox
+│   │   │   ├── dd -> busybox
+│   │   │   ├── df -> busybox
+│   │   │   ├── dmesg -> busybox
+│   │   │   ├── echo -> busybox
+│   │   │   ├── egrep -> busybox
+│   │   │   ├── false -> busybox
+│   │   │   ├── fanctrl_wrapper.sh
+│   │   │   ├── fgrep -> busybox
+│   │   │   ├── fsync -> busybox
+│   │   │   ├── grep -> busybox
+│   │   │   ├── gunzip -> busybox
+│   │   │   ├── gzip -> busybox
+│   │   │   ├── htb
+│   │   │   ├── iostat -> busybox
+│   │   │   ├── ipcalc.sh
+│   │   │   ├── kill -> busybox
+│   │   │   ├── ln -> busybox
+│   │   │   ├── lock -> busybox
+│   │   │   ├── login -> busybox
+│   │   │   ├── ls -> busybox
+│   │   │   ├── mkdir -> busybox
+│   │   │   ├── mknod -> busybox
+│   │   │   ├── mktemp -> busybox
+│   │   │   ├── mmc_info
+│   │   │   ├── mount -> busybox
+│   │   │   ├── mpstat -> busybox
+│   │   │   ├── mv -> busybox
+│   │   │   ├── netmsg -> busybox
+│   │   │   ├── netstat -> busybox
+│   │   │   ├── nice -> busybox
+│   │   │   ├── passwd -> busybox
+│   │   │   ├── pidof -> busybox
+│   │   │   ├── ping -> busybox
+│   │   │   ├── ping6 -> busybox
+│   │   │   ├── pktgen.sh
+│   │   │   ├── ps -> busybox
+│   │   │   ├── pwd -> busybox
+│   │   │   ├── qos_control.sh
+│   │   │   ├── qosLinkAddGroup.sh
+│   │   │   ├── qosLinkInit.sh
+│   │   │   ├── radartoolw
+│   │   │   ├── rm -> busybox
+│   │   │   ├── rmdir -> busybox
+│   │   │   ├── sed -> busybox
+│   │   │   ├── sh -> busybox
+│   │   │   ├── show_node
+│   │   │   ├── show_nt
+│   │   │   ├── sleep -> busybox
+│   │   │   ├── stainfo
+│   │   │   ├── stamgr -> stainfo
+│   │   │   ├── stat -> busybox
+│   │   │   ├── sync -> busybox
+│   │   │   ├── syslogd_wrapper.sh
+│   │   │   ├── tar -> busybox
+│   │   │   ├── thermald_wrapper.sh
+│   │   │   ├── touch -> busybox
+│   │   │   ├── traceroute -> busybox
+│   │   │   ├── traceroute6 -> busybox
+│   │   │   ├── true -> busybox
+│   │   │   ├── ubnt-rssimon
+│   │   │   ├── ubus
+│   │   │   ├── ulcmd_wrapper.sh
+│   │   │   ├── umount -> busybox
+│   │   │   ├── uname -> busybox
+│   │   │   ├── vap_check.sh
+│   │   │   ├── vi -> busybox
+│   │   │   ├── walled_action.sh
+│   │   │   ├── wifi_list
+│   │   │   └── zcat -> busybox
+│   │   ├── data
+│   │   │   └── vendor
+│   │   │       └── wifi
+│   │   ├── dev
+│   │   │   └── pts
+│   │   ├── etc
+│   │   │   ├── ath
+│   │   │   │   └── icm.conf
+│   │   │   ├── banner
+│   │   │   ├── banner.failsafe
+│   │   │   ├── capabilities
+│   │   │   │   └── ntpd.json
+│   │   │   ├── config
+│   │   │   │   ├── dhcp
+│   │   │   │   ├── ecm
+│   │   │   │   ├── minidump
+│   │   │   │   │   └── minidump.conf
+│   │   │   │   ├── openssl
+│   │   │   │   ├── qcacfg80211
+│   │   │   │   ├── qca_nss_dp
+│   │   │   │   ├── rstp
+│   │   │   │   ├── snmpd
+│   │   │   │   ├── ssid-steering
+│   │   │   │   ├── thermal
+│   │   │   │   └── ubootenv
+│   │   │   ├── core_limit
+│   │   │   ├── crontabs
+│   │   │   ├── device_info
+│   │   │   ├── diag.sh
+│   │   │   ├── dnsmasq.conf
+│   │   │   ├── dropbear
+│   │   │   ├── e2fsck.conf
+│   │   │   ├── ethers
+│   │   │   ├── ethertypes
+│   │   │   ├── firewall.d
+│   │   │   │   └── qca-nss-ecm
+│   │   │   ├── fstab
+│   │   │   ├── fw_env.config
+│   │   │   ├── group
+│   │   │   ├── hosts
+│   │   │   ├── hotplug.d
+│   │   │   │   ├── button
+│   │   │   │   │   ├── 50-wps
+│   │   │   │   │   ├── 51-wps-reset
+│   │   │   │   │   ├── 52-wps-supplicant
+│   │   │   │   │   └── 54-wps-extender
+│   │   │   │   ├── dhcp
+│   │   │   │   ├── dump
+│   │   │   │   │   └── 00-q6dump -> ../dump_q6v5/00-q6dump
+│   │   │   │   ├── dump_q6v5
+│   │   │   │   │   └── 00-q6dump
+│   │   │   │   ├── firmware
+│   │   │   │   │   └── 11-wifi-fw
+│   │   │   │   ├── ieee80211
+│   │   │   │   ├── iface
+│   │   │   │   │   ├── 15-teql
+│   │   │   │   │   ├── 75-rstp
+│   │   │   │   │   └── 99-fq_codel
+│   │   │   │   ├── minidump
+│   │   │   │   │   └── 00-minidump
+│   │   │   │   ├── minidump2nvmem
+│   │   │   │   │   └── 00-minidump2mem
+│   │   │   │   ├── neigh
+│   │   │   │   ├── net
+│   │   │   │   │   ├── 00-sysctl
+│   │   │   │   │   ├── 11-qcawifi
+│   │   │   │   │   └── 99-rsim-mcu-rename-iface
+│   │   │   │   ├── ntp
+│   │   │   │   │   └── 25-dnsmasqsec
+│   │   │   │   └── tftp
+│   │   │   ├── hotplug.json
+│   │   │   ├── hotplug-preinit.json
+│   │   │   ├── init.d
+│   │   │   │   ├── 01_skb_recycler
+│   │   │   │   ├── boot
+│   │   │   │   ├── boot-ftm
+│   │   │   │   ├── cron
+│   │   │   │   ├── diag_socket_app
+│   │   │   │   ├── dnsmasq
+│   │   │   │   ├── done
+│   │   │   │   ├── gpio_switch
+│   │   │   │   ├── hostapd_cli
+│   │   │   │   ├── led
+│   │   │   │   ├── license-pfm
+│   │   │   │   ├── minidump2nvmem
+│   │   │   │   ├── openssl
+│   │   │   │   ├── qca-hostapd
+│   │   │   │   ├── qca-nss-dp
+│   │   │   │   ├── qca-nss-ecm
+│   │   │   │   ├── qca-nss-ppe-bridge-mgr
+│   │   │   │   ├── qca-nss-ppe-ds
+│   │   │   │   ├── qca-ssdk
+│   │   │   │   ├── qcawifi-legacy
+│   │   │   │   ├── qca-wpa-supplicant
+│   │   │   │   ├── qrtr
+│   │   │   │   ├── rstp
+│   │   │   │   ├── snmpd
+│   │   │   │   ├── ssid_steering
+│   │   │   │   ├── startup-loglevel
+│   │   │   │   ├── sysctl
+│   │   │   │   ├── sysfixtime
+│   │   │   │   ├── sysntpd
+│   │   │   │   ├── system
+│   │   │   │   ├── thermal
+│   │   │   │   ├── ubnt_bootconf
+│   │   │   │   ├── ubnt_cfgsave
+│   │   │   │   ├── ubnt_plugins
+│   │   │   │   ├── ubnt_sysinit
+│   │   │   │   ├── umount
+│   │   │   │   ├── urandom_seed
+│   │   │   │   └── urngd
+│   │   │   ├── inittab
+│   │   │   ├── iproute2
+│   │   │   │   ├── ematch_map
+│   │   │   │   ├── rt_protos
+│   │   │   │   └── rt_tables
+│   │   │   ├── localtime -> /dev/null
+│   │   │   ├── modules-boot.d
+│   │   │   │   ├── 02-crypto-hash -> ../modules.d/02-crypto-hash
+│   │   │   │   ├── 04-crypto-crc32c -> ../modules.d/04-crypto-crc32c
+│   │   │   │   ├── 09-crypto-aead -> ../modules.d/09-crypto-aead
+│   │   │   │   ├── 09-crypto-manager -> ../modules.d/09-crypto-manager
+│   │   │   │   ├── 20-lib-crc16 -> ../modules.d/20-lib-crc16
+│   │   │   │   ├── 20-usb-core -> ../modules.d/20-usb-core
+│   │   │   │   ├── 21-usb-gadget -> ../modules.d/21-usb-gadget
+│   │   │   │   ├── 30-fs-ext4 -> ../modules.d/30-fs-ext4
+│   │   │   │   ├── 30-fs-vfat -> ../modules.d/30-fs-vfat
+│   │   │   │   ├── 30-pstore -> ../modules.d/30-pstore
+│   │   │   │   ├── 30-ramoops -> ../modules.d/30-ramoops
+│   │   │   │   ├── 30-reed-solomon -> ../modules.d/30-reed-solomon
+│   │   │   │   ├── 40-scsi-core -> ../modules.d/40-scsi-core
+│   │   │   │   ├── 41-ata-ahci -> ../modules.d/41-ata-ahci
+│   │   │   │   ├── 54-usb3 -> ../modules.d/54-usb3
+│   │   │   │   ├── 54-usb-xhci-hcd -> ../modules.d/54-usb-xhci-hcd
+│   │   │   │   ├── 60-hwmon-ctf2302 -> ../modules.d/60-hwmon-ctf2302
+│   │   │   │   ├── 60-hwmon-lm63 -> ../modules.d/60-hwmon-lm63
+│   │   │   │   ├── 60-input-evdev -> ../modules.d/60-input-evdev
+│   │   │   │   ├── 60-leds-gpio -> ../modules.d/60-leds-gpio
+│   │   │   │   ├── 61-input-gpio-keys -> ../modules.d/61-input-gpio-keys
+│   │   │   │   └── usb-storage -> ../modules.d/usb-storage
+│   │   │   ├── modules.conf
+│   │   │   ├── modules.d
+│   │   │   │   ├── 02-crypto-hash
+│   │   │   │   ├── 04-crypto-crc32c
+│   │   │   │   ├── 09-crypto-acompress
+│   │   │   │   ├── 09-crypto-aead
+│   │   │   │   ├── 09-crypto-arc4
+│   │   │   │   ├── 09-crypto-authenc
+│   │   │   │   ├── 09-crypto-cbc
+│   │   │   │   ├── 09-crypto-cmac
+│   │   │   │   ├── 09-crypto-ctr
+│   │   │   │   ├── 09-crypto-deflate
+│   │   │   │   ├── 09-crypto-des
+│   │   │   │   ├── 09-crypto-ecb
+│   │   │   │   ├── 09-crypto-echainiv
+│   │   │   │   ├── 09-crypto-gcm
+│   │   │   │   ├── 09-crypto-gf128
+│   │   │   │   ├── 09-crypto-ghash
+│   │   │   │   ├── 09-crypto-hmac
+│   │   │   │   ├── 09-crypto-manager
+│   │   │   │   ├── 09-crypto-md5
+│   │   │   │   ├── 09-crypto-null
+│   │   │   │   ├── 09-crypto-rng
+│   │   │   │   ├── 09-crypto-seqiv
+│   │   │   │   ├── 09-crypto-sha1
+│   │   │   │   ├── 09-crypto-sha256
+│   │   │   │   ├── 09-crypto-sha512
+│   │   │   │   ├── 09-crypto-user
+│   │   │   │   ├── 09-qca-nss-sfe
+│   │   │   │   ├── 13-vxlan
+│   │   │   │   ├── 20-lib-crc16
+│   │   │   │   ├── 20-usb-core
+│   │   │   │   ├── 21-usb-gadget
+│   │   │   │   ├── 25-nls-cp437
+│   │   │   │   ├── 25-nls-iso8859-1
+│   │   │   │   ├── 25-nls-utf8
+│   │   │   │   ├── 30-cfg80211-internal
+│   │   │   │   ├── 30-fs-configfs
+│   │   │   │   ├── 30-fs-ext4
+│   │   │   │   ├── 30-fs-vfat
+│   │   │   │   ├── 30-pstore
+│   │   │   │   ├── 30-qca-ssdk-nohnat
+│   │   │   │   ├── 30-ramoops
+│   │   │   │   ├── 30-reed-solomon
+│   │   │   │   ├── 30-tun
+│   │   │   │   ├── 31-iptunnel
+│   │   │   │   ├── 31-iptunnel4
+│   │   │   │   ├── 31-iptunnel6
+│   │   │   │   ├── 31-qca-nss-dp
+│   │   │   │   ├── 31-qca-nss-ppe
+│   │   │   │   ├── 32-ip6-tunnel
+│   │   │   │   ├── 32-l2tp
+│   │   │   │   ├── 32-sit
+│   │   │   │   ├── 32-udptunnel4
+│   │   │   │   ├── 32-udptunnel6
+│   │   │   │   ├── 33-nat46
+│   │   │   │   ├── 34-ifb
+│   │   │   │   ├── 39-gre
+│   │   │   │   ├── 39-gre6
+│   │   │   │   ├── 40-bonding
+│   │   │   │   ├── 40-fs-msdos
+│   │   │   │   ├── 40-scsi-core
+│   │   │   │   ├── 41-ata-ahci
+│   │   │   │   ├── 42-ip6tables
+│   │   │   │   ├── 43-ip6tables-extra
+│   │   │   │   ├── 43-ipt-nat6
+│   │   │   │   ├── 49-ipt-ipset
+│   │   │   │   ├── 50-cryptodev
+│   │   │   │   ├── 50-emesh-sp
+│   │   │   │   ├── 50-ipt-sctp
+│   │   │   │   ├── 50-usb-lib-composite
+│   │   │   │   ├── 51-i2c-core
+│   │   │   │   ├── 51-qca-nss-ppe-ds
+│   │   │   │   ├── 51-qca-nss-ppe-pppoe-mgr
+│   │   │   │   ├── 51-qca-nss-ppe-vlan-mgr
+│   │   │   │   ├── 52-diag-char
+│   │   │   │   ├── 52-qca-mcs
+│   │   │   │   ├── 52-qca-nss-eip
+│   │   │   │   ├── 52-qca-nss-macsec
+│   │   │   │   ├── 52-qca-nss-ppe-bridge-mgr
+│   │   │   │   ├── 52-qca-nss-ppe-lag-mgr
+│   │   │   │   ├── 52-qca-nss-ppe-rule
+│   │   │   │   ├── 52-qca-nss-ppe-vp
+│   │   │   │   ├── 52-usb-f-diag
+│   │   │   │   ├── 52-usb-gdiag
+│   │   │   │   ├── 53-qca-nss-ppe-mapt
+│   │   │   │   ├── 53-qca-nss-ppe-netlink
+│   │   │   │   ├── 53-qca-nss-ppe-tun
+│   │   │   │   ├── 53-qca-nss-ppe-vxlanmgr
+│   │   │   │   ├── 54-qca-nss-ppe-tunipip6
+│   │   │   │   ├── 54-usb3
+│   │   │   │   ├── 54-usb-xhci-hcd
+│   │   │   │   ├── 55-iio-core
+│   │   │   │   ├── 55-iio-kfifo-buf
+│   │   │   │   ├── 55-industrialio-triggered-buffer
+│   │   │   │   ├── 60-hwmon-ctf2302
+│   │   │   │   ├── 60-hwmon-lm63
+│   │   │   │   ├── 60-input-evdev
+│   │   │   │   ├── 60-leds-gpio
+│   │   │   │   ├── 60-st-lsm6dsvx
+│   │   │   │   ├── 61-hid
+│   │   │   │   ├── 61-input-gpio-keys
+│   │   │   │   ├── 70-sched-core
+│   │   │   │   ├── 71-sched-connmark
+│   │   │   │   ├── 73-sched
+│   │   │   │   ├── 83-usb-dwc3-qcom-internal
+│   │   │   │   ├── 84-usb-dwc3-internal
+│   │   │   │   ├── 85-usb-phy-ipq5018
+│   │   │   │   ├── 90-spdtst
+│   │   │   │   ├── arptables
+│   │   │   │   ├── br-netfilter
+│   │   │   │   ├── ebtables
+│   │   │   │   ├── ebtables-ipv4
+│   │   │   │   ├── ebtables-ipv6
+│   │   │   │   ├── ipt-conntrack
+│   │   │   │   ├── ipt-conntrack-extra
+│   │   │   │   ├── ipt-core
+│   │   │   │   ├── ipt-extra
+│   │   │   │   ├── ipt-filter
+│   │   │   │   ├── ipt-ipopt
+│   │   │   │   ├── ipt-ipsec
+│   │   │   │   ├── ipt-nat
+│   │   │   │   ├── ipt-nat-extra
+│   │   │   │   ├── ipt-physdev
+│   │   │   │   ├── ipt-raw
+│   │   │   │   ├── ipt-raw6
+│   │   │   │   ├── lib-crc32c
+│   │   │   │   ├── lib-crc-ccitt
+│   │   │   │   ├── lib-textsearch
+│   │   │   │   ├── lib-zlib-deflate
+│   │   │   │   ├── lib-zlib-inflate
+│   │   │   │   ├── macvlan
+│   │   │   │   ├── mppe
+│   │   │   │   ├── nf-conncount
+│   │   │   │   ├── nf-conntrack
+│   │   │   │   ├── nf-conntrack-netlink
+│   │   │   │   ├── nf-flow
+│   │   │   │   ├── nf-ipt
+│   │   │   │   ├── nf-ipt6
+│   │   │   │   ├── nf-log
+│   │   │   │   ├── nf-log6
+│   │   │   │   ├── nf-nat
+│   │   │   │   ├── nf-nathelper
+│   │   │   │   ├── nf-nathelper-extra
+│   │   │   │   ├── nfnetlink
+│   │   │   │   ├── nf-reject
+│   │   │   │   ├── nf-reject6
+│   │   │   │   ├── nft-compat
+│   │   │   │   ├── nft-core
+│   │   │   │   ├── nft-nat
+│   │   │   │   ├── nft-netdev
+│   │   │   │   ├── nft-offload
+│   │   │   │   ├── ppp
+│   │   │   │   ├── pppoe
+│   │   │   │   ├── pppol2tp
+│   │   │   │   ├── pptp
+│   │   │   │   ├── sched-act-ipt
+│   │   │   │   ├── sched-act-police
+│   │   │   │   ├── sched-pie
+│   │   │   │   ├── sched-prio
+│   │   │   │   ├── sched-red
+│   │   │   │   ├── usb-storage
+│   │   │   │   └── usb-uas
+│   │   │   ├── mtab -> /dev/null
+│   │   │   ├── openwrt_release
+│   │   │   ├── openwrt_version
+│   │   │   ├── opkg
+│   │   │   │   └── keys
+│   │   │   │       └── b5043e70f9a75cde
+│   │   │   ├── os-release -> ../usr/lib/os-release
+│   │   │   ├── passwd
+│   │   │   ├── preinit
+│   │   │   ├── profile
+│   │   │   ├── protocols
+│   │   │   ├── rc.button
+│   │   │   │   ├── failsafe
+│   │   │   │   ├── power
+│   │   │   │   ├── reboot
+│   │   │   │   ├── reset
+│   │   │   │   └── rfkill
+│   │   │   ├── rc.common
+│   │   │   ├── rc.d
+│   │   │   │   ├── K00startup-loglevel -> ../init.d/startup-loglevel
+│   │   │   │   ├── K10gpio_switch -> ../init.d/gpio_switch
+│   │   │   │   ├── K10ubnt_plugins -> ../init.d/ubnt_plugins
+│   │   │   │   ├── K85ubnt_cfgsave -> ../init.d/ubnt_cfgsave
+│   │   │   │   ├── K90boot -> ../init.d/boot
+│   │   │   │   ├── K90sysfixtime -> ../init.d/sysfixtime
+│   │   │   │   ├── K90umount -> ../init.d/umount
+│   │   │   │   ├── K98boot-ftm -> ../init.d/boot-ftm
+│   │   │   │   ├── S00sysfixtime -> ../init.d/sysfixtime
+│   │   │   │   ├── S00ubnt_sysinit -> ../init.d/ubnt_sysinit
+│   │   │   │   ├── S00urngd -> ../init.d/urngd
+│   │   │   │   ├── S01license-pfm -> ../init.d/license-pfm
+│   │   │   │   ├── S08boot-ftm -> ../init.d/boot-ftm
+│   │   │   │   ├── S08qrtr -> ../init.d/qrtr
+│   │   │   │   ├── S10boot -> ../init.d/boot
+│   │   │   │   ├── S10system -> ../init.d/system
+│   │   │   │   ├── S11sysctl -> ../init.d/sysctl
+│   │   │   │   ├── S11ubnt_bootconf -> ../init.d/ubnt_bootconf
+│   │   │   │   ├── S12ubnt_plugins -> ../init.d/ubnt_plugins
+│   │   │   │   ├── S13openssl -> ../init.d/openssl
+│   │   │   │   ├── S13qca-hostapd -> ../init.d/qca-hostapd
+│   │   │   │   ├── S13qca-wpa-supplicant -> ../init.d/qca-wpa-supplicant
+│   │   │   │   ├── S16qca-ssdk -> ../init.d/qca-ssdk
+│   │   │   │   ├── S18qca-nss-dp -> ../init.d/qca-nss-dp
+│   │   │   │   ├── S19dnsmasq -> ../init.d/dnsmasq
+│   │   │   │   ├── S19qca-nss-ppe-bridge-mgr -> ../init.d/qca-nss-ppe-bridge-mgr
+│   │   │   │   ├── S22qcawifi-legacy -> ../init.d/qcawifi-legacy
+│   │   │   │   ├── S26qca-nss-ecm -> ../init.d/qca-nss-ecm
+│   │   │   │   ├── S4001_skb_recycler -> ../init.d/01_skb_recycler
+│   │   │   │   ├── S50cron -> ../init.d/cron
+│   │   │   │   ├── S50snmpd -> ../init.d/snmpd
+│   │   │   │   ├── S55rstp -> ../init.d/rstp
+│   │   │   │   ├── S85ubnt_cfgsave -> ../init.d/ubnt_cfgsave
+│   │   │   │   ├── S94gpio_switch -> ../init.d/gpio_switch
+│   │   │   │   ├── S95done -> ../init.d/done
+│   │   │   │   ├── S96led -> ../init.d/led
+│   │   │   │   ├── S98diag_socket_app -> ../init.d/diag_socket_app
+│   │   │   │   ├── S98sysntpd -> ../init.d/sysntpd
+│   │   │   │   ├── S98thermal -> ../init.d/thermal
+│   │   │   │   ├── S99minidump2nvmem -> ../init.d/minidump2nvmem
+│   │   │   │   ├── S99startup-loglevel -> ../init.d/startup-loglevel
+│   │   │   │   └── S99urandom_seed -> ../init.d/urandom_seed
+│   │   │   ├── rc.local
+│   │   │   ├── resolv.conf -> /dev/null
+│   │   │   ├── sal_qos
+│   │   │   │   └── qos_conf.json
+│   │   │   ├── sal_rule
+│   │   │   │   └── spm_config_rules.json
+│   │   │   ├── services
+│   │   │   ├── shadow
+│   │   │   ├── shells
+│   │   │   ├── shinit
+│   │   │   ├── snmp
+│   │   │   │   └── snmp.conf -> /dev/null
+│   │   │   ├── ssl
+│   │   │   │   ├── cert.pem -> /dev/null
+│   │   │   │   ├── certs
+│   │   │   │   │   └── ca-certificates.crt
+│   │   │   │   ├── modules.cnf.d
+│   │   │   │   ├── openssl.cnf
+│   │   │   │   └── private
+│   │   │   ├── startup.list
+│   │   │   ├── sysctl.conf
+│   │   │   ├── sysctl.d
+│   │   │   │   ├── 10-default.conf
+│   │   │   │   ├── 11-br-netfilter.conf
+│   │   │   │   ├── 11-nf-conntrack.conf
+│   │   │   │   └── qca-nss-ecm.conf
+│   │   │   ├── sysinit
+│   │   │   ├── syslog.conf
+│   │   │   ├── sysupgrade.conf
+│   │   │   ├── thermal
+│   │   │   │   ├── ipq-thermald-5332.conf
+│   │   │   │   ├── ipq-thermald-8064.conf
+│   │   │   │   ├── ipq-thermald-8066.conf
+│   │   │   │   └── ipq-thermald-8069.conf
+│   │   │   ├── TZ -> /dev/null
+│   │   │   ├── uap-sysctl.conf
+│   │   │   ├── uci-defaults
+│   │   │   │   ├── 50-dnsmasq-migrate-ipset.sh
+│   │   │   │   ├── 50-dnsmasq-migrate-resolv-conf-auto.sh
+│   │   │   │   ├── 65-dnsmasq-force-lan-up.sh
+│   │   │   │   └── 99-qca-nss-ecm
+│   │   │   └── xattr.conf
+│   │   ├── ini
+│   │   │   ├── global.ini
+│   │   │   ├── internal
+│   │   │   │   ├── AR900B_i.ini
+│   │   │   │   ├── global_i.ini
+│   │   │   │   ├── QCA5018_i.ini
+│   │   │   │   ├── QCA5332_i.ini
+│   │   │   │   ├── QCA6018_i.ini
+│   │   │   │   ├── QCA6290_i.ini
+│   │   │   │   ├── QCA8074_i.ini
+│   │   │   │   ├── QCA8074V2_i.ini
+│   │   │   │   ├── QCA9574_i.ini
+│   │   │   │   ├── QCN6122_i.ini
+│   │   │   │   ├── QCN6432_i.ini
+│   │   │   │   ├── QCN9000_i.ini
+│   │   │   │   ├── QCN9160_i.ini
+│   │   │   │   └── QCN9224_i.ini
+│   │   │   ├── QCA5018.ini
+│   │   │   ├── QCA5332.ini
+│   │   │   ├── QCA6018.ini
+│   │   │   ├── QCA6290.ini
+│   │   │   ├── QCA8074.ini
+│   │   │   ├── QCA9574.ini
+│   │   │   ├── QCA9984.ini
+│   │   │   ├── QCN6122.ini
+│   │   │   ├── QCN6432.ini
+│   │   │   ├── QCN9000.ini
+│   │   │   ├── QCN9160.ini
+│   │   │   └── QCN9224.ini
+│   │   ├── init
+│   │   ├── lib
+│   │   │   ├── create_cfg_caldata.sh
+│   │   │   ├── firmware
+│   │   │   │   ├── 2023_01_31_11_16_mcu_gd32e230_app_v9.bin
+│   │   │   │   ├── 2024_02_02_11_00_mcu_gd32e230_app_v5.bin
+│   │   │   │   ├── hsr_mcu_fw.bin -> 2024_02_02_11_00_mcu_gd32e230_app_v5.bin
+│   │   │   │   ├── platforms
+│   │   │   │   │   ├── a688
+│   │   │   │   │   │   ├── bdwlan.b0002
+│   │   │   │   │   │   ├── bdwlan.b16
+│   │   │   │   │   │   └── thermaltool.conf
+│   │   │   │   │   ├── a693
+│   │   │   │   │   │   ├── bdwlan.b0060
+│   │   │   │   │   │   ├── bdwlan.b12
+│   │   │   │   │   │   └── thermaltool.conf
+│   │   │   │   │   ├── a69e
+│   │   │   │   │   │   ├── bdwlan.b0060
+│   │   │   │   │   │   ├── bdwlan.b12
+│   │   │   │   │   │   └── thermaltool.conf
+│   │   │   │   │   ├── a6a5
+│   │   │   │   │   │   ├── bdwlan.b0060
+│   │   │   │   │   │   ├── bdwlan.b12
+│   │   │   │   │   │   └── thermaltool.conf
+│   │   │   │   │   └── a6bf
+│   │   │   │   │       ├── bdwlan.b0060
+│   │   │   │   │       ├── bdwlan.b12
+│   │   │   │   │       └── thermaltool.conf
+│   │   │   │   ├── regulatory.db -> /dev/null
+│   │   │   │   ├── thunder_mcu_fw.bin -> 2023_01_31_11_16_mcu_gd32e230_app_v9.bin
+│   │   │   │   └── ui_aps.ini
+│   │   │   ├── functions
+│   │   │   │   ├── caldata.sh
+│   │   │   │   ├── fsck
+│   │   │   │   │   └── e2fsck.sh
+│   │   │   │   ├── leds.sh
+│   │   │   │   ├── migrations.sh
+│   │   │   │   ├── network.sh
+│   │   │   │   ├── preinit.sh
+│   │   │   │   ├── procd.sh
+│   │   │   │   ├── rstp.sh
+│   │   │   │   ├── service.sh
+│   │   │   │   └── system.sh
+│   │   │   ├── functions.sh
+│   │   │   ├── ipq806x.sh
+│   │   │   ├── ld-musl-armhf.so.1 -> libc.so
+│   │   │   ├── libatomic.so.1 -> libatomic.so.1.2.0
+│   │   │   ├── libatomic.so.1.2.0
+│   │   │   ├── libblobmsg_jansson.so.20240329
+│   │   │   ├── libblobmsg_json.so.20240329
+│   │   │   ├── libc.so
+│   │   │   ├── libgcc_s.so.1
+│   │   │   ├── libjson_script.so.20240329
+│   │   │   ├── libnl-ppe.so
+│   │   │   ├── libnsm.so
+│   │   │   ├── libpreload-seccomp.so
+│   │   │   ├── libpreload-trace.so
+│   │   │   ├── libsetlbf.so
+│   │   │   ├── libubox.so.20240329
+│   │   │   ├── libubus.so.20231128
+│   │   │   ├── libuci.so
+│   │   │   ├── libvalidate.so
+│   │   │   ├── modules
+│   │   │   │   └── 5.4.213
+│   │   │   │       ├── act_connmark.ko
+│   │   │   │       ├── act_csum.ko
+│   │   │   │       ├── act_gact.ko
+│   │   │   │       ├── act_ipt.ko
+│   │   │   │       ├── act_mirred.ko
+│   │   │   │       ├── act_pedit.ko
+│   │   │   │       ├── act_police.ko
+│   │   │   │       ├── act_simple.ko
+│   │   │   │       ├── act_skbedit.ko
+│   │   │   │       ├── af_alg.ko
+│   │   │   │       ├── ahci.ko
+│   │   │   │       ├── algif_aead.ko
+│   │   │   │       ├── algif_hash.ko
+│   │   │   │       ├── algif_rng.ko
+│   │   │   │       ├── algif_skcipher.ko
+│   │   │   │       ├── arptable_filter.ko
+│   │   │   │       ├── arp_tables.ko
+│   │   │   │       ├── arpt_mangle.ko
+│   │   │   │       ├── ath_pktlog.ko
+│   │   │   │       ├── bonding.ko
+│   │   │   │       ├── cfg80211.ko
+│   │   │   │       ├── cls_basic.ko
+│   │   │   │       ├── cls_flow.ko
+│   │   │   │       ├── cls_fw.ko
+│   │   │   │       ├── cls_matchall.ko
+│   │   │   │       ├── cls_route.ko
+│   │   │   │       ├── cls_u32.ko
+│   │   │   │       ├── crc-ccitt.ko
+│   │   │   │       ├── cryptodev.ko
+│   │   │   │       ├── crypto_user.ko
+│   │   │   │       ├── ctf2302.ko
+│   │   │   │       ├── diagchar.ko
+│   │   │   │       ├── dwc3.ko
+│   │   │   │       ├── dwc3-qcom.ko
+│   │   │   │       ├── ebt_802_3.ko
+│   │   │   │       ├── ebtable_broute.ko
+│   │   │   │       ├── ebtable_filter.ko
+│   │   │   │       ├── ebtable_nat.ko
+│   │   │   │       ├── ebtables.ko
+│   │   │   │       ├── ebt_among.ko
+│   │   │   │       ├── ebt_arp.ko
+│   │   │   │       ├── ebt_arpreply.ko
+│   │   │   │       ├── ebt_dnat.ko
+│   │   │   │       ├── ebt_ip6.ko
+│   │   │   │       ├── ebt_ip.ko
+│   │   │   │       ├── ebt_limit.ko
+│   │   │   │       ├── ebt_mark.ko
+│   │   │   │       ├── ebt_mark_m.ko
+│   │   │   │       ├── ebt_pkttype.ko
+│   │   │   │       ├── ebt_redirect.ko
+│   │   │   │       ├── ebt_set.ko
+│   │   │   │       ├── ebt_snat.ko
+│   │   │   │       ├── ebt_stp.ko
+│   │   │   │       ├── ebt_vlan.ko
+│   │   │   │       ├── ecm_ae_select.ko
+│   │   │   │       ├── ecm.ko
+│   │   │   │       ├── ecm_pcc_test.ko
+│   │   │   │       ├── ecm_sfe_l2.ko
+│   │   │   │       ├── ecm-wifi-plugin.ko
+│   │   │   │       ├── em_cmp.ko
+│   │   │   │       ├── emesh-sp.ko
+│   │   │   │       ├── em_meta.ko
+│   │   │   │       ├── em_nbyte.ko
+│   │   │   │       ├── em_text.ko
+│   │   │   │       ├── em_u32.ko
+│   │   │   │       ├── evdev.ko
+│   │   │   │       ├── fat.ko
+│   │   │   │       ├── g_diag.ko
+│   │   │   │       ├── gpiodev.ko
+│   │   │   │       ├── gpio_keys.ko
+│   │   │   │       ├── gre.ko
+│   │   │   │       ├── hid.ko
+│   │   │   │       ├── hwmon.ko
+│   │   │   │       ├── ifb.ko
+│   │   │   │       ├── input-core.ko
+│   │   │   │       ├── ip6_gre.ko
+│   │   │   │       ├── ip6table_filter.ko
+│   │   │   │       ├── ip6table_mangle.ko
+│   │   │   │       ├── ip6table_nat.ko
+│   │   │   │       ├── ip6table_raw.ko
+│   │   │   │       ├── ip6_tables.ko
+│   │   │   │       ├── ip6t_ah.ko
+│   │   │   │       ├── ip6t_eui64.ko
+│   │   │   │       ├── ip6t_frag.ko
+│   │   │   │       ├── ip6t_hbh.ko
+│   │   │   │       ├── ip6t_ipv6header.ko
+│   │   │   │       ├── ip6t_mh.ko
+│   │   │   │       ├── ip6t_NPT.ko
+│   │   │   │       ├── ip6t_REJECT.ko
+│   │   │   │       ├── ip6t_rt.ko
+│   │   │   │       ├── ip6_tunnel.ko
+│   │   │   │       ├── ip6_udp_tunnel.ko
+│   │   │   │       ├── ip_gre.ko
+│   │   │   │       ├── ipq_cnss2.ko
+│   │   │   │       ├── ip_set_bitmap_ip.ko
+│   │   │   │       ├── ip_set_bitmap_ipmac.ko
+│   │   │   │       ├── ip_set_bitmap_port.ko
+│   │   │   │       ├── ip_set_hash_ip.ko
+│   │   │   │       ├── ip_set_hash_ipmac.ko
+│   │   │   │       ├── ip_set_hash_ipmark.ko
+│   │   │   │       ├── ip_set_hash_ipportip.ko
+│   │   │   │       ├── ip_set_hash_ipport.ko
+│   │   │   │       ├── ip_set_hash_ipportnet.ko
+│   │   │   │       ├── ip_set_hash_mac.ko
+│   │   │   │       ├── ip_set_hash_netiface.ko
+│   │   │   │       ├── ip_set_hash_net.ko
+│   │   │   │       ├── ip_set_hash_netnet.ko
+│   │   │   │       ├── ip_set_hash_netport.ko
+│   │   │   │       ├── ip_set_hash_netportnet.ko
+│   │   │   │       ├── ip_set.ko
+│   │   │   │       ├── ip_set_list_set.ko
+│   │   │   │       ├── iptable_filter.ko
+│   │   │   │       ├── iptable_mangle.ko
+│   │   │   │       ├── iptable_nat.ko
+│   │   │   │       ├── iptable_raw.ko
+│   │   │   │       ├── ip_tables.ko
+│   │   │   │       ├── ipt_ah.ko
+│   │   │   │       ├── ipt_ECN.ko
+│   │   │   │       ├── ipt_REJECT.ko
+│   │   │   │       ├── ip_tunnel.ko
+│   │   │   │       ├── l2tp_core.ko
+│   │   │   │       ├── l2tp_netlink.ko
+│   │   │   │       ├── l2tp_ppp.ko
+│   │   │   │       ├── leds-gpio.ko
+│   │   │   │       ├── libahci.ko
+│   │   │   │       ├── libata.ko
+│   │   │   │       ├── libcomposite.ko
+│   │   │   │       ├── libcrc32c.ko
+│   │   │   │       ├── lm63.ko
+│   │   │   │       ├── macvlan.ko
+│   │   │   │       ├── md5.ko
+│   │   │   │       ├── mem_manager.ko
+│   │   │   │       ├── monitor.ko
+│   │   │   │       ├── msdos.ko
+│   │   │   │       ├── nat46.ko
+│   │   │   │       ├── nf_conncount.ko
+│   │   │   │       ├── nf_conntrack_amanda.ko
+│   │   │   │       ├── nf_conntrack_broadcast.ko
+│   │   │   │       ├── nf_conntrack_ftp.ko
+│   │   │   │       ├── nf_conntrack_h323.ko
+│   │   │   │       ├── nf_conntrack_irc.ko
+│   │   │   │       ├── nf_conntrack.ko
+│   │   │   │       ├── nf_conntrack_netlink.ko
+│   │   │   │       ├── nf_conntrack_pptp.ko
+│   │   │   │       ├── nf_conntrack_rtcache.ko
+│   │   │   │       ├── nf_conntrack_sip.ko
+│   │   │   │       ├── nf_conntrack_snmp.ko
+│   │   │   │       ├── nf_conntrack_tftp.ko
+│   │   │   │       ├── nf_defrag_ipv4.ko
+│   │   │   │       ├── nf_defrag_ipv6.ko
+│   │   │   │       ├── nf_dup_netdev.ko
+│   │   │   │       ├── nf_flow_table_inet.ko
+│   │   │   │       ├── nf_flow_table_ipv4.ko
+│   │   │   │       ├── nf_flow_table_ipv6.ko
+│   │   │   │       ├── nf_flow_table.ko
+│   │   │   │       ├── nf_log_common.ko
+│   │   │   │       ├── nf_log_ipv4.ko
+│   │   │   │       ├── nf_log_ipv6.ko
+│   │   │   │       ├── nf_nat_amanda.ko
+│   │   │   │       ├── nf_nat_ftp.ko
+│   │   │   │       ├── nf_nat_h323.ko
+│   │   │   │       ├── nf_nat_irc.ko
+│   │   │   │       ├── nf_nat.ko
+│   │   │   │       ├── nf_nat_pptp.ko
+│   │   │   │       ├── nf_nat_sip.ko
+│   │   │   │       ├── nf_nat_snmp_basic.ko
+│   │   │   │       ├── nf_nat_tftp.ko
+│   │   │   │       ├── nfnetlink.ko
+│   │   │   │       ├── nf_reject_ipv4.ko
+│   │   │   │       ├── nf_reject_ipv6.ko
+│   │   │   │       ├── nf_tables.ko
+│   │   │   │       ├── nf_tables_set.ko
+│   │   │   │       ├── nft_chain_nat.ko
+│   │   │   │       ├── nft_compat.ko
+│   │   │   │       ├── nft_counter.ko
+│   │   │   │       ├── nft_ct.ko
+│   │   │   │       ├── nft_dup_netdev.ko
+│   │   │   │       ├── nft_flow_offload.ko
+│   │   │   │       ├── nft_fwd_netdev.ko
+│   │   │   │       ├── nft_hash.ko
+│   │   │   │       ├── nft_limit.ko
+│   │   │   │       ├── nft_log.ko
+│   │   │   │       ├── nft_masq.ko
+│   │   │   │       ├── nft_nat.ko
+│   │   │   │       ├── nft_numgen.ko
+│   │   │   │       ├── nft_objref.ko
+│   │   │   │       ├── nft_quota.ko
+│   │   │   │       ├── nft_redir.ko
+│   │   │   │       ├── nft_reject_inet.ko
+│   │   │   │       ├── nft_reject_ipv4.ko
+│   │   │   │       ├── nft_reject_ipv6.ko
+│   │   │   │       ├── nft_reject.ko
+│   │   │   │       ├── nls_base.ko
+│   │   │   │       ├── nls_cp437.ko
+│   │   │   │       ├── nls_iso8859-1.ko
+│   │   │   │       ├── nls_utf8.ko
+│   │   │   │       ├── nss-udp-st.ko
+│   │   │   │       ├── phy-qca-m31.ko
+│   │   │   │       ├── phy-qca-uniphy.ko
+│   │   │   │       ├── ppp_async.ko
+│   │   │   │       ├── ppp_generic.ko
+│   │   │   │       ├── ppp_mppe.ko
+│   │   │   │       ├── pppoe.ko
+│   │   │   │       ├── pppox.ko
+│   │   │   │       ├── pptp.ko
+│   │   │   │       ├── qca8k.ko
+│   │   │   │       ├── qca-mcs.ko
+│   │   │   │       ├── qca-net-standby.ko
+│   │   │   │       ├── qca-nss-dp.ko
+│   │   │   │       ├── qca-nss-eip-crypto.ko
+│   │   │   │       ├── qca-nss-eip.ko
+│   │   │   │       ├── qca-nss-fls.ko
+│   │   │   │       ├── qca-nss-macsec.ko
+│   │   │   │       ├── qca-nss-nsm.ko
+│   │   │   │       ├── qca-nss-ppe-bridge-mgr.ko
+│   │   │   │       ├── qca-nss-ppe-ds.ko
+│   │   │   │       ├── qca-nss-ppe.ko
+│   │   │   │       ├── qca-nss-ppe-lag.ko
+│   │   │   │       ├── qca-nss-ppe-mapt.ko
+│   │   │   │       ├── qca-nss-ppe-netlink.ko
+│   │   │   │       ├── qca-nss-ppe-pppoe-mgr.ko
+│   │   │   │       ├── qca-nss-ppe-rule.ko
+│   │   │   │       ├── qca-nss-ppe-tunipip6.ko
+│   │   │   │       ├── qca-nss-ppe-tun.ko
+│   │   │   │       ├── qca-nss-ppe-vlan.ko
+│   │   │   │       ├── qca-nss-ppe-vp.ko
+│   │   │   │       ├── qca-nss-ppe-vxlanmgr.ko
+│   │   │   │       ├── qca-nss-sfe.ko
+│   │   │   │       ├── qca_ol.ko
+│   │   │   │       ├── qca_spectral.ko
+│   │   │   │       ├── qca-ssdk.ko
+│   │   │   │       ├── qdf.ko
+│   │   │   │       ├── rawmode_sim.ko
+│   │   │   │       ├── sch_codel.ko
+│   │   │   │       ├── sch_fq.ko
+│   │   │   │       ├── sch_gred.ko
+│   │   │   │       ├── sch_hfsc.ko
+│   │   │   │       ├── sch_htb.ko
+│   │   │   │       ├── sch_multiq.ko
+│   │   │   │       ├── sch_pie.ko
+│   │   │   │       ├── sch_prio.ko
+│   │   │   │       ├── sch_red.ko
+│   │   │   │       ├── sch_sfq.ko
+│   │   │   │       ├── sch_tbf.ko
+│   │   │   │       ├── sch_teql.ko
+│   │   │   │       ├── scsi_mod.ko
+│   │   │   │       ├── sd_mod.ko
+│   │   │   │       ├── sit.ko
+│   │   │   │       ├── slhc.ko
+│   │   │   │       ├── smart_antenna.ko
+│   │   │   │       ├── spdtst.ko
+│   │   │   │       ├── st_lsm6dsvx_i2c.ko
+│   │   │   │       ├── st_lsm6dsvx.ko
+│   │   │   │       ├── telemetry_agent.ko
+│   │   │   │       ├── ts_bm.ko
+│   │   │   │       ├── ts_fsm.ko
+│   │   │   │       ├── ts_kmp.ko
+│   │   │   │       ├── tun.ko
+│   │   │   │       ├── tunnel4.ko
+│   │   │   │       ├── tunnel6.ko
+│   │   │   │       ├── uas.ko
+│   │   │   │       ├── ubnt_common.ko
+│   │   │   │       ├── ubnthal.ko
+│   │   │   │       ├── udc-core.ko
+│   │   │   │       ├── udp_tunnel.ko
+│   │   │   │       ├── umac.ko
+│   │   │   │       ├── usb-common.ko
+│   │   │   │       ├── usbcore.ko
+│   │   │   │       ├── usb_f_diag.ko
+│   │   │   │       ├── usb-storage.ko
+│   │   │   │       ├── vfat.ko
+│   │   │   │       ├── vxlan.ko
+│   │   │   │       ├── wifi_3_0.ko
+│   │   │   │       ├── xhci-hcd.ko
+│   │   │   │       ├── xhci-pci.ko
+│   │   │   │       ├── xhci-plat-hcd.ko
+│   │   │   │       ├── x_tables.ko
+│   │   │   │       ├── xt_addrtype.ko
+│   │   │   │       ├── xt_bpf.ko
+│   │   │   │       ├── xt_cgroup.ko
+│   │   │   │       ├── xt_CLASSIFY.ko
+│   │   │   │       ├── xt_comment.ko
+│   │   │   │       ├── xt_connbytes.ko
+│   │   │   │       ├── xt_connlimit.ko
+│   │   │   │       ├── xt_connmark.ko
+│   │   │   │       ├── xt_conntrack.ko
+│   │   │   │       ├── xt_CT.ko
+│   │   │   │       ├── xt_dscp.ko
+│   │   │   │       ├── xt_DSCP.ko
+│   │   │   │       ├── xt_ecn.ko
+│   │   │   │       ├── xt_esp.ko
+│   │   │   │       ├── xt_helper.ko
+│   │   │   │       ├── xt_hl.ko
+│   │   │   │       ├── xt_HL.ko
+│   │   │   │       ├── xt_length.ko
+│   │   │   │       ├── xt_limit.ko
+│   │   │   │       ├── xt_LOG.ko
+│   │   │   │       ├── xt_mac.ko
+│   │   │   │       ├── xt_mark.ko
+│   │   │   │       ├── xt_MASQUERADE.ko
+│   │   │   │       ├── xt_multiport.ko
+│   │   │   │       ├── xt_nat.ko
+│   │   │   │       ├── xt_NETMAP.ko
+│   │   │   │       ├── xt_owner.ko
+│   │   │   │       ├── xt_physdev.ko
+│   │   │   │       ├── xt_pkttype.ko
+│   │   │   │       ├── xt_quota.ko
+│   │   │   │       ├── xt_recent.ko
+│   │   │   │       ├── xt_REDIRECT.ko
+│   │   │   │       ├── xt_sctp.ko
+│   │   │   │       ├── xt_set.ko
+│   │   │   │       ├── xt_state.ko
+│   │   │   │       ├── xt_statistic.ko
+│   │   │   │       ├── xt_string.ko
+│   │   │   │       ├── xt_tcpmss.ko
+│   │   │   │       ├── xt_TCPMSS.ko
+│   │   │   │       ├── xt_tcpudp.ko
+│   │   │   │       └── xt_time.ko
+│   │   │   ├── netifd
+│   │   │   │   ├── offload
+│   │   │   │   │   └── on-demand-down
+│   │   │   │   └── proto
+│   │   │   │       └── vxlan.sh
+│   │   │   ├── network
+│   │   │   │   └── switch.sh
+│   │   │   ├── nss_perf_config.sh
+│   │   │   ├── perf_debug_counters.sh
+│   │   │   ├── performance_configs.sh
+│   │   │   ├── preinit
+│   │   │   │   ├── 00_preinit.conf
+│   │   │   │   ├── 02_default_set_state
+│   │   │   │   ├── 02_sysinfo
+│   │   │   │   ├── 03_board_detect
+│   │   │   │   ├── 10_indicate_failsafe
+│   │   │   │   ├── 10_indicate_preinit
+│   │   │   │   ├── 10_mmcblk
+│   │   │   │   ├── 11_config_tcp_timestamps
+│   │   │   │   ├── 30_failsafe_wait
+│   │   │   │   ├── 40_run_failsafe_hook
+│   │   │   │   ├── 50_indicate_regular_preinit
+│   │   │   │   ├── 70_initramfs_test
+│   │   │   │   ├── 80_mount_root
+│   │   │   │   ├── 81_urandom_seed
+│   │   │   │   ├── 99_10_failsafe_dropbear
+│   │   │   │   ├── 99_10_failsafe_login
+│   │   │   │   ├── 99_10_run_init
+│   │   │   │   ├── 99_20_ubnt_disable_services
+│   │   │   │   ├── 99_21_ubnt_ubntconf
+│   │   │   │   ├── 99_30_ubnt_qca_wifi_modules
+│   │   │   │   └── 99_31_ubnt_remove_def_sysctl_d
+│   │   │   ├── read_caldata_to_fs.sh
+│   │   │   ├── sbin
+│   │   │   │   └── wifi_try
+│   │   │   ├── uboot-envtools.sh
+│   │   │   ├── update_smp_affinity.sh
+│   │   │   ├── upgrade
+│   │   │   │   ├── common.sh
+│   │   │   │   ├── do_stage2
+│   │   │   │   ├── fwtool.sh
+│   │   │   │   ├── keep.d
+│   │   │   │   │   ├── base-files
+│   │   │   │   │   ├── base-files-essential
+│   │   │   │   │   ├── busybox
+│   │   │   │   │   ├── dnsmasq-full
+│   │   │   │   │   ├── dropbear
+│   │   │   │   │   ├── license-pfm
+│   │   │   │   │   ├── lldpd
+│   │   │   │   │   └── wifi_nss
+│   │   │   │   ├── nand.sh
+│   │   │   │   └── stage2
+│   │   │   ├── wifi
+│   │   │   │   ├── debug
+│   │   │   │   │   └── counters_wlan_prompt_hawkeye.sh
+│   │   │   │   ├── dpp-hostapd-update-uci
+│   │   │   │   ├── dpp-operating-class-update.sh
+│   │   │   │   ├── dpp-supplicant-update-uci
+│   │   │   │   ├── hostapd.sh
+│   │   │   │   ├── icm.sh
+│   │   │   │   ├── launch_vap.sh
+│   │   │   │   ├── mount
+│   │   │   │   │   ├── mount_fw_partition.sh
+│   │   │   │   │   └── umount_fw_partition.sh
+│   │   │   │   ├── qcacommands_mesh.xml
+│   │   │   │   ├── qcacommands_ol_radio.xml
+│   │   │   │   ├── qcacommands_vap.xml
+│   │   │   │   ├── qcawificfg80211.sh
+│   │   │   │   ├── qcawifi_countrycode.txt
+│   │   │   │   ├── qca-wifi-modules
+│   │   │   │   ├── qcawifi.sh
+│   │   │   │   ├── tools_config
+│   │   │   │   ├── wifi-utils.sh
+│   │   │   │   ├── wpa_supplicant.sh
+│   │   │   │   ├── wps-hostapd-nbh-update
+│   │   │   │   ├── wps-hostapd-update-uci
+│   │   │   │   └── wps-supplicant-update-uci
+│   │   │   └── wifi_interface_helper.sh
+│   │   ├── mnt
+│   │   ├── overlay
+│   │   ├── proc
+│   │   ├── rom
+│   │   │   └── note
+│   │   ├── root
+│   │   ├── sawf
+│   │   │   ├── def_service_classes.json
+│   │   │   ├── service_classes.json
+│   │   │   └── telemetry
+│   │   │       ├── config.json
+│   │   │       ├── sla_detect.json
+│   │   │       └── sla.json
+│   │   ├── sbin
+│   │   │   ├── adjtimex -> ../bin/busybox
+│   │   │   ├── arp -> ../bin/busybox
+│   │   │   ├── askfirst
+│   │   │   ├── autohsr -> ubntbox
+│   │   │   ├── autotxpow -> ubntbox
+│   │   │   ├── bridge-stp
+│   │   │   ├── cfgmtd -> ubntbox
+│   │   │   ├── coredump -> ubntbox
+│   │   │   ├── devmem -> ../bin/busybox
+│   │   │   ├── diag_lite_log
+│   │   │   ├── egtool -> ubntbox
+│   │   │   ├── factorytest -> ubntbox
+│   │   │   ├── firstboot
+│   │   │   ├── fwupdate -> ubntbox
+│   │   │   ├── getty -> ../bin/busybox
+│   │   │   ├── halt -> ../bin/busybox
+│   │   │   ├── hostkeydump -> ubntbox
+│   │   │   ├── hotplug-call
+│   │   │   ├── hwcheck -> ubntbox
+│   │   │   ├── hwclock -> ../bin/busybox
+│   │   │   ├── ifconfig -> ../bin/busybox
+│   │   │   ├── init
+│   │   │   ├── insmod -> /dev/null
+│   │   │   ├── ip -> /dev/null
+│   │   │   ├── kmodloader
+│   │   │   ├── led.sh
+│   │   │   ├── logd
+│   │   │   ├── logread
+│   │   │   ├── lsmod -> /dev/null
+│   │   │   ├── mkswap -> ../bin/busybox
+│   │   │   ├── modinfo -> /dev/null
+│   │   │   ├── modprobe -> /dev/null
+│   │   │   ├── mtd
+│   │   │   ├── nettool -> ubntbox
+│   │   │   ├── oopsdump -> ubntbox
+│   │   │   ├── packetdump -> ubntbox
+│   │   │   ├── pivot_root -> ../bin/busybox
+│   │   │   ├── poweroff -> ../bin/busybox
+│   │   │   ├── procd
+│   │   │   ├── ramdump -> ubntbox
+│   │   │   ├── reboot -> ../bin/busybox
+│   │   │   ├── reload_config
+│   │   │   ├── rmmod -> /dev/null
+│   │   │   ├── route -> ../bin/busybox
+│   │   │   ├── rstpctl
+│   │   │   ├── rstpd
+│   │   │   ├── seccomp-trace -> utrace
+│   │   │   ├── selfupgrade -> ubntbox
+│   │   │   ├── stahtd -> ubntbox
+│   │   │   ├── start-stop-daemon -> ../bin/busybox
+│   │   │   ├── swapoff -> ../bin/busybox
+│   │   │   ├── swapon -> ../bin/busybox
+│   │   │   ├── swconfig
+│   │   │   ├── switch_root -> ../bin/busybox
+│   │   │   ├── sysctl -> ../bin/busybox
+│   │   │   ├── sysmon -> ubntbox
+│   │   │   ├── sysmon_ctrl -> ubntbox
+│   │   │   ├── sysupgrade
+│   │   │   ├── tc -> /dev/null
+│   │   │   ├── trace -> ubntbox
+│   │   │   ├── ubntbox
+│   │   │   ├── ubntconf -> ubntbox
+│   │   │   ├── ubntevent -> ubntbox
+│   │   │   ├── ubnt-netmon -> ubntbox
+│   │   │   ├── ubusd
+│   │   │   ├── udevtrigger
+│   │   │   ├── udhcpc -> ../bin/busybox
+│   │   │   ├── urandom_seed
+│   │   │   ├── urngd
+│   │   │   ├── utermd -> ubntbox
+│   │   │   ├── utrace
+│   │   │   ├── validate_data
+│   │   │   ├── vconfig -> ../bin/busybox
+│   │   │   ├── vwirectl -> ubntbox
+│   │   │   ├── wevent -> ubntbox
+│   │   │   ├── wifi
+│   │   │   └── wifimanserver -> ubntbox
+│   │   ├── sys
+│   │   ├── tmp
+│   │   ├── usr
+│   │   │   ├── bin
+│   │   │   │   ├── [ -> ../../bin/busybox
+│   │   │   │   ├── [[ -> ../../bin/busybox
+│   │   │   │   ├── acl_dump.sh
+│   │   │   │   ├── awk -> ../../bin/busybox
+│   │   │   │   ├── basename -> ../../bin/busybox
+│   │   │   │   ├── clear -> ../../bin/busybox
+│   │   │   │   ├── cmp -> ../../bin/busybox
+│   │   │   │   ├── cnsscli
+│   │   │   │   ├── cnssdaemon
+│   │   │   │   ├── crontab -> ../../bin/busybox
+│   │   │   │   ├── curl
+│   │   │   │   ├── cut -> ../../bin/busybox
+│   │   │   │   ├── dbclient -> ../sbin/dropbear
+│   │   │   │   ├── diff -> ../../bin/busybox
+│   │   │   │   ├── dirname -> ../../bin/busybox
+│   │   │   │   ├── dotlockfile
+│   │   │   │   ├── downlink-monitor -> mcad
+│   │   │   │   ├── dropbearconvert
+│   │   │   │   ├── dropbearkey -> ../sbin/dropbear
+│   │   │   │   ├── du -> ../../bin/busybox
+│   │   │   │   ├── ecm_dump.sh
+│   │   │   │   ├── edma_dump
+│   │   │   │   ├── edma_hang_inj.sh
+│   │   │   │   ├── edma_recover.sh
+│   │   │   │   ├── eip_dump.sh
+│   │   │   │   ├── element-adopt-monitor -> mcad
+│   │   │   │   ├── env -> ../../bin/busybox
+│   │   │   │   ├── expr -> ../../bin/busybox
+│   │   │   │   ├── find -> ../../bin/busybox
+│   │   │   │   ├── flock -> /dev/null
+│   │   │   │   ├── free -> ../../bin/busybox
+│   │   │   │   ├── getrandom
+│   │   │   │   ├── guest_portal_funcs.sh
+│   │   │   │   ├── head -> ../../bin/busybox
+│   │   │   │   ├── hexdump -> ../../bin/busybox
+│   │   │   │   ├── hostapd_wrapper.sh
+│   │   │   │   ├── id -> ../../bin/busybox
+│   │   │   │   ├── iperf3
+│   │   │   │   ├── jq
+│   │   │   │   ├── jshn
+│   │   │   │   ├── jsonfilter
+│   │   │   │   ├── killall -> ../../bin/busybox
+│   │   │   │   ├── ldd -> ../../lib/libc.so
+│   │   │   │   ├── ledring-ctrl
+│   │   │   │   ├── less -> ../../bin/busybox
+│   │   │   │   ├── logger -> ../../bin/busybox
+│   │   │   │   ├── lsof -> ../../bin/busybox
+│   │   │   │   ├── lspci -> ../../bin/busybox
+│   │   │   │   ├── lsusb -> ../../bin/busybox
+│   │   │   │   ├── mca-ap-neighbor-max-signal -> mca.sh
+│   │   │   │   ├── mca-cli -> mcad
+│   │   │   │   ├── mca-cli-op -> mcad
+│   │   │   │   ├── mca-ctrl -> mcad
+│   │   │   │   ├── mca-custom-alert.sh
+│   │   │   │   ├── mcad
+│   │   │   │   ├── mca-dump -> mca.sh
+│   │   │   │   ├── mca-monitor -> mcad
+│   │   │   │   ├── mca-scan -> mca.sh
+│   │   │   │   ├── mca.sh
+│   │   │   │   ├── mca-sta -> mca.sh
+│   │   │   │   ├── md5sum -> ../../bin/busybox
+│   │   │   │   ├── mesh-monitor -> mcad
+│   │   │   │   ├── mkfifo -> ../../bin/busybox
+│   │   │   │   ├── nohup -> ../../bin/busybox
+│   │   │   │   ├── nslookup -> ../../bin/busybox
+│   │   │   │   ├── nsm-app
+│   │   │   │   ├── oom-protect
+│   │   │   │   ├── openssl
+│   │   │   │   ├── pgrep -> ../../bin/busybox
+│   │   │   │   ├── pkill -> ../../bin/busybox
+│   │   │   │   ├── ppe_flow_dump
+│   │   │   │   ├── ppe_if_map
+│   │   │   │   ├── printf -> ../../bin/busybox
+│   │   │   │   ├── qca_dsa
+│   │   │   │   ├── radius-da-dispatcher -> mcad
+│   │   │   │   ├── readlink -> ../../bin/busybox
+│   │   │   │   ├── realpath -> ../../bin/busybox
+│   │   │   │   ├── redirector -> mcad
+│   │   │   │   ├── reset -> ../../bin/busybox
+│   │   │   │   ├── reset-handler -> mcad
+│   │   │   │   ├── resize -> ../../bin/busybox
+│   │   │   │   ├── salqostest
+│   │   │   │   ├── salruletest
+│   │   │   │   ├── scp -> /dev/null
+│   │   │   │   ├── seq -> ../../bin/busybox
+│   │   │   │   ├── setsid -> ../../bin/busybox
+│   │   │   │   ├── sfe_dump
+│   │   │   │   ├── sha256sum -> ../../bin/busybox
+│   │   │   │   ├── signify -> usign
+│   │   │   │   ├── sort -> ../../bin/busybox
+│   │   │   │   ├── speedtd
+│   │   │   │   ├── ssh -> /dev/null
+│   │   │   │   ├── ssh-keygen -> /dev/null
+│   │   │   │   ├── strings -> ../../bin/busybox
+│   │   │   │   ├── supp
+│   │   │   │   ├── syswrapper.sh
+│   │   │   │   ├── tail -> ../../bin/busybox
+│   │   │   │   ├── taskset -> ../../bin/busybox
+│   │   │   │   ├── tcpdump
+│   │   │   │   ├── tee -> ../../bin/busybox
+│   │   │   │   ├── test -> ../../bin/busybox
+│   │   │   │   ├── time -> ../../bin/busybox
+│   │   │   │   ├── timeout -> ../../bin/busybox
+│   │   │   │   ├── top -> ../../bin/busybox
+│   │   │   │   ├── tr -> ../../bin/busybox
+│   │   │   │   ├── tty -> ../../bin/busybox
+│   │   │   │   ├── udhcpc6 -> ../../bin/busybox
+│   │   │   │   ├── unifi_util_funcs.sh
+│   │   │   │   ├── uniq -> ../../bin/busybox
+│   │   │   │   ├── unxz -> ../../bin/busybox
+│   │   │   │   ├── uplink-monitor -> mcad
+│   │   │   │   ├── uptime -> ../../bin/busybox
+│   │   │   │   ├── usign
+│   │   │   │   ├── util-linux-flock
+│   │   │   │   ├── uwds
+│   │   │   │   ├── wc -> ../../bin/busybox
+│   │   │   │   ├── which -> ../../bin/busybox
+│   │   │   │   ├── wpa_supplicant_wrapper.sh
+│   │   │   │   ├── xargs -> ../../bin/busybox
+│   │   │   │   ├── xz -> ../../bin/busybox
+│   │   │   │   └── yes -> ../../bin/busybox
+│   │   │   ├── etc
+│   │   │   │   ├── apscan.sh
+│   │   │   │   ├── cfg80211_support
+│   │   │   │   ├── common.sh
+│   │   │   │   ├── default-a654.cfg -> default-a681.cfg
+│   │   │   │   ├── default-a681.cfg
+│   │   │   │   ├── default-a682.cfg -> default-a681.cfg
+│   │   │   │   ├── default-a686.cfg -> default-a681.cfg
+│   │   │   │   ├── default-a688.cfg -> default-a691.cfg
+│   │   │   │   ├── default-a691.cfg
+│   │   │   │   ├── default-a692.cfg -> default-a691.cfg
+│   │   │   │   ├── default-a693.cfg
+│   │   │   │   ├── default-a696.cfg -> default-a681.cfg
+│   │   │   │   ├── default-a697.cfg
+│   │   │   │   ├── default-a698.cfg -> default-a697.cfg
+│   │   │   │   ├── default-a699.cfg
+│   │   │   │   ├── default-a69e.cfg -> default-a693.cfg
+│   │   │   │   ├── default-a69f.cfg
+│   │   │   │   ├── default-a6a4.cfg -> default-a681.cfg
+│   │   │   │   ├── default-a6a5.cfg -> default-a693.cfg
+│   │   │   │   ├── default-a6a6.cfg -> default-a681.cfg
+│   │   │   │   ├── default-a6a9.cfg -> default-a681.cfg
+│   │   │   │   ├── default-a6ab.cfg -> default-a699.cfg
+│   │   │   │   ├── default-a6ac.cfg -> default-a681.cfg
+│   │   │   │   ├── default-a6ae.cfg -> default-a681.cfg
+│   │   │   │   ├── default-a6af.cfg -> default-a699.cfg
+│   │   │   │   ├── default-a6b0.cfg -> default-a681.cfg
+│   │   │   │   ├── default-a6b1.cfg
+│   │   │   │   ├── default-a6ba.cfg -> default-a6a9.cfg
+│   │   │   │   ├── default-a6bc.cfg -> default-a697.cfg
+│   │   │   │   ├── default-a6be.cfg
+│   │   │   │   ├── default-a6bf.cfg
+│   │   │   │   ├── default_ar724x.cfg -> default_single.cfg
+│   │   │   │   ├── default_ar9344.cfg
+│   │   │   │   ├── default.cfg -> default_nossid.cfg
+│   │   │   │   ├── default-ea07.cfg
+│   │   │   │   ├── default-no-eth.cfg
+│   │   │   │   ├── default-nossid-a654.cfg -> default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a682.cfg -> default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a686.cfg -> default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a688.cfg -> default-nossid-a691.cfg
+│   │   │   │   ├── default-nossid-a691.cfg
+│   │   │   │   ├── default-nossid-a692.cfg -> default-nossid-a691.cfg
+│   │   │   │   ├── default-nossid-a693.cfg
+│   │   │   │   ├── default-nossid-a696.cfg -> default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a697.cfg -> default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a698.cfg -> default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a699.cfg
+│   │   │   │   ├── default-nossid-a69e.cfg -> default-nossid-a693.cfg
+│   │   │   │   ├── default-nossid-a69f.cfg
+│   │   │   │   ├── default-nossid-a6a4.cfg -> default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a6a5.cfg -> default-nossid-a693.cfg
+│   │   │   │   ├── default-nossid-a6a6.cfg -> default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a6a9.cfg -> default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a6ab.cfg -> default-nossid-a699.cfg
+│   │   │   │   ├── default-nossid-a6ac.cfg -> default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a6ae.cfg -> default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a6af.cfg -> default-nossid-a699.cfg
+│   │   │   │   ├── default-nossid-a6b0.cfg -> default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a6b1.cfg -> default-nossid-a698.cfg
+│   │   │   │   ├── default-nossid-a6ba.cfg -> default-nossid-a6a9.cfg
+│   │   │   │   ├── default-nossid-a6bc.cfg -> default-nossid-a681.cfg
+│   │   │   │   ├── default-nossid-a6be.cfg
+│   │   │   │   ├── default-nossid-a6bf.cfg
+│   │   │   │   ├── default_nossid_ar724x.cfg -> default_nossid.cfg
+│   │   │   │   ├── default_nossid_ar9344.cfg -> default_nossid.cfg
+│   │   │   │   ├── default_nossid.cfg
+│   │   │   │   ├── default-nossid-dca8.cfg -> default_nossid_qca956x.cfg
+│   │   │   │   ├── default-nossid-e302.cfg -> default_nossid_ar724x.cfg
+│   │   │   │   ├── default-nossid-e502.cfg -> default_nossid_ar724x.cfg
+│   │   │   │   ├── default-nossid-e507.cfg -> default_nossid_ar9344.cfg
+│   │   │   │   ├── default-nossid-e512.cfg -> default_nossid_ar724x.cfg
+│   │   │   │   ├── default-nossid-e515.cfg -> default_nossid_ar724x.cfg
+│   │   │   │   ├── default-nossid-e517.cfg -> default_nossid_qca956x.cfg
+│   │   │   │   ├── default-nossid-e527.cfg -> default_nossid_qca956x.cfg
+│   │   │   │   ├── default-nossid-e532.cfg -> default_nossid_ar724x.cfg
+│   │   │   │   ├── default-nossid-e537.cfg -> default_nossid_qca956x.cfg
+│   │   │   │   ├── default-nossid-e547.cfg -> default_nossid_qca956x.cfg
+│   │   │   │   ├── default-nossid-e557.cfg -> default_nossid_qca956x.cfg
+│   │   │   │   ├── default-nossid-e562.cfg -> default_nossid_ar724x.cfg
+│   │   │   │   ├── default-nossid-e567.cfg -> default_nossid_qca956x.cfg
+│   │   │   │   ├── default-nossid-e572.cfg -> default_nossid_qca9342.cfg
+│   │   │   │   ├── default-nossid-e582.cfg -> default_nossid_qca9342.cfg
+│   │   │   │   ├── default-nossid-e587.cfg -> default_nossid_qca956x.cfg
+│   │   │   │   ├── default-nossid-e592.cfg -> default_nossid_qca933x.cfg
+│   │   │   │   ├── default-nossid-ea07.cfg
+│   │   │   │   ├── default_nossid_qca933x.cfg -> default_nossid.cfg
+│   │   │   │   ├── default_nossid_qca9342.cfg -> default_nossid.cfg
+│   │   │   │   ├── default_nossid_qca956x.cfg
+│   │   │   │   ├── default_qca933x.cfg -> default_single.cfg
+│   │   │   │   ├── default_qca9342.cfg -> default_single.cfg
+│   │   │   │   ├── default_qca956x.cfg
+│   │   │   │   ├── default_single.cfg
+│   │   │   │   ├── ethertypes
+│   │   │   │   ├── fstab
+│   │   │   │   ├── ftm.conf
+│   │   │   │   ├── group
+│   │   │   │   ├── host.conf
+│   │   │   │   ├── hosts
+│   │   │   │   ├── inittab
+│   │   │   │   ├── led_locate.sh
+│   │   │   │   ├── login.defs
+│   │   │   │   ├── mmc-table-base.txt
+│   │   │   │   ├── mmc-table-protect-qsdk-fs.txt
+│   │   │   │   ├── mmc-table.txt -> mmc-table-base.txt
+│   │   │   │   ├── motd
+│   │   │   │   ├── passwd
+│   │   │   │   ├── platdep_funcs.sh
+│   │   │   │   ├── platdep_profile
+│   │   │   │   ├── profile
+│   │   │   │   ├── protocols
+│   │   │   │   ├── qca-full-offload
+│   │   │   │   ├── qca-package
+│   │   │   │   ├── radio_sta_ap_swap.sh
+│   │   │   │   ├── rc.bootconf
+│   │   │   │   ├── rc.check_xbl
+│   │   │   │   ├── rc.d
+│   │   │   │   │   ├── rc
+│   │   │   │   │   ├── rc.disable_wb_cache
+│   │   │   │   │   ├── rc.e515
+│   │   │   │   │   ├── rc.identity
+│   │   │   │   │   ├── rc.modules
+│   │   │   │   │   ├── rc.platform
+│   │   │   │   │   └── rc.sysinit
+│   │   │   │   ├── rc.early_upgrade
+│   │   │   │   ├── rc.postconf
+│   │   │   │   ├── rc.prepare_fs
+│   │   │   │   ├── rc.thermaltool
+│   │   │   │   ├── rfscan0_a699.cfg
+│   │   │   │   ├── rfscan0_a6ab.cfg
+│   │   │   │   ├── rfscan0_a6af.cfg -> rfscan0_a699.cfg
+│   │   │   │   ├── rfscan0.cfg
+│   │   │   │   ├── rfscan1_a699.cfg
+│   │   │   │   ├── rfscan1_a6ab.cfg
+│   │   │   │   ├── rfscan1_a6af.cfg -> rfscan1_a699.cfg
+│   │   │   │   ├── rfscan1.cfg
+│   │   │   │   ├── rfscan2_a699.cfg
+│   │   │   │   ├── rfscan2_a6ab.cfg
+│   │   │   │   ├── rfscan2_a6af.cfg -> rfscan2_a699.cfg
+│   │   │   │   ├── rfscan2_a6b1.cfg
+│   │   │   │   ├── rfscan2.cfg
+│   │   │   │   ├── services
+│   │   │   │   ├── shells
+│   │   │   │   ├── startup.list
+│   │   │   │   ├── udhcpc
+│   │   │   │   │   ├── udhcpc
+│   │   │   │   │   └── udhcpc_ip_only
+│   │   │   │   ├── udhcpc_services
+│   │   │   │   └── unifi_hostapd_funcs.sh
+│   │   │   ├── include
+│   │   │   │   └── qca-nss-eip
+│   │   │   │       └── eip.h
+│   │   │   ├── lib
+│   │   │   │   ├── build.properties
+│   │   │   │   ├── dnsmasq
+│   │   │   │   │   └── dhcp-script.sh
+│   │   │   │   ├── ebtables
+│   │   │   │   │   ├── libebt_802_3.so
+│   │   │   │   │   ├── libebtable_broute.so
+│   │   │   │   │   ├── libebtable_filter.so
+│   │   │   │   │   ├── libebtable_nat.so
+│   │   │   │   │   ├── libebt_among.so
+│   │   │   │   │   ├── libebt_arpreply.so
+│   │   │   │   │   ├── libebt_arp.so
+│   │   │   │   │   ├── libebt_ip6.so
+│   │   │   │   │   ├── libebt_ip.so
+│   │   │   │   │   ├── libebt_limit.so
+│   │   │   │   │   ├── libebt_log.so
+│   │   │   │   │   ├── libebt_mark_m.so
+│   │   │   │   │   ├── libebt_mark.so
+│   │   │   │   │   ├── libebt_nat.so
+│   │   │   │   │   ├── libebt_nflog.so
+│   │   │   │   │   ├── libebt_pkttype.so
+│   │   │   │   │   ├── libebt_redirect.so
+│   │   │   │   │   ├── libebt_set.so
+│   │   │   │   │   ├── libebt_standard.so
+│   │   │   │   │   ├── libebt_stp.so
+│   │   │   │   │   ├── libebt_string.so
+│   │   │   │   │   ├── libebt_ulog.so
+│   │   │   │   │   └── libebt_vlan.so
+│   │   │   │   ├── engines-3
+│   │   │   │   ├── iptables
+│   │   │   │   │   ├── libxt_addrtype.so
+│   │   │   │   │   ├── libxt_cgroup.so
+│   │   │   │   │   ├── libxt_connbytes.so
+│   │   │   │   │   ├── libxt_connlimit.so
+│   │   │   │   │   ├── libxt_connmark.so
+│   │   │   │   │   ├── libxt_CONNMARK.so
+│   │   │   │   │   ├── libxt_helper.so
+│   │   │   │   │   ├── libxt_owner.so
+│   │   │   │   │   ├── libxt_physdev.so
+│   │   │   │   │   ├── libxt_pkttype.so
+│   │   │   │   │   ├── libxt_quota.so
+│   │   │   │   │   └── libxt_recent.so
+│   │   │   │   ├── libapstats.so
+│   │   │   │   ├── libattr.so -> libattr.so.1.1.2501
+│   │   │   │   ├── libattr.so.1 -> libattr.so.1.1.2501
+│   │   │   │   ├── libattr.so.1.1.2501
+│   │   │   │   ├── libbfd-2.40.so
+│   │   │   │   ├── libbfd.so -> libbfd-2.40.so
+│   │   │   │   ├── libblkid.so.1 -> libblkid.so.1.1.0
+│   │   │   │   ├── libblkid.so.1.1.0
+│   │   │   │   ├── libbpf.so.1 -> libbpf.so.1.2.2
+│   │   │   │   ├── libbpf.so.1.2.2
+│   │   │   │   ├── libbz2.so.1.0 -> libbz2.so.1.0.8
+│   │   │   │   ├── libbz2.so.1.0.8
+│   │   │   │   ├── libc2lib-1.4.2.so.1 -> libc2lib-1.4.2.so.1.0.0
+│   │   │   │   ├── libc2lib-1.4.2.so.1.0.0
+│   │   │   │   ├── libc2lib.so -> libc2lib-1.4.2.so.1.0.0
+│   │   │   │   ├── libcap.so -> libcap.so.2
+│   │   │   │   ├── libcap.so.2 -> libcap.so.2.26
+│   │   │   │   ├── libcap.so.2.26
+│   │   │   │   ├── libcom_err.so.0 -> libcom_err.so.0.0
+│   │   │   │   ├── libcom_err.so.0.0
+│   │   │   │   ├── libcrypto.so.3
+│   │   │   │   ├── libcurl.so.4 -> libcurl.so.4.8.0
+│   │   │   │   ├── libcurl.so.4.8.0
+│   │   │   │   ├── libdiag.so -> ./libdiag.so.1
+│   │   │   │   ├── libdiag.so.1
+│   │   │   │   ├── libe2p.so.2 -> libe2p.so.2.3
+│   │   │   │   ├── libe2p.so.2.3
+│   │   │   │   ├── libebtc.so
+│   │   │   │   ├── libelf-0.189.so
+│   │   │   │   ├── libelf.so.1 -> libelf-0.189.so
+│   │   │   │   ├── libevent-2.1.so.7 -> libevent-2.1.so.7.0.1
+│   │   │   │   ├── libevent-2.1.so.7.0.1
+│   │   │   │   ├── libevent_core-2.1.so.7 -> libevent_core-2.1.so.7.0.1
+│   │   │   │   ├── libevent_core-2.1.so.7.0.1
+│   │   │   │   ├── libext2fs.so.2 -> libext2fs.so.2.4
+│   │   │   │   ├── libext2fs.so.2.4
+│   │   │   │   ├── libfal.so
+│   │   │   │   ├── libfdisk.so.1 -> libfdisk.so.1.1.0
+│   │   │   │   ├── libfdisk.so.1.1.0
+│   │   │   │   ├── libform.so.6 -> libformw.so.6
+│   │   │   │   ├── libform.so.6.4 -> libformw.so.6.4
+│   │   │   │   ├── libformw.so.6 -> libformw.so.6.4
+│   │   │   │   ├── libformw.so.6.4
+│   │   │   │   ├── libhistory.so.8 -> libhistory.so.8.2
+│   │   │   │   ├── libhistory.so.8.2
+│   │   │   │   ├── libhyficommon.so
+│   │   │   │   ├── libip4tc.so.2 -> libip4tc.so.2.0.0
+│   │   │   │   ├── libip4tc.so.2.0.0
+│   │   │   │   ├── libip6tc.so.2 -> libip6tc.so.2.0.0
+│   │   │   │   ├── libip6tc.so.2.0.0
+│   │   │   │   ├── libiperf.so.0 -> libiperf.so.0.0.0
+│   │   │   │   ├── libiperf.so.0.0.0
+│   │   │   │   ├── libipset.so.13 -> libipset.so.13.4.0
+│   │   │   │   ├── libipset.so.13.4.0
+│   │   │   │   ├── libiptext4.so
+│   │   │   │   ├── libiptext6.so
+│   │   │   │   ├── libiptext_arpt.so
+│   │   │   │   ├── libiptext_ebt.so
+│   │   │   │   ├── libiptext.so
+│   │   │   │   ├── libiwinfo.so.20230701
+│   │   │   │   ├── libjansson.so.4 -> libjansson.so.4.14.0
+│   │   │   │   ├── libjansson.so.4.14.0
+│   │   │   │   ├── libjson-c.so.5 -> libjson-c.so.5.2.0
+│   │   │   │   ├── libjson-c.so.5.2.0
+│   │   │   │   ├── libkmod.so.2 -> libkmod.so.2.4.1
+│   │   │   │   ├── libkmod.so.2.4.1
+│   │   │   │   ├── liblzma.so.5 -> liblzma.so.5.4.6
+│   │   │   │   ├── liblzma.so.5.4.6
+│   │   │   │   ├── libmbedcrypto.so.2.28.7
+│   │   │   │   ├── libmbedcrypto.so.7 -> libmbedcrypto.so.2.28.7
+│   │   │   │   ├── libmbedtls.so.14 -> libmbedtls.so.2.28.7
+│   │   │   │   ├── libmbedtls.so.2.28.7
+│   │   │   │   ├── libmbedx509.so.1 -> libmbedx509.so.2.28.7
+│   │   │   │   ├── libmbedx509.so.2.28.7
+│   │   │   │   ├── libmenu.so.6 -> libmenuw.so.6
+│   │   │   │   ├── libmenu.so.6.4 -> libmenuw.so.6.4
+│   │   │   │   ├── libmenuw.so.6 -> libmenuw.so.6.4
+│   │   │   │   ├── libmenuw.so.6.4
+│   │   │   │   ├── libmnl.so.0 -> libmnl.so.0.2.0
+│   │   │   │   ├── libmnl.so.0.2.0
+│   │   │   │   ├── libncurses.so.6 -> libncursesw.so.6
+│   │   │   │   ├── libncurses.so.6.4 -> libncursesw.so.6.4
+│   │   │   │   ├── libncursesw.so.6 -> libncursesw.so.6.4
+│   │   │   │   ├── libncursesw.so.6.4
+│   │   │   │   ├── libnftnl.so.11 -> libnftnl.so.11.6.0
+│   │   │   │   ├── libnftnl.so.11.6.0
+│   │   │   │   ├── libnl-tiny.so.1
+│   │   │   │   ├── libpanel.so.6 -> libpanelw.so.6
+│   │   │   │   ├── libpanel.so.6.4 -> libpanelw.so.6.4
+│   │   │   │   ├── libpanelw.so.6 -> libpanelw.so.6.4
+│   │   │   │   ├── libpanelw.so.6.4
+│   │   │   │   ├── libpcap.so.1 -> libpcap.so.1.10.4
+│   │   │   │   ├── libpcap.so.1.10.4
+│   │   │   │   ├── libpci.so.3 -> libpci.so.3.10.0
+│   │   │   │   ├── libpci.so.3.10.0
+│   │   │   │   ├── libqca_tools.so
+│   │   │   │   ├── libqmi_cci.so
+│   │   │   │   ├── libqmi_common_so.so
+│   │   │   │   ├── libqmi_qrtr_cci.so
+│   │   │   │   ├── libreadline.so.8 -> libreadline.so.8.2
+│   │   │   │   ├── libreadline.so.8.2
+│   │   │   │   ├── libroxml.so.2
+│   │   │   │   ├── libroxml.so.3.0.2 -> libroxml.so.2
+│   │   │   │   ├── libsalqos.so
+│   │   │   │   ├── libsalrule.so
+│   │   │   │   ├── libsframe.so -> libsframe.so.0.0.0
+│   │   │   │   ├── libsframe.so.0 -> libsframe.so.0.0.0
+│   │   │   │   ├── libsframe.so.0.0.0
+│   │   │   │   ├── libsmartcols.so.1 -> libsmartcols.so.1.1.0
+│   │   │   │   ├── libsmartcols.so.1.1.0
+│   │   │   │   ├── libssdk_us.so
+│   │   │   │   ├── libssl.so.3
+│   │   │   │   ├── libss.so.2 -> libss.so.2.0
+│   │   │   │   ├── libss.so.2.0
+│   │   │   │   ├── libstats_lib.so
+│   │   │   │   ├── libstdc++.so.6 -> libstdc++.so.6.0.31
+│   │   │   │   ├── libstdc++.so.6.0.31
+│   │   │   │   ├── libubnt.so -> libubnt.so.1.0.0
+│   │   │   │   ├── libubnt.so.1 -> libubnt.so.1.0.0
+│   │   │   │   ├── libubnt.so.1.0.0
+│   │   │   │   ├── libunwind-arm.so.8 -> libunwind-arm.so.8.0.1
+│   │   │   │   ├── libunwind-arm.so.8.0.1
+│   │   │   │   ├── libunwind-coredump.so.0 -> libunwind-coredump.so.0.0.0
+│   │   │   │   ├── libunwind-coredump.so.0.0.0
+│   │   │   │   ├── libunwind-ptrace.so.0 -> libunwind-ptrace.so.0.0.0
+│   │   │   │   ├── libunwind-ptrace.so.0.0.0
+│   │   │   │   ├── libunwind-setjmp.so.0 -> libunwind-setjmp.so.0.0.0
+│   │   │   │   ├── libunwind-setjmp.so.0.0.0
+│   │   │   │   ├── libunwind.so.8 -> libunwind.so.8.0.1
+│   │   │   │   ├── libunwind.so.8.0.1
+│   │   │   │   ├── libuuid.so.1 -> libuuid.so.1.3.0
+│   │   │   │   ├── libuuid.so.1.3.0
+│   │   │   │   ├── libwifistats.so
+│   │   │   │   ├── libwlanfw_halphy.so
+│   │   │   │   ├── libwlanfw_htt.so
+│   │   │   │   ├── libwlanfw_wmi.so
+│   │   │   │   ├── libxml2.so.2 -> libxml2.so.2.11.4
+│   │   │   │   ├── libxml2.so.2.11.4
+│   │   │   │   ├── libxtables.so.12 -> libxtables.so.12.6.0
+│   │   │   │   ├── libxtables.so.12.6.0
+│   │   │   │   ├── libz.so -> libz.so.1
+│   │   │   │   ├── libz.so.1 -> libz.so.1.2.12
+│   │   │   │   ├── libz.so.1.2.12
+│   │   │   │   ├── opkg
+│   │   │   │   │   ├── info
+│   │   │   │   │   │   ├── busybox.control
+│   │   │   │   │   │   ├── dnsmasq-full.control
+│   │   │   │   │   │   ├── lldpd.control
+│   │   │   │   │   │   ├── logd.control
+│   │   │   │   │   │   └── ubusd.control
+│   │   │   │   │   └── status
+│   │   │   │   ├── os-release
+│   │   │   │   ├── semver
+│   │   │   │   ├── sftp-server
+│   │   │   │   ├── tc
+│   │   │   │   │   └── m_xt.so
+│   │   │   │   └── version
+│   │   │   ├── libexec
+│   │   │   │   ├── brctl-bridge-utils
+│   │   │   │   ├── ip-full
+│   │   │   │   ├── login.sh
+│   │   │   │   ├── sftp-server -> ../lib/sftp-server
+│   │   │   │   ├── tc-full
+│   │   │   │   └── validate_firmware_image
+│   │   │   ├── local
+│   │   │   │   └── lib
+│   │   │   │       └── libqca_nl80211_wrapper.so
+│   │   │   ├── sbin
+│   │   │   │   ├── 80211stats
+│   │   │   │   ├── acsdbgtool
+│   │   │   │   ├── apstats
+│   │   │   │   ├── arping -> ../../bin/busybox
+│   │   │   │   ├── arptables -> /dev/null
+│   │   │   │   ├── arptables-legacy
+│   │   │   │   ├── assocdenialnotify
+│   │   │   │   ├── athdiag
+│   │   │   │   ├── athkey
+│   │   │   │   ├── athstats
+│   │   │   │   ├── athstatsclr
+│   │   │   │   ├── brctl -> /dev/null
+│   │   │   │   ├── bridge
+│   │   │   │   ├── burnin.sh
+│   │   │   │   ├── cfg80211tool
+│   │   │   │   ├── cfg80211tool.1
+│   │   │   │   ├── cfg80211tool_mesh -> /dev/null
+│   │   │   │   ├── cfr_test_app
+│   │   │   │   ├── chroot -> ../../bin/busybox
+│   │   │   │   ├── crond -> ../../bin/busybox
+│   │   │   │   ├── debug-diag
+│   │   │   │   ├── diag_callback_sample
+│   │   │   │   ├── diag_dci_sample
+│   │   │   │   ├── diag_flash_logger -> ./diag_mdlog
+│   │   │   │   ├── diag_klog
+│   │   │   │   ├── diag_mdlog
+│   │   │   │   ├── diag_socket_app -> ./diag_socket_log
+│   │   │   │   ├── diag_socket_log
+│   │   │   │   ├── diag_uart_log
+│   │   │   │   ├── dnsmasq
+│   │   │   │   ├── dropbear
+│   │   │   │   ├── e2fsck
+│   │   │   │   ├── ebtables -> /dev/null
+│   │   │   │   ├── ebtables-legacy
+│   │   │   │   ├── ebtables-legacy-restore
+│   │   │   │   ├── ebtables-restore -> /dev/null
+│   │   │   │   ├── ethtool
+│   │   │   │   ├── exttool
+│   │   │   │   ├── fdisk
+│   │   │   │   ├── fsck.ext2 -> e2fsck
+│   │   │   │   ├── fsck.ext3 -> e2fsck
+│   │   │   │   ├── fsck.ext4 -> e2fsck
+│   │   │   │   ├── fw_printenv
+│   │   │   │   ├── fw_setenv -> fw_printenv
+│   │   │   │   ├── hapd
+│   │   │   │   ├── hostapd -> qca-hapd-supp
+│   │   │   │   ├── hostapd_cli
+│   │   │   │   ├── hsrctrl
+│   │   │   │   ├── i2cdetect -> ../../bin/busybox
+│   │   │   │   ├── i2cdump -> ../../bin/busybox
+│   │   │   │   ├── i2cget -> ../../bin/busybox
+│   │   │   │   ├── i2cset -> ../../bin/busybox
+│   │   │   │   ├── icm
+│   │   │   │   ├── ip6tables -> /dev/null
+│   │   │   │   ├── ip6tables-nft -> xtables-nft-multi
+│   │   │   │   ├── ip6tables-nft-restore -> xtables-nft-multi
+│   │   │   │   ├── ip6tables-nft-save -> xtables-nft-multi
+│   │   │   │   ├── ip6tables-restore -> /dev/null
+│   │   │   │   ├── ip6tables-restore-translate -> xtables-nft-multi
+│   │   │   │   ├── ip6tables-save -> /dev/null
+│   │   │   │   ├── ip6tables-translate -> xtables-nft-multi
+│   │   │   │   ├── ipset
+│   │   │   │   ├── ipset-translate -> /dev/null
+│   │   │   │   ├── iptables -> /dev/null
+│   │   │   │   ├── iptables-nft -> xtables-nft-multi
+│   │   │   │   ├── iptables-nft-restore -> xtables-nft-multi
+│   │   │   │   ├── iptables-nft-save -> xtables-nft-multi
+│   │   │   │   ├── iptables-restore -> /dev/null
+│   │   │   │   ├── iptables-restore-translate -> xtables-nft-multi
+│   │   │   │   ├── iptables-save -> /dev/null
+│   │   │   │   ├── iptables-translate -> xtables-nft-multi
+│   │   │   │   ├── iw
+│   │   │   │   ├── iwconfig
+│   │   │   │   ├── iwlist -> iwconfig
+│   │   │   │   ├── iwpriv -> iwconfig
+│   │   │   │   ├── license-pfm-upgrade.sh
+│   │   │   │   ├── lldpcli
+│   │   │   │   ├── lldpctl -> lldpcli
+│   │   │   │   ├── lldpd
+│   │   │   │   ├── macsec_shell
+│   │   │   │   ├── mcsctl
+│   │   │   │   ├── mcsd
+│   │   │   │   ├── mdns-repeater
+│   │   │   │   ├── memtester
+│   │   │   │   ├── minidump
+│   │   │   │   ├── mke2fs
+│   │   │   │   ├── mkfs.ext2 -> mke2fs
+│   │   │   │   ├── mkfs.ext3 -> mke2fs
+│   │   │   │   ├── mkfs.ext4 -> mke2fs
+│   │   │   │   ├── mksquashfs4
+│   │   │   │   ├── ntpd -> ../../bin/busybox
+│   │   │   │   ├── ntpd-hotplug
+│   │   │   │   ├── ol_regdomain -> ubnt-regdomain
+│   │   │   │   ├── peerratestats
+│   │   │   │   ├── pktlogconf
+│   │   │   │   ├── pktlogdump
+│   │   │   │   ├── PktRspTest
+│   │   │   │   ├── ppecfg
+│   │   │   │   ├── qca_gensock
+│   │   │   │   ├── qca-hapd-supp
+│   │   │   │   ├── qldtool
+│   │   │   │   ├── qrtr-cfg
+│   │   │   │   ├── qrtr-lookup
+│   │   │   │   ├── qrtr-ns
+│   │   │   │   ├── radartool
+│   │   │   │   ├── scp -> ../sbin/dropbear
+│   │   │   │   ├── scs_api
+│   │   │   │   ├── scs_tool
+│   │   │   │   ├── setup-regvaps
+│   │   │   │   ├── snmpd
+│   │   │   │   ├── spectraltool
+│   │   │   │   ├── ssdk_sh
+│   │   │   │   ├── ssh -> ../sbin/dropbear
+│   │   │   │   ├── ssidsteering
+│   │   │   │   ├── test_diag
+│   │   │   │   ├── thermald
+│   │   │   │   ├── thermaltool
+│   │   │   │   ├── tx99tool
+│   │   │   │   ├── ubiattach
+│   │   │   │   ├── ubiblock
+│   │   │   │   ├── ubicrc32
+│   │   │   │   ├── ubidetach
+│   │   │   │   ├── ubiformat
+│   │   │   │   ├── ubimkvol
+│   │   │   │   ├── ubinfo
+│   │   │   │   ├── ubinize
+│   │   │   │   ├── ubirename
+│   │   │   │   ├── ubirmvol
+│   │   │   │   ├── ubirsvol
+│   │   │   │   ├── ubiupdatevol
+│   │   │   │   ├── ubnt-fanctrl
+│   │   │   │   ├── ubntquickscan
+│   │   │   │   ├── ubnt-regdomain
+│   │   │   │   ├── ubntrfclient
+│   │   │   │   ├── unsquashfs4
+│   │   │   │   ├── wifi_hw_mode
+│   │   │   │   ├── wifi_radar_test_app
+│   │   │   │   ├── wifistats
+│   │   │   │   ├── wifitelemetry
+│   │   │   │   ├── wifitool
+│   │   │   │   ├── wifi_try
+│   │   │   │   ├── wlanconfig
+│   │   │   │   ├── wpa_cli
+│   │   │   │   ├── wpa_supplicant -> qca-hapd-supp
+│   │   │   │   ├── wpsd
+│   │   │   │   ├── wps_enhc
+│   │   │   │   ├── xtables-legacy-multi
+│   │   │   │   └── xtables-nft-multi
+│   │   │   └── share
+│   │   │       ├── acl.d
+│   │   │       │   ├── dnsmasq_acl.json
+│   │   │       │   └── ntpd.json
+│   │   │       ├── country-codes
+│   │   │       │   ├── code-100.json
+│   │   │       │   ├── code-104.json
+│   │   │       │   ├── code-108.json
+│   │   │       │   ├── code-112.json
+│   │   │       │   ├── code-116.json
+│   │   │       │   ├── code-120.json
+│   │   │       │   ├── code-124.json
+│   │   │       │   ├── code-12.json
+│   │   │       │   ├── code-136.json
+│   │   │       │   ├── code-140.json
+│   │   │       │   ├── code-144.json
+│   │   │       │   ├── code-148.json
+│   │   │       │   ├── code-152.json
+│   │   │       │   ├── code-156.json
+│   │   │       │   ├── code-158.json
+│   │   │       │   ├── code-162.json
+│   │   │       │   ├── code-16.json
+│   │   │       │   ├── code-170.json
+│   │   │       │   ├── code-175.json
+│   │   │       │   ├── code-178.json
+│   │   │       │   ├── code-180.json
+│   │   │       │   ├── code-184.json
+│   │   │       │   ├── code-188.json
+│   │   │       │   ├── code-191.json
+│   │   │       │   ├── code-196.json
+│   │   │       │   ├── code-203.json
+│   │   │       │   ├── code-208.json
+│   │   │       │   ├── code-20.json
+│   │   │       │   ├── code-212.json
+│   │   │       │   ├── code-214.json
+│   │   │       │   ├── code-218.json
+│   │   │       │   ├── code-222.json
+│   │   │       │   ├── code-231.json
+│   │   │       │   ├── code-233.json
+│   │   │       │   ├── code-234.json
+│   │   │       │   ├── code-238.json
+│   │   │       │   ├── code-242.json
+│   │   │       │   ├── code-246.json
+│   │   │       │   ├── code-248.json
+│   │   │       │   ├── code-250.json
+│   │   │       │   ├── code-254.json
+│   │   │       │   ├── code-258.json
+│   │   │       │   ├── code-260.json
+│   │   │       │   ├── code-266.json
+│   │   │       │   ├── code-268.json
+│   │   │       │   ├── code-276.json
+│   │   │       │   ├── code-288.json
+│   │   │       │   ├── code-28.json
+│   │   │       │   ├── code-292.json
+│   │   │       │   ├── code-300.json
+│   │   │       │   ├── code-304.json
+│   │   │       │   ├── code-308.json
+│   │   │       │   ├── code-312.json
+│   │   │       │   ├── code-316.json
+│   │   │       │   ├── code-31.json
+│   │   │       │   ├── code-320.json
+│   │   │       │   ├── code-328.json
+│   │   │       │   ├── code-32.json
+│   │   │       │   ├── code-332.json
+│   │   │       │   ├── code-334.json
+│   │   │       │   ├── code-336.json
+│   │   │       │   ├── code-340.json
+│   │   │       │   ├── code-344.json
+│   │   │       │   ├── code-348.json
+│   │   │       │   ├── code-352.json
+│   │   │       │   ├── code-356.json
+│   │   │       │   ├── code-360.json
+│   │   │       │   ├── code-368.json
+│   │   │       │   ├── code-36.json
+│   │   │       │   ├── code-372.json
+│   │   │       │   ├── code-376.json
+│   │   │       │   ├── code-380.json
+│   │   │       │   ├── code-384.json
+│   │   │       │   ├── code-388.json
+│   │   │       │   ├── code-392.json
+│   │   │       │   ├── code-398.json
+│   │   │       │   ├── code-400.json
+│   │   │       │   ├── code-404.json
+│   │   │       │   ├── code-40.json
+│   │   │       │   ├── code-410.json
+│   │   │       │   ├── code-414.json
+│   │   │       │   ├── code-418.json
+│   │   │       │   ├── code-422.json
+│   │   │       │   ├── code-426.json
+│   │   │       │   ├── code-428.json
+│   │   │       │   ├── code-434.json
+│   │   │       │   ├── code-438.json
+│   │   │       │   ├── code-440.json
+│   │   │       │   ├── code-442.json
+│   │   │       │   ├── code-446.json
+│   │   │       │   ├── code-44.json
+│   │   │       │   ├── code-454.json
+│   │   │       │   ├── code-458.json
+│   │   │       │   ├── code-462.json
+│   │   │       │   ├── code-470.json
+│   │   │       │   ├── code-474.json
+│   │   │       │   ├── code-478.json
+│   │   │       │   ├── code-480.json
+│   │   │       │   ├── code-484.json
+│   │   │       │   ├── code-48.json
+│   │   │       │   ├── code-492.json
+│   │   │       │   ├── code-496.json
+│   │   │       │   ├── code-498.json
+│   │   │       │   ├── code-499.json
+│   │   │       │   ├── code-4.json
+│   │   │       │   ├── code-500.json
+│   │   │       │   ├── code-504.json
+│   │   │       │   ├── code-50.json
+│   │   │       │   ├── code-512.json
+│   │   │       │   ├── code-516.json
+│   │   │       │   ├── code-51.json
+│   │   │       │   ├── code-524.json
+│   │   │       │   ├── code-528.json
+│   │   │       │   ├── code-52.json
+│   │   │       │   ├── code-530.json
+│   │   │       │   ├── code-531.json
+│   │   │       │   ├── code-533.json
+│   │   │       │   ├── code-534.json
+│   │   │       │   ├── code-540.json
+│   │   │       │   ├── code-548.json
+│   │   │       │   ├── code-554.json
+│   │   │       │   ├── code-558.json
+│   │   │       │   ├── code-566.json
+│   │   │       │   ├── code-56.json
+│   │   │       │   ├── code-570.json
+│   │   │       │   ├── code-574.json
+│   │   │       │   ├── code-578.json
+│   │   │       │   ├── code-580.json
+│   │   │       │   ├── code-581.json
+│   │   │       │   ├── code-583.json
+│   │   │       │   ├── code-584.json
+│   │   │       │   ├── code-585.json
+│   │   │       │   ├── code-586.json
+│   │   │       │   ├── code-591.json
+│   │   │       │   ├── code-598.json
+│   │   │       │   ├── code-600.json
+│   │   │       │   ├── code-604.json
+│   │   │       │   ├── code-608.json
+│   │   │       │   ├── code-60.json
+│   │   │       │   ├── code-616.json
+│   │   │       │   ├── code-620.json
+│   │   │       │   ├── code-626.json
+│   │   │       │   ├── code-630.json
+│   │   │       │   ├── code-634.json
+│   │   │       │   ├── code-638.json
+│   │   │       │   ├── code-642.json
+│   │   │       │   ├── code-643.json
+│   │   │       │   ├── code-646.json
+│   │   │       │   ├── code-64.json
+│   │   │       │   ├── code-652.json
+│   │   │       │   ├── code-654.json
+│   │   │       │   ├── code-659.json
+│   │   │       │   ├── code-660.json
+│   │   │       │   ├── code-662.json
+│   │   │       │   ├── code-663.json
+│   │   │       │   ├── code-666.json
+│   │   │       │   ├── code-670.json
+│   │   │       │   ├── code-674.json
+│   │   │       │   ├── code-678.json
+│   │   │       │   ├── code-682.json
+│   │   │       │   ├── code-686.json
+│   │   │       │   ├── code-688.json
+│   │   │       │   ├── code-68.json
+│   │   │       │   ├── code-702.json
+│   │   │       │   ├── code-703.json
+│   │   │       │   ├── code-704.json
+│   │   │       │   ├── code-705.json
+│   │   │       │   ├── code-70.json
+│   │   │       │   ├── code-710.json
+│   │   │       │   ├── code-716.json
+│   │   │       │   ├── code-724.json
+│   │   │       │   ├── code-72.json
+│   │   │       │   ├── code-740.json
+│   │   │       │   ├── code-744.json
+│   │   │       │   ├── code-752.json
+│   │   │       │   ├── code-756.json
+│   │   │       │   ├── code-764.json
+│   │   │       │   ├── code-768.json
+│   │   │       │   ├── code-76.json
+│   │   │       │   ├── code-780.json
+│   │   │       │   ├── code-784.json
+│   │   │       │   ├── code-788.json
+│   │   │       │   ├── code-792.json
+│   │   │       │   ├── code-796.json
+│   │   │       │   ├── code-800.json
+│   │   │       │   ├── code-804.json
+│   │   │       │   ├── code-807.json
+│   │   │       │   ├── code-818.json
+│   │   │       │   ├── code-826.json
+│   │   │       │   ├── code-831.json
+│   │   │       │   ├── code-832.json
+│   │   │       │   ├── code-833.json
+│   │   │       │   ├── code-834.json
+│   │   │       │   ├── code-840.json
+│   │   │       │   ├── code-84.json
+│   │   │       │   ├── code-850.json
+│   │   │       │   ├── code-854.json
+│   │   │       │   ├── code-858.json
+│   │   │       │   ├── code-860.json
+│   │   │       │   ├── code-862.json
+│   │   │       │   ├── code-876.json
+│   │   │       │   ├── code-882.json
+│   │   │       │   ├── code-887.json
+│   │   │       │   ├── code-894.json
+│   │   │       │   ├── code-8.json
+│   │   │       │   ├── code-92.json
+│   │   │       │   └── code-96.json
+│   │   │       ├── dnsmasq
+│   │   │       │   ├── dhcpbogushostname.conf
+│   │   │       │   └── rfc6761.conf
+│   │   │       ├── fanctrl
+│   │   │       │   ├── ubnt-fanctrl-a681.conf
+│   │   │       │   ├── ubnt-fanctrl-a682.conf
+│   │   │       │   ├── ubnt-fanctrl-a682r8.conf
+│   │   │       │   ├── ubnt-fanctrl-a685.conf
+│   │   │       │   ├── ubnt-fanctrl-a686.conf
+│   │   │       │   ├── ubnt-fanctrl-a688.conf
+│   │   │       │   ├── ubnt-fanctrl-a693.conf
+│   │   │       │   ├── ubnt-fanctrl-a694.conf
+│   │   │       │   ├── ubnt-fanctrl-a696.conf
+│   │   │       │   ├── ubnt-fanctrl-a697.conf
+│   │   │       │   ├── ubnt-fanctrl-a698.conf
+│   │   │       │   ├── ubnt-fanctrl-a699.conf
+│   │   │       │   ├── ubnt-fanctrl-a69e.conf
+│   │   │       │   ├── ubnt-fanctrl-a69f.conf
+│   │   │       │   ├── ubnt-fanctrl-a6a4.conf
+│   │   │       │   ├── ubnt-fanctrl-a6a5.conf
+│   │   │       │   ├── ubnt-fanctrl-a6a6.conf
+│   │   │       │   ├── ubnt-fanctrl-a6a9.conf
+│   │   │       │   ├── ubnt-fanctrl-a6ab.conf
+│   │   │       │   ├── ubnt-fanctrl-a6ac.conf
+│   │   │       │   ├── ubnt-fanctrl-a6ae.conf
+│   │   │       │   ├── ubnt-fanctrl-a6af.conf
+│   │   │       │   ├── ubnt-fanctrl-a6b0.conf
+│   │   │       │   ├── ubnt-fanctrl-a6b1.conf
+│   │   │       │   ├── ubnt-fanctrl-a6bc.conf
+│   │   │       │   ├── ubnt-fanctrl-default.conf
+│   │   │       │   ├── ubnt-fanctrl-e630.conf
+│   │   │       │   ├── ubnt-fanctrl-e631.conf
+│   │   │       │   ├── ubnt-fanctrl-ea07.conf
+│   │   │       │   ├── ubnt-fanctrl-ed42.conf
+│   │   │       │   ├── ubnt-fanctrl-ed43.conf
+│   │   │       │   ├── ubnt-fanctrl-ed44.conf
+│   │   │       │   ├── ubnt-fanctrl-ed45.conf
+│   │   │       │   ├── ubnt-fanctrl-ed5b.conf
+│   │   │       │   ├── ubnt-fanctrl-ed5c.conf
+│   │   │       │   ├── ubnt-fanctrl-ed5d.conf
+│   │   │       │   ├── ubnt-fanctrl-ed5e.conf
+│   │   │       │   ├── ubnt-fanctrl-ed72.conf
+│   │   │       │   ├── ubnt-fanctrl-ed73.conf
+│   │   │       │   ├── ubnt-fanctrl-f067.conf
+│   │   │       │   ├── ubnt-fanctrl-f068.conf
+│   │   │       │   ├── ubnt-fanctrl-f069.conf
+│   │   │       │   └── ubnt-fanctrl-f070.conf
+│   │   │       ├── libiwinfo
+│   │   │       │   └── devices.txt
+│   │   │       ├── libubox
+│   │   │       │   └── jshn.sh
+│   │   │       ├── regdb
+│   │   │       │   ├── regdb.bin
+│   │   │       │   ├── regdb_wifi6.bin
+│   │   │       │   └── regulatory.db
+│   │   │       ├── terminfo
+│   │   │       │   ├── a
+│   │   │       │   │   ├── alacritty
+│   │   │       │   │   └── ansi
+│   │   │       │   ├── d
+│   │   │       │   │   └── dumb
+│   │   │       │   ├── l
+│   │   │       │   │   └── linux
+│   │   │       │   ├── r
+│   │   │       │   │   ├── rxvt
+│   │   │       │   │   └── rxvt-unicode
+│   │   │       │   ├── s
+│   │   │       │   │   ├── screen
+│   │   │       │   │   └── screen-256color
+│   │   │       │   ├── t
+│   │   │       │   │   ├── tmux
+│   │   │       │   │   └── tmux-256color
+│   │   │       │   ├── v
+│   │   │       │   │   ├── vt100
+│   │   │       │   │   └── vt102
+│   │   │       │   └── x
+│   │   │       │       ├── xterm
+│   │   │       │       ├── xterm-256color
+│   │   │       │       └── xterm-color
+│   │   │       ├── ubntconf
+│   │   │       │   └── plugin.funcs
+│   │   │       ├── uwd
+│   │   │       │   └── uwd.sh
+│   │   │       └── xbl
+│   │   │           └── xbl.tgz
+│   │   ├── var -> tmp
+│   │   └── www
+│   ├── crc-ccitt.ko
+│   ├── create_cfg_caldata.sh
+│   ├── cron
+│   ├── crond
+│   ├── crontab
+│   ├── crontabs
+│   ├── cryptodev.ko
+│   ├── crypto_user.ko
+│   ├── ctf2302.ko
+│   ├── curl
+│   ├── cut
+│   ├── d
+│   ├── data
+│   ├── date -> busybox
+│   ├── dbclient
+│   ├── dd -> busybox
+│   ├── debug
+│   ├── debug-diag
+│   ├── default-a654.cfg -> default-a681.cfg
+│   ├── default-a681.cfg
+│   ├── default-a682.cfg -> default-a681.cfg
+│   ├── default-a686.cfg -> default-a681.cfg
+│   ├── default-a688.cfg -> default-a691.cfg
+│   ├── default-a691.cfg
+│   ├── default-a692.cfg -> default-a691.cfg
+│   ├── default-a693.cfg
+│   ├── default-a696.cfg -> default-a681.cfg
+│   ├── default-a697.cfg
+│   ├── default-a698.cfg -> default-a697.cfg
+│   ├── default-a699.cfg
+│   ├── default-a69e.cfg -> default-a693.cfg
+│   ├── default-a69f.cfg
+│   ├── default-a6a4.cfg -> default-a681.cfg
+│   ├── default-a6a5.cfg -> default-a693.cfg
+│   ├── default-a6a6.cfg -> default-a681.cfg
+│   ├── default-a6a9.cfg -> default-a681.cfg
+│   ├── default-a6ab.cfg -> default-a699.cfg
+│   ├── default-a6ac.cfg -> default-a681.cfg
+│   ├── default-a6ae.cfg -> default-a681.cfg
+│   ├── default-a6af.cfg -> default-a699.cfg
+│   ├── default-a6b0.cfg -> default-a681.cfg
+│   ├── default-a6b1.cfg
+│   ├── default-a6ba.cfg
+│   ├── default-a6bc.cfg -> default-a697.cfg
+│   ├── default-a6be.cfg
+│   ├── default-a6bf.cfg
+│   ├── default_ar724x.cfg -> default_single.cfg
+│   ├── default_ar9344.cfg
+│   ├── default.cfg -> default_nossid.cfg
+│   ├── default-ea07.cfg
+│   ├── default-no-eth.cfg
+│   ├── default-nossid-a654.cfg -> default-nossid-a681.cfg
+│   ├── default-nossid-a681.cfg
+│   ├── default-nossid-a682.cfg -> default-nossid-a681.cfg
+│   ├── default-nossid-a686.cfg -> default-nossid-a681.cfg
+│   ├── default-nossid-a688.cfg -> default-nossid-a691.cfg
+│   ├── default-nossid-a691.cfg
+│   ├── default-nossid-a692.cfg -> default-nossid-a691.cfg
+│   ├── default-nossid-a693.cfg
+│   ├── default-nossid-a696.cfg -> default-nossid-a681.cfg
+│   ├── default-nossid-a697.cfg -> default-nossid-a681.cfg
+│   ├── default-nossid-a698.cfg -> default-nossid-a681.cfg
+│   ├── default-nossid-a699.cfg
+│   ├── default-nossid-a69e.cfg -> default-nossid-a693.cfg
+│   ├── default-nossid-a69f.cfg
+│   ├── default-nossid-a6a4.cfg -> default-nossid-a681.cfg
+│   ├── default-nossid-a6a5.cfg -> default-nossid-a693.cfg
+│   ├── default-nossid-a6a6.cfg -> default-nossid-a681.cfg
+│   ├── default-nossid-a6a9.cfg -> default-nossid-a681.cfg
+│   ├── default-nossid-a6ab.cfg -> default-nossid-a699.cfg
+│   ├── default-nossid-a6ac.cfg -> default-nossid-a681.cfg
+│   ├── default-nossid-a6ae.cfg -> default-nossid-a681.cfg
+│   ├── default-nossid-a6af.cfg -> default-nossid-a699.cfg
+│   ├── default-nossid-a6b0.cfg -> default-nossid-a681.cfg
+│   ├── default-nossid-a6b1.cfg
+│   ├── default-nossid-a6ba.cfg
+│   ├── default-nossid-a6bc.cfg -> default-nossid-a681.cfg
+│   ├── default-nossid-a6be.cfg
+│   ├── default-nossid-a6bf.cfg
+│   ├── default_nossid_ar724x.cfg -> default_nossid.cfg
+│   ├── default_nossid_ar9344.cfg -> default_nossid.cfg
+│   ├── default_nossid.cfg
+│   ├── default-nossid-dca8.cfg -> default_nossid_qca956x.cfg
+│   ├── default-nossid-e302.cfg -> default_nossid_ar724x.cfg
+│   ├── default-nossid-e502.cfg -> default_nossid_ar724x.cfg
+│   ├── default-nossid-e507.cfg -> default_nossid_ar9344.cfg
+│   ├── default-nossid-e512.cfg -> default_nossid_ar724x.cfg
+│   ├── default-nossid-e515.cfg -> default_nossid_ar724x.cfg
+│   ├── default-nossid-e517.cfg -> default_nossid_qca956x.cfg
+│   ├── default-nossid-e527.cfg -> default_nossid_qca956x.cfg
+│   ├── default-nossid-e532.cfg -> default_nossid_ar724x.cfg
+│   ├── default-nossid-e537.cfg -> default_nossid_qca956x.cfg
+│   ├── default-nossid-e547.cfg -> default_nossid_qca956x.cfg
+│   ├── default-nossid-e557.cfg -> default_nossid_qca956x.cfg
+│   ├── default-nossid-e562.cfg -> default_nossid_ar724x.cfg
+│   ├── default-nossid-e567.cfg -> default_nossid_qca956x.cfg
+│   ├── default-nossid-e572.cfg -> default_nossid_qca9342.cfg
+│   ├── default-nossid-e582.cfg -> default_nossid_qca9342.cfg
+│   ├── default-nossid-e587.cfg -> default_nossid_qca956x.cfg
+│   ├── default-nossid-e592.cfg -> default_nossid_qca933x.cfg
+│   ├── default-nossid-ea07.cfg
+│   ├── default_nossid_qca933x.cfg -> default_nossid.cfg
+│   ├── default_nossid_qca9342.cfg -> default_nossid.cfg
+│   ├── default_nossid_qca956x.cfg
+│   ├── default_qca933x.cfg -> default_single.cfg
+│   ├── default_qca9342.cfg -> default_single.cfg
+│   ├── default_qca956x.cfg
+│   ├── default_single.cfg
+│   ├── def_service_classes.json
+│   ├── dev
+│   ├── device_info
+│   ├── devices.txt
+│   ├── devmem
+│   ├── df -> busybox
+│   ├── dhcp
+│   ├── dhcpbogushostname.conf
+│   ├── dhcp-script.sh
+│   ├── diag_callback_sample
+│   ├── diagchar.ko
+│   ├── diag_dci_sample
+│   ├── diag_flash_logger -> ./diag_mdlog
+│   ├── diag_klog
+│   ├── diag_lite_log
+│   ├── diag_mdlog
+│   ├── diag.sh
+│   ├── diag_socket_app -> ./diag_socket_log
+│   ├── diag_socket_log
+│   ├── diag_uart_log
+│   ├── diff
+│   ├── dirname
+│   ├── dmesg -> busybox
+│   ├── dnsmasq
+│   ├── dnsmasq_acl.json
+│   ├── dnsmasq.conf
+│   ├── dnsmasq-full
+│   ├── dnsmasq-full.control
+│   ├── done
+│   ├── do_stage2
+│   ├── dotlockfile
+│   ├── downlink-monitor -> mcad
+│   ├── dpp-hostapd-update-uci
+│   ├── dpp-operating-class-update.sh
+│   ├── dpp-supplicant-update-uci
+│   ├── dropbear
+│   ├── dropbearconvert
+│   ├── dropbearkey
+│   ├── du
+│   ├── dumb
+│   ├── dump
+│   ├── dump_q6v5
+│   ├── dwc3.ko
+│   ├── dwc3-qcom.ko
+│   ├── e2fsck
+│   ├── e2fsck.conf
+│   ├── e2fsck.sh
+│   ├── ebt_802_3.ko
+│   ├── ebtable_broute.ko
+│   ├── ebtable_filter.ko
+│   ├── ebtable_nat.ko
+│   ├── ebtables -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/ebtables-legacy
+│   ├── ebtables-ipv4
+│   ├── ebtables-ipv6
+│   ├── ebtables.ko
+│   ├── ebtables-legacy
+│   ├── ebtables-legacy-restore
+│   ├── ebtables-restore -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/ebtables-legacy-restore
+│   ├── ebt_among.ko
+│   ├── ebt_arp.ko
+│   ├── ebt_arpreply.ko
+│   ├── ebt_dnat.ko
+│   ├── ebt_ip6.ko
+│   ├── ebt_ip.ko
+│   ├── ebt_limit.ko
+│   ├── ebt_mark.ko
+│   ├── ebt_mark_m.ko
+│   ├── ebt_pkttype.ko
+│   ├── ebt_redirect.ko
+│   ├── ebt_set.ko
+│   ├── ebt_snat.ko
+│   ├── ebt_stp.ko
+│   ├── ebt_vlan.ko
+│   ├── echo -> busybox
+│   ├── ecm
+│   ├── ecm_ae_select.ko
+│   ├── ecm_dump.sh
+│   ├── ecm.ko
+│   ├── ecm_pcc_test.ko
+│   ├── ecm_sfe_l2.ko
+│   ├── ecm-wifi-plugin.ko
+│   ├── edma_dump
+│   ├── edma_hang_inj.sh
+│   ├── edma_recover.sh
+│   ├── egrep -> busybox
+│   ├── egtool -> ubntbox
+│   ├── eip_dump.sh
+│   ├── eip.h
+│   ├── element-adopt-monitor -> mcad
+│   ├── ematch_map
+│   ├── em_cmp.ko
+│   ├── emesh-sp.ko
+│   ├── em_meta.ko
+│   ├── em_nbyte.ko
+│   ├── em_text.ko
+│   ├── em_u32.ko
+│   ├── engines-3
+│   ├── env
+│   ├── etc
+│   ├── ethers
+│   ├── ethertypes
+│   ├── ethtool
+│   ├── evdev.ko
+│   ├── expr
+│   ├── exttool
+│   ├── factorytest -> ubntbox
+│   ├── failsafe
+│   ├── false -> busybox
+│   ├── fanctrl
+│   ├── fanctrl_wrapper.sh
+│   ├── fat.ko
+│   ├── fdisk
+│   ├── fgrep -> busybox
+│   ├── find
+│   ├── firewall.d
+│   ├── firmware
+│   ├── firstboot
+│   ├── flock -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/bin/util-linux-flock
+│   ├── free
+│   ├── fsck
+│   ├── fsck.ext2 -> e2fsck
+│   ├── fsck.ext3 -> e2fsck
+│   ├── fsck.ext4 -> e2fsck
+│   ├── fstab
+│   ├── fsync -> busybox
+│   ├── ftm.conf
+│   ├── functions
+│   ├── functions.sh
+│   ├── fw_env.config
+│   ├── fw_printenv
+│   ├── fw_setenv -> fw_printenv
+│   ├── fwtool.sh
+│   ├── fwupdate -> ubntbox
+│   ├── g_diag.ko
+│   ├── getrandom
+│   ├── getty
+│   ├── global_i.ini
+│   ├── global.ini
+│   ├── gpiodev.ko
+│   ├── gpio_keys.ko
+│   ├── gpio_switch
+│   ├── gre.ko
+│   ├── grep -> busybox
+│   ├── group
+│   ├── guest_portal_funcs.sh
+│   ├── gunzip -> busybox
+│   ├── gzip -> busybox
+│   ├── halt
+│   ├── hapd
+│   ├── head
+│   ├── hexdump
+│   ├── hid.ko
+│   ├── hostapd -> qca-hapd-supp
+│   ├── hostapd_cli
+│   ├── hostapd.sh
+│   ├── hostapd_wrapper.sh
+│   ├── host.conf
+│   ├── hostkeydump -> ubntbox
+│   ├── hosts
+│   ├── hotplug-call
+│   ├── hotplug.d
+│   ├── hotplug.json
+│   ├── hotplug-preinit.json
+│   ├── hsrctrl
+│   ├── hsr_mcu_fw.bin -> 2024_02_02_11_00_mcu_gd32e230_app_v5.bin
+│   ├── htb
+│   ├── hwcheck -> ubntbox
+│   ├── hwclock
+│   ├── hwmon.ko
+│   ├── i2cdetect
+│   ├── i2cdump
+│   ├── i2cget
+│   ├── i2cset
+│   ├── icm
+│   ├── icm.conf
+│   ├── icm.sh
+│   ├── id
+│   ├── ieee80211
+│   ├── iface
+│   ├── ifb.ko
+│   ├── ifconfig
+│   ├── include
+│   ├── info
+│   ├── ini
+│   ├── init
+│   ├── init.d
+│   ├── inittab
+│   ├── input-core.ko
+│   ├── insmod -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/sbin/kmodloader
+│   ├── internal
+│   ├── iostat -> busybox
+│   ├── ip -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/libexec/ip-full
+│   ├── ip6_gre.ko
+│   ├── ip6table_filter.ko
+│   ├── ip6table_mangle.ko
+│   ├── ip6table_nat.ko
+│   ├── ip6table_raw.ko
+│   ├── ip6tables -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/xtables-nft-multi
+│   ├── ip6_tables.ko
+│   ├── ip6tables-nft -> xtables-nft-multi
+│   ├── ip6tables-nft-restore -> xtables-nft-multi
+│   ├── ip6tables-nft-save -> xtables-nft-multi
+│   ├── ip6tables-restore -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/xtables-nft-multi
+│   ├── ip6tables-restore-translate -> xtables-nft-multi
+│   ├── ip6tables-save -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/xtables-nft-multi
+│   ├── ip6tables-translate -> xtables-nft-multi
+│   ├── ip6t_ah.ko
+│   ├── ip6t_eui64.ko
+│   ├── ip6t_frag.ko
+│   ├── ip6t_hbh.ko
+│   ├── ip6t_ipv6header.ko
+│   ├── ip6t_mh.ko
+│   ├── ip6t_NPT.ko
+│   ├── ip6t_REJECT.ko
+│   ├── ip6t_rt.ko
+│   ├── ip6_tunnel.ko
+│   ├── ip6_udp_tunnel.ko
+│   ├── ipcalc.sh
+│   ├── iperf3
+│   ├── ip-full
+│   ├── ip_gre.ko
+│   ├── ipq806x.sh
+│   ├── ipq_cnss2.ko
+│   ├── ipq-thermald-5332.conf
+│   ├── ipq-thermald-8064.conf
+│   ├── ipq-thermald-8066.conf
+│   ├── ipq-thermald-8069.conf
+│   ├── iproute2
+│   ├── ipset
+│   ├── ip_set_bitmap_ip.ko
+│   ├── ip_set_bitmap_ipmac.ko
+│   ├── ip_set_bitmap_port.ko
+│   ├── ip_set_hash_ip.ko
+│   ├── ip_set_hash_ipmac.ko
+│   ├── ip_set_hash_ipmark.ko
+│   ├── ip_set_hash_ipportip.ko
+│   ├── ip_set_hash_ipport.ko
+│   ├── ip_set_hash_ipportnet.ko
+│   ├── ip_set_hash_mac.ko
+│   ├── ip_set_hash_netiface.ko
+│   ├── ip_set_hash_net.ko
+│   ├── ip_set_hash_netnet.ko
+│   ├── ip_set_hash_netport.ko
+│   ├── ip_set_hash_netportnet.ko
+│   ├── ip_set.ko
+│   ├── ip_set_list_set.ko
+│   ├── ipset-translate -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/ipset
+│   ├── iptable_filter.ko
+│   ├── iptable_mangle.ko
+│   ├── iptable_nat.ko
+│   ├── iptable_raw.ko
+│   ├── iptables -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/xtables-nft-multi
+│   ├── ip_tables.ko
+│   ├── iptables-nft -> xtables-nft-multi
+│   ├── iptables-nft-restore -> xtables-nft-multi
+│   ├── iptables-nft-save -> xtables-nft-multi
+│   ├── iptables-restore -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/xtables-nft-multi
+│   ├── iptables-restore-translate -> xtables-nft-multi
+│   ├── iptables-save -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/xtables-nft-multi
+│   ├── iptables-translate -> xtables-nft-multi
+│   ├── ipt_ah.ko
+│   ├── ipt-conntrack
+│   ├── ipt-conntrack-extra
+│   ├── ipt-core
+│   ├── ipt_ECN.ko
+│   ├── ipt-extra
+│   ├── ipt-filter
+│   ├── ipt-ipopt
+│   ├── ipt-ipsec
+│   ├── ipt-nat
+│   ├── ipt-nat-extra
+│   ├── ipt-physdev
+│   ├── ipt-raw
+│   ├── ipt-raw6
+│   ├── ipt_REJECT.ko
+│   ├── ip_tunnel.ko
+│   ├── iw
+│   ├── iwconfig
+│   ├── iwlist -> iwconfig
+│   ├── iwpriv -> iwconfig
+│   ├── jq
+│   ├── jshn
+│   ├── jshn.sh
+│   ├── jsonfilter
+│   ├── K00startup-loglevel
+│   ├── K10gpio_switch
+│   ├── K10ubnt_plugins
+│   ├── K85ubnt_cfgsave
+│   ├── K90boot
+│   ├── K90sysfixtime
+│   ├── K90umount
+│   ├── K98boot-ftm
+│   ├── keep.d
+│   ├── keys
+│   ├── kill -> busybox
+│   ├── killall
+│   ├── kmodloader
+│   ├── l
+│   ├── l2tp_core.ko
+│   ├── l2tp_netlink.ko
+│   ├── l2tp_ppp.ko
+│   ├── launch_vap.sh
+│   ├── ldd
+│   ├── ld-musl-armhf.so.1 -> libc.so
+│   ├── led
+│   ├── led_locate.sh
+│   ├── ledring-ctrl
+│   ├── leds-gpio.ko
+│   ├── led.sh
+│   ├── leds.sh
+│   ├── less
+│   ├── lib
+│   ├── libahci.ko
+│   ├── libapstats.so
+│   ├── libata.ko
+│   ├── _libata.ko.extracted
+│   │   ├── 1810F
+│   │   └── 1810F.7z
+│   ├── libatomic.so.1 -> libatomic.so.1.2.0
+│   ├── libatomic.so.1.2.0
+│   ├── libattr.so -> libattr.so.1.1.2501
+│   ├── libattr.so.1 -> libattr.so.1.1.2501
+│   ├── libattr.so.1.1.2501
+│   ├── libbfd-2.40.so
+│   ├── libbfd.so -> libbfd-2.40.so
+│   ├── libblkid.so.1 -> libblkid.so.1.1.0
+│   ├── libblkid.so.1.1.0
+│   ├── libblobmsg_jansson.so.20240329
+│   ├── libblobmsg_json.so.20240329
+│   ├── libbpf.so.1 -> libbpf.so.1.2.2
+│   ├── libbpf.so.1.2.2
+│   ├── libbz2.so.1.0 -> libbz2.so.1.0.8
+│   ├── libbz2.so.1.0.8
+│   ├── libc2lib-1.4.2.so.1 -> libc2lib-1.4.2.so.1.0.0
+│   ├── libc2lib-1.4.2.so.1.0.0
+│   ├── libc2lib.so -> libc2lib-1.4.2.so.1.0.0
+│   ├── libcap.so -> libcap.so.2
+│   ├── libcap.so.2 -> libcap.so.2.26
+│   ├── libcap.so.2.26
+│   ├── libcom_err.so.0 -> libcom_err.so.0.0
+│   ├── libcom_err.so.0.0
+│   ├── libcomposite.ko
+│   ├── lib-crc32c
+│   ├── libcrc32c.ko
+│   ├── lib-crc-ccitt
+│   ├── libcrypto.so.3
+│   ├── libc.so
+│   ├── libcurl.so.4 -> libcurl.so.4.8.0
+│   ├── libcurl.so.4.8.0
+│   ├── libdiag.so -> ./libdiag.so.1
+│   ├── libdiag.so.1
+│   ├── libe2p.so.2 -> libe2p.so.2.3
+│   ├── libe2p.so.2.3
+│   ├── libebt_802_3.so
+│   ├── libebtable_broute.so
+│   ├── libebtable_filter.so
+│   ├── libebtable_nat.so
+│   ├── libebt_among.so
+│   ├── libebt_arpreply.so
+│   ├── libebt_arp.so
+│   ├── libebtc.so
+│   ├── libebt_ip6.so
+│   ├── libebt_ip.so
+│   ├── libebt_limit.so
+│   ├── libebt_log.so
+│   ├── libebt_mark_m.so
+│   ├── libebt_mark.so
+│   ├── libebt_nat.so
+│   ├── libebt_nflog.so
+│   ├── libebt_pkttype.so
+│   ├── libebt_redirect.so
+│   ├── libebt_set.so
+│   ├── libebt_standard.so
+│   ├── libebt_stp.so
+│   ├── libebt_string.so
+│   ├── libebt_ulog.so
+│   ├── libebt_vlan.so
+│   ├── libelf-0.189.so
+│   ├── libelf.so.1 -> libelf-0.189.so
+│   ├── libevent-2.1.so.7 -> libevent-2.1.so.7.0.1
+│   ├── libevent-2.1.so.7.0.1
+│   ├── libevent_core-2.1.so.7 -> libevent_core-2.1.so.7.0.1
+│   ├── libevent_core-2.1.so.7.0.1
+│   ├── libexec
+│   ├── libext2fs.so.2 -> libext2fs.so.2.4
+│   ├── libext2fs.so.2.4
+│   ├── libfal.so
+│   ├── libfdisk.so.1 -> libfdisk.so.1.1.0
+│   ├── libfdisk.so.1.1.0
+│   ├── libform.so.6 -> libformw.so.6
+│   ├── libform.so.6.4 -> libformw.so.6.4
+│   ├── libformw.so.6 -> libformw.so.6.4
+│   ├── libformw.so.6.4
+│   ├── libgcc_s.so.1
+│   ├── libhistory.so.8 -> libhistory.so.8.2
+│   ├── libhistory.so.8.2
+│   ├── libhyficommon.so
+│   ├── libip4tc.so.2 -> libip4tc.so.2.0.0
+│   ├── libip4tc.so.2.0.0
+│   ├── libip6tc.so.2 -> libip6tc.so.2.0.0
+│   ├── libip6tc.so.2.0.0
+│   ├── libiperf.so.0 -> libiperf.so.0.0.0
+│   ├── libiperf.so.0.0.0
+│   ├── libipset.so.13 -> libipset.so.13.4.0
+│   ├── libipset.so.13.4.0
+│   ├── libiptext4.so
+│   ├── libiptext6.so
+│   ├── libiptext_arpt.so
+│   ├── libiptext_ebt.so
+│   ├── libiptext.so
+│   ├── libiwinfo
+│   ├── libiwinfo.so.20230701
+│   ├── libjansson.so.4 -> libjansson.so.4.14.0
+│   ├── libjansson.so.4.14.0
+│   ├── libjson-c.so.5 -> libjson-c.so.5.2.0
+│   ├── libjson-c.so.5.2.0
+│   ├── libjson_script.so.20240329
+│   ├── libkmod.so.2 -> libkmod.so.2.4.1
+│   ├── libkmod.so.2.4.1
+│   ├── liblzma.so.5 -> liblzma.so.5.4.6
+│   ├── liblzma.so.5.4.6
+│   ├── _liblzma.so.5.4.6.extracted
+│   │   ├── 1AFFE.xz
+│   │   └── 1B108.xz
+│   ├── libmbedcrypto.so.2.28.7
+│   ├── libmbedcrypto.so.7 -> libmbedcrypto.so.2.28.7
+│   ├── libmbedtls.so.14 -> libmbedtls.so.2.28.7
+│   ├── libmbedtls.so.2.28.7
+│   ├── libmbedx509.so.1 -> libmbedx509.so.2.28.7
+│   ├── libmbedx509.so.2.28.7
+│   ├── libmenu.so.6 -> libmenuw.so.6
+│   ├── libmenu.so.6.4 -> libmenuw.so.6.4
+│   ├── libmenuw.so.6 -> libmenuw.so.6.4
+│   ├── libmenuw.so.6.4
+│   ├── libmnl.so.0 -> libmnl.so.0.2.0
+│   ├── libmnl.so.0.2.0
+│   ├── libncurses.so.6 -> libncursesw.so.6
+│   ├── libncurses.so.6.4 -> libncursesw.so.6.4
+│   ├── libncursesw.so.6 -> libncursesw.so.6.4
+│   ├── libncursesw.so.6.4
+│   ├── libnftnl.so.11 -> libnftnl.so.11.6.0
+│   ├── libnftnl.so.11.6.0
+│   ├── libnl-ppe.so
+│   ├── libnl-tiny.so.1
+│   ├── libnsm.so
+│   ├── libpanel.so.6 -> libpanelw.so.6
+│   ├── libpanel.so.6.4 -> libpanelw.so.6.4
+│   ├── libpanelw.so.6 -> libpanelw.so.6.4
+│   ├── libpanelw.so.6.4
+│   ├── libpcap.so.1 -> libpcap.so.1.10.4
+│   ├── libpcap.so.1.10.4
+│   ├── libpci.so.3 -> libpci.so.3.10.0
+│   ├── libpci.so.3.10.0
+│   ├── libpreload-seccomp.so
+│   ├── libpreload-trace.so
+│   ├── libqca_nl80211_wrapper.so
+│   ├── libqca_tools.so
+│   ├── libqmi_cci.so
+│   ├── libqmi_common_so.so
+│   ├── libqmi_qrtr_cci.so
+│   ├── libreadline.so.8 -> libreadline.so.8.2
+│   ├── libreadline.so.8.2
+│   ├── libroxml.so.2
+│   ├── libroxml.so.3.0.2 -> libroxml.so.2
+│   ├── libsalqos.so
+│   ├── libsalrule.so
+│   ├── libsetlbf.so
+│   ├── libsframe.so -> libsframe.so.0.0.0
+│   ├── libsframe.so.0 -> libsframe.so.0.0.0
+│   ├── libsframe.so.0.0.0
+│   ├── libsmartcols.so.1 -> libsmartcols.so.1.1.0
+│   ├── libsmartcols.so.1.1.0
+│   ├── libssdk_us.so
+│   ├── libssl.so.3
+│   ├── libss.so.2 -> libss.so.2.0
+│   ├── libss.so.2.0
+│   ├── libstats_lib.so
+│   ├── libstdc++.so.6 -> libstdc++.so.6.0.31
+│   ├── libstdc++.so.6.0.31
+│   ├── lib-textsearch
+│   ├── libubnt.so -> libubnt.so.1.0.0
+│   ├── libubnt.so.1 -> libubnt.so.1.0.0
+│   ├── libubnt.so.1.0.0
+│   ├── libubox
+│   ├── libubox.so.20240329
+│   ├── libubus.so.20231128
+│   ├── libuci.so
+│   ├── libunwind-arm.so.8 -> libunwind-arm.so.8.0.1
+│   ├── libunwind-arm.so.8.0.1
+│   ├── libunwind-coredump.so.0 -> libunwind-coredump.so.0.0.0
+│   ├── libunwind-coredump.so.0.0.0
+│   ├── libunwind-ptrace.so.0 -> libunwind-ptrace.so.0.0.0
+│   ├── libunwind-ptrace.so.0.0.0
+│   ├── libunwind-setjmp.so.0 -> libunwind-setjmp.so.0.0.0
+│   ├── libunwind-setjmp.so.0.0.0
+│   ├── libunwind.so.8 -> libunwind.so.8.0.1
+│   ├── libunwind.so.8.0.1
+│   ├── libuuid.so.1 -> libuuid.so.1.3.0
+│   ├── libuuid.so.1.3.0
+│   ├── libvalidate.so
+│   ├── libwifistats.so
+│   ├── libwlanfw_halphy.so
+│   ├── libwlanfw_htt.so
+│   ├── libwlanfw_wmi.so
+│   ├── libxml2.so.2 -> libxml2.so.2.11.4
+│   ├── libxml2.so.2.11.4
+│   ├── libxtables.so.12 -> libxtables.so.12.6.0
+│   ├── libxtables.so.12.6.0
+│   ├── libxt_addrtype.so
+│   ├── libxt_cgroup.so
+│   ├── libxt_connbytes.so
+│   ├── libxt_connlimit.so
+│   ├── libxt_connmark.so
+│   ├── libxt_CONNMARK.so
+│   ├── libxt_helper.so
+│   ├── libxt_owner.so
+│   ├── libxt_physdev.so
+│   ├── libxt_pkttype.so
+│   ├── libxt_quota.so
+│   ├── libxt_recent.so
+│   ├── lib-zlib-deflate
+│   ├── lib-zlib-inflate
+│   ├── libz.so -> libz.so.1
+│   ├── libz.so.1 -> libz.so.1.2.12
+│   ├── libz.so.1.2.12
+│   ├── license-pfm
+│   ├── license-pfm-upgrade.sh
+│   ├── linux
+│   ├── lldpcli
+│   ├── lldpctl -> lldpcli
+│   ├── lldpd
+│   ├── lldpd.control
+│   ├── lm63.ko
+│   ├── ln -> busybox
+│   ├── local
+│   ├── localtime -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/tmp/localtime
+│   ├── lock -> busybox
+│   ├── logd
+│   ├── logd.control
+│   ├── logger
+│   ├── login -> busybox
+│   ├── login.defs
+│   ├── login.sh
+│   ├── logread
+│   ├── ls -> busybox
+│   ├── lsmod -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/sbin/kmodloader
+│   ├── lsof
+│   ├── lspci
+│   ├── lsusb
+│   ├── macsec_shell
+│   ├── macvlan
+│   ├── macvlan.ko
+│   ├── mca-ap-neighbor-max-signal -> mca.sh
+│   ├── mca-cli -> mcad
+│   ├── mca-cli-op -> mcad
+│   ├── mca-ctrl -> mcad
+│   ├── mca-custom-alert.sh
+│   ├── mcad
+│   ├── mca-dump -> mca.sh
+│   ├── mca-monitor -> mcad
+│   ├── mca-scan -> mca.sh
+│   ├── mca.sh
+│   ├── mca-sta -> mca.sh
+│   ├── mcsctl
+│   ├── mcsd
+│   ├── md5.ko
+│   ├── md5sum
+│   ├── mdns-repeater
+│   ├── mem_manager.ko
+│   ├── memtester
+│   ├── mesh-monitor -> mcad
+│   ├── migrations.sh
+│   ├── minidump
+│   ├── minidump2nvmem
+│   ├── minidump.conf
+│   ├── mkdir -> busybox
+│   ├── mke2fs
+│   ├── mkfifo
+│   ├── mkfs.ext2 -> mke2fs
+│   ├── mkfs.ext3 -> mke2fs
+│   ├── mkfs.ext4 -> mke2fs
+│   ├── mknod -> busybox
+│   ├── mksquashfs4
+│   ├── mkswap
+│   ├── mktemp -> busybox
+│   ├── mmc_info
+│   ├── mmc-table-base.txt
+│   ├── mmc-table-protect-qsdk-fs.txt
+│   ├── mmc-table.txt -> mmc-table-base.txt
+│   ├── mnt
+│   ├── modinfo -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/sbin/kmodloader
+│   ├── modprobe -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/sbin/kmodloader
+│   ├── modules
+│   ├── modules-boot.d
+│   ├── modules.cnf.d
+│   ├── modules.conf
+│   ├── modules.d
+│   ├── monitor.ko
+│   ├── motd
+│   ├── mount -> busybox
+│   ├── mount_fw_partition.sh
+│   ├── mppe
+│   ├── mpstat -> busybox
+│   ├── msdos.ko
+│   ├── mtab -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/proc/mounts
+│   ├── mtd
+│   ├── _mtd.extracted
+│   │   └── 5084.jffs2
+│   ├── mv -> busybox
+│   ├── m_xt.so
+│   ├── nand.sh
+│   ├── nat46.ko
+│   ├── neigh
+│   ├── net
+│   ├── netifd
+│   ├── netmsg -> busybox
+│   ├── netstat -> busybox
+│   ├── nettool -> ubntbox
+│   ├── network
+│   ├── network.sh
+│   ├── nf-conncount
+│   ├── nf_conncount.ko
+│   ├── nf-conntrack
+│   ├── nf_conntrack_amanda.ko
+│   ├── nf_conntrack_broadcast.ko
+│   ├── nf_conntrack_ftp.ko
+│   ├── nf_conntrack_h323.ko
+│   ├── nf_conntrack_irc.ko
+│   ├── nf_conntrack.ko
+│   ├── _nf_conntrack.ko.extracted
+│   │   ├── E7D3
+│   │   └── E7D3.7z
+│   ├── nf-conntrack-netlink
+│   ├── nf_conntrack_netlink.ko
+│   ├── nf_conntrack_pptp.ko
+│   ├── nf_conntrack_rtcache.ko
+│   ├── nf_conntrack_sip.ko
+│   ├── nf_conntrack_snmp.ko
+│   ├── nf_conntrack_tftp.ko
+│   ├── nf_defrag_ipv4.ko
+│   ├── nf_defrag_ipv6.ko
+│   ├── nf_dup_netdev.ko
+│   ├── nf-flow
+│   ├── nf_flow_table_inet.ko
+│   ├── nf_flow_table_ipv4.ko
+│   ├── nf_flow_table_ipv6.ko
+│   ├── nf_flow_table.ko
+│   ├── nf-ipt
+│   ├── nf-ipt6
+│   ├── nf-log
+│   ├── nf-log6
+│   ├── nf_log_common.ko
+│   ├── nf_log_ipv4.ko
+│   ├── nf_log_ipv6.ko
+│   ├── nf-nat
+│   ├── nf_nat_amanda.ko
+│   ├── nf_nat_ftp.ko
+│   ├── nf_nat_h323.ko
+│   ├── nf-nathelper
+│   ├── nf-nathelper-extra
+│   ├── nf_nat_irc.ko
+│   ├── nf_nat.ko
+│   ├── nf_nat_pptp.ko
+│   ├── nf_nat_sip.ko
+│   ├── nf_nat_snmp_basic.ko
+│   ├── nf_nat_tftp.ko
+│   ├── nfnetlink
+│   ├── nfnetlink.ko
+│   ├── nf-reject
+│   ├── nf-reject6
+│   ├── nf_reject_ipv4.ko
+│   ├── nf_reject_ipv6.ko
+│   ├── nf_tables.ko
+│   ├── nf_tables_set.ko
+│   ├── nft_chain_nat.ko
+│   ├── nft-compat
+│   ├── nft_compat.ko
+│   ├── nft-core
+│   ├── nft_counter.ko
+│   ├── nft_ct.ko
+│   ├── nft_dup_netdev.ko
+│   ├── nft_flow_offload.ko
+│   ├── nft_fwd_netdev.ko
+│   ├── nft_hash.ko
+│   ├── nft_limit.ko
+│   ├── nft_log.ko
+│   ├── nft_masq.ko
+│   ├── nft-nat
+│   ├── nft_nat.ko
+│   ├── nft-netdev
+│   ├── nft_numgen.ko
+│   ├── nft_objref.ko
+│   ├── nft-offload
+│   ├── nft_quota.ko
+│   ├── nft_redir.ko
+│   ├── nft_reject_inet.ko
+│   ├── nft_reject_ipv4.ko
+│   ├── nft_reject_ipv6.ko
+│   ├── nft_reject.ko
+│   ├── nice -> busybox
+│   ├── nls_base.ko
+│   ├── nls_cp437.ko
+│   ├── nls_iso8859-1.ko
+│   ├── nls_utf8.ko
+│   ├── nohup
+│   ├── note
+│   ├── nslookup
+│   ├── nsm-app
+│   ├── nss_perf_config.sh
+│   ├── nss-udp-st.ko
+│   ├── ntp
+│   ├── ntpd
+│   ├── ntpd-hotplug
+│   ├── ntpd.json
+│   ├── null
+│   ├── offload
+│   ├── ol_regdomain -> ubnt-regdomain
+│   ├── on-demand-down
+│   ├── oom-protect
+│   ├── oopsdump -> ubntbox
+│   ├── openssl
+│   ├── openssl.cnf
+│   ├── openwrt_release
+│   ├── openwrt_version
+│   ├── opkg
+│   ├── os-release
+│   ├── overlay
+│   ├── packetdump -> ubntbox
+│   ├── passwd
+│   ├── peerratestats
+│   ├── perf_debug_counters.sh
+│   ├── performance_configs.sh
+│   ├── pgrep
+│   ├── phy-qca-m31.ko
+│   ├── phy-qca-uniphy.ko
+│   ├── pidof -> busybox
+│   ├── ping -> busybox
+│   ├── ping6 -> busybox
+│   ├── pivot_root
+│   ├── pkill
+│   ├── pktgen.sh
+│   ├── pktlogconf
+│   ├── pktlogdump
+│   ├── PktRspTest
+│   ├── platdep_funcs.sh
+│   ├── platdep_profile
+│   ├── platforms
+│   ├── plugin.funcs
+│   ├── power
+│   ├── poweroff
+│   ├── ppecfg
+│   ├── ppe_flow_dump
+│   ├── ppe_if_map
+│   ├── ppp
+│   ├── ppp_async.ko
+│   ├── ppp_generic.ko
+│   ├── ppp_mppe.ko
+│   ├── pppoe
+│   ├── pppoe.ko
+│   ├── pppol2tp
+│   ├── pppox.ko
+│   ├── pptp
+│   ├── pptp.ko
+│   ├── preinit
+│   ├── preinit.sh
+│   ├── printf
+│   ├── private
+│   ├── proc
+│   ├── procd
+│   ├── procd.sh
+│   ├── profile
+│   ├── proto
+│   ├── protocols
+│   ├── ps -> busybox
+│   ├── pts
+│   ├── pwd -> busybox
+│   ├── QCA5018_i.ini
+│   ├── QCA5018.ini
+│   ├── QCA5332_i.ini
+│   ├── QCA5332.ini
+│   ├── QCA6018_i.ini
+│   ├── QCA6018.ini
+│   ├── QCA6290_i.ini
+│   ├── QCA6290.ini
+│   ├── QCA8074_i.ini
+│   ├── QCA8074.ini
+│   ├── QCA8074V2_i.ini
+│   ├── qca8k.ko
+│   ├── QCA9574_i.ini
+│   ├── QCA9574.ini
+│   ├── QCA9984.ini
+│   ├── qcacfg80211
+│   ├── qcacommands_mesh.xml
+│   ├── qcacommands_ol_radio.xml
+│   ├── qcacommands_vap.xml
+│   ├── qca_dsa
+│   ├── qca-full-offload
+│   ├── qca_gensock
+│   ├── qca-hapd-supp
+│   ├── qca-hostapd
+│   ├── qca-mcs.ko
+│   ├── qca-net-standby.ko
+│   ├── qca-nss-dp
+│   ├── qca_nss_dp
+│   ├── qca-nss-dp.ko
+│   ├── qca-nss-ecm
+│   ├── qca-nss-ecm.conf
+│   ├── qca-nss-eip
+│   ├── qca-nss-eip-crypto.ko
+│   ├── qca-nss-eip.ko
+│   ├── qca-nss-fls.ko
+│   ├── qca-nss-macsec.ko
+│   ├── qca-nss-nsm.ko
+│   ├── qca-nss-ppe-bridge-mgr
+│   ├── qca-nss-ppe-bridge-mgr.ko
+│   ├── qca-nss-ppe-ds
+│   ├── qca-nss-ppe-ds.ko
+│   ├── qca-nss-ppe.ko
+│   ├── qca-nss-ppe-lag.ko
+│   ├── qca-nss-ppe-mapt.ko
+│   ├── qca-nss-ppe-netlink.ko
+│   ├── qca-nss-ppe-pppoe-mgr.ko
+│   ├── qca-nss-ppe-rule.ko
+│   ├── qca-nss-ppe-tunipip6.ko
+│   ├── qca-nss-ppe-tun.ko
+│   ├── qca-nss-ppe-vlan.ko
+│   ├── qca-nss-ppe-vp.ko
+│   ├── qca-nss-ppe-vxlanmgr.ko
+│   ├── qca-nss-sfe.ko
+│   ├── qca_ol.ko
+│   ├── _qca_ol.ko.extracted
+│   │   ├── 1B3FD8.yaffs
+│   │   ├── 1B43C8.yaffs
+│   │   ├── 1B4434.yaffs
+│   │   ├── 1B47B8.yaffs
+│   │   ├── 1B4BA8.yaffs
+│   │   ├── 1B4C14.yaffs
+│   │   └── 1B4F98.yaffs
+│   ├── qca-package
+│   ├── qca_spectral.ko
+│   ├── qca-ssdk
+│   ├── qca-ssdk.ko
+│   ├── qcawificfg80211.sh
+│   ├── qcawifi_countrycode.txt
+│   ├── qcawifi-legacy
+│   ├── qca-wifi-modules
+│   ├── qcawifi.sh
+│   ├── qca-wpa-supplicant
+│   ├── QCN6122_i.ini
+│   ├── QCN6122.ini
+│   ├── QCN6432_i.ini
+│   ├── QCN6432.ini
+│   ├── QCN9000_i.ini
+│   ├── QCN9000.ini
+│   ├── QCN9160_i.ini
+│   ├── QCN9160.ini
+│   ├── QCN9224_i.ini
+│   ├── QCN9224.ini
+│   ├── qdf.ko
+│   ├── qldtool
+│   ├── qos_conf.json
+│   ├── qos_control.sh
+│   ├── qosLinkAddGroup.sh
+│   ├── qosLinkInit.sh
+│   ├── qrtr
+│   ├── qrtr-cfg
+│   ├── qrtr-lookup
+│   ├── qrtr-ns
+│   ├── r
+│   ├── radartool
+│   ├── radartoolw
+│   ├── radio_sta_ap_swap.sh
+│   ├── radius-da-dispatcher -> mcad
+│   ├── ramdump -> ubntbox
+│   ├── random
+│   ├── rawmode_sim.ko
+│   ├── rc
+│   ├── rc.bootconf
+│   ├── rc.button
+│   ├── rc.check_xbl
+│   ├── rc.common
+│   ├── rc.d
+│   ├── rc.disable_wb_cache
+│   ├── rc.e515
+│   ├── rc.early_upgrade
+│   ├── rc.identity
+│   ├── rc.local
+│   ├── rc.modules
+│   ├── rc.platform
+│   ├── rc.postconf
+│   ├── rc.prepare_fs
+│   ├── rc.sysinit
+│   ├── rc.thermaltool
+│   ├── read_caldata_to_fs.sh
+│   ├── readlink
+│   ├── realpath
+│   ├── reboot
+│   ├── redirector -> mcad
+│   ├── regdb
+│   ├── regdb.bin
+│   ├── regdb_wifi6.bin
+│   ├── regulatory.db
+│   ├── reload_config
+│   ├── reset
+│   ├── reset-handler -> mcad
+│   ├── resize
+│   ├── resolv.conf -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/tmp/resolv.conf
+│   ├── rfc6761.conf
+│   ├── rfkill
+│   ├── rfscan0_a699.cfg
+│   ├── rfscan0_a6ab.cfg
+│   ├── rfscan0_a6af.cfg -> rfscan0_a699.cfg
+│   ├── rfscan0.cfg
+│   ├── rfscan1_a699.cfg
+│   ├── rfscan1_a6ab.cfg
+│   ├── rfscan1_a6af.cfg -> rfscan1_a699.cfg
+│   ├── rfscan1.cfg
+│   ├── rfscan2_a699.cfg
+│   ├── rfscan2_a6ab.cfg
+│   ├── rfscan2_a6af.cfg -> rfscan2_a699.cfg
+│   ├── rfscan2_a6b1.cfg
+│   ├── rfscan2.cfg
+│   ├── rm -> busybox
+│   ├── rmdir -> busybox
+│   ├── rmmod -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/sbin/kmodloader
+│   ├── rom
+│   ├── root
+│   ├── route
+│   ├── rstp
+│   ├── rstpctl
+│   ├── rstpd
+│   ├── rstp.sh
+│   ├── rt_protos
+│   ├── rt_tables
+│   ├── rxvt
+│   ├── rxvt-unicode
+│   ├── s
+│   ├── S00sysfixtime
+│   ├── S00ubnt_sysinit
+│   ├── S00urngd
+│   ├── S01license-pfm
+│   ├── S08boot-ftm
+│   ├── S08qrtr
+│   ├── S10boot
+│   ├── S10system
+│   ├── S11sysctl
+│   ├── S11ubnt_bootconf
+│   ├── S12ubnt_plugins
+│   ├── S13openssl
+│   ├── S13qca-hostapd
+│   ├── S13qca-wpa-supplicant
+│   ├── S16qca-ssdk
+│   ├── S18qca-nss-dp
+│   ├── S19dnsmasq
+│   ├── S19qca-nss-ppe-bridge-mgr
+│   ├── S22qcawifi-legacy
+│   ├── S26qca-nss-ecm
+│   ├── S4001_skb_recycler
+│   ├── S50cron
+│   ├── S50snmpd
+│   ├── S55rstp
+│   ├── S85ubnt_cfgsave
+│   ├── S94gpio_switch
+│   ├── S95done
+│   ├── S96led
+│   ├── S98diag_socket_app
+│   ├── S98sysntpd
+│   ├── S98thermal
+│   ├── S99minidump2nvmem
+│   ├── S99startup-loglevel
+│   ├── S99urandom_seed
+│   ├── sal_qos
+│   ├── salqostest
+│   ├── sal_rule
+│   ├── salruletest
+│   ├── sawf
+│   ├── sbin
+│   ├── sch_codel.ko
+│   ├── sched-act-ipt
+│   ├── sched-act-police
+│   ├── sched-pie
+│   ├── sched-prio
+│   ├── sched-red
+│   ├── sch_fq.ko
+│   ├── sch_gred.ko
+│   ├── sch_hfsc.ko
+│   ├── sch_htb.ko
+│   ├── sch_multiq.ko
+│   ├── sch_pie.ko
+│   ├── sch_prio.ko
+│   ├── sch_red.ko
+│   ├── sch_sfq.ko
+│   ├── sch_tbf.ko
+│   ├── sch_teql.ko
+│   ├── scp -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/dropbear
+│   ├── screen
+│   ├── screen-256color
+│   ├── scs_api
+│   ├── scsi_mod.ko
+│   ├── scs_tool
+│   ├── sd_mod.ko
+│   ├── seccomp-trace -> utrace
+│   ├── sed -> busybox
+│   ├── selfupgrade -> ubntbox
+│   ├── semver
+│   ├── seq
+│   ├── service_classes.json
+│   ├── services
+│   ├── service.sh
+│   ├── setsid
+│   ├── setup-regvaps
+│   ├── sfe_dump
+│   ├── sftp-server
+│   ├── sh -> busybox
+│   ├── sha256sum
+│   ├── shadow
+│   ├── share
+│   ├── shells
+│   ├── shinit
+│   ├── show_node
+│   ├── show_nt
+│   ├── signify -> usign
+│   ├── sit.ko
+│   ├── sla_detect.json
+│   ├── sla.json
+│   ├── sleep -> busybox
+│   ├── slhc.ko
+│   ├── smart_antenna.ko
+│   ├── snmp
+│   ├── snmp.conf -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/etc/snmp.conf
+│   ├── snmpd
+│   ├── sort
+│   ├── spdtst.ko
+│   ├── spectraltool
+│   ├── speedtd
+│   ├── spm_config_rules.json
+│   ├── ssdk_sh
+│   ├── ssh -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/dropbear
+│   ├── ssh-keygen -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/sbin/dropbear
+│   ├── ssid-steering
+│   ├── ssid_steering
+│   ├── ssidsteering
+│   ├── ssl
+│   ├── stage2
+│   ├── stahtd -> ubntbox
+│   ├── stainfo
+│   ├── stamgr -> stainfo
+│   ├── start-stop-daemon
+│   ├── startup.list
+│   ├── startup-loglevel
+│   ├── stat -> busybox
+│   ├── status
+│   ├── st_lsm6dsvx_i2c.ko
+│   ├── st_lsm6dsvx.ko
+│   ├── strings
+│   ├── supp
+│   ├── swapoff
+│   ├── swapon
+│   ├── swconfig
+│   ├── switch_root
+│   ├── switch.sh
+│   ├── sync -> busybox
+│   ├── sys
+│   ├── sysctl
+│   ├── sysctl.conf
+│   ├── sysctl.d
+│   ├── sysfixtime
+│   ├── sysinit
+│   ├── syslog.conf
+│   ├── syslogd_wrapper.sh
+│   ├── sysmon -> ubntbox
+│   ├── sysmon_ctrl -> ubntbox
+│   ├── sysntpd
+│   ├── system
+│   ├── system.sh
+│   ├── sysupgrade
+│   ├── sysupgrade.conf
+│   ├── syswrapper.sh
+│   ├── t
+│   ├── tail
+│   ├── tar -> busybox
+│   ├── taskset
+│   ├── tc -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/usr/libexec/tc-full
+│   ├── tc-full
+│   ├── tcpdump
+│   ├── tee
+│   ├── telemetry
+│   ├── telemetry_agent.ko
+│   ├── terminfo
+│   ├── test
+│   ├── test_diag
+│   ├── tftp
+│   ├── thermal
+│   ├── thermald
+│   ├── thermald_wrapper.sh
+│   ├── thermaltool
+│   ├── thermaltool.conf
+│   ├── thunder_mcu_fw.bin -> 2023_01_31_11_16_mcu_gd32e230_app_v9.bin
+│   ├── time
+│   ├── timeout
+│   ├── tmp
+│   ├── tmux
+│   ├── tmux-256color
+│   ├── tools_config
+│   ├── top
+│   ├── touch -> busybox
+│   ├── tr
+│   ├── trace -> ubntbox
+│   ├── traceroute -> busybox
+│   ├── traceroute6 -> busybox
+│   ├── true -> busybox
+│   ├── ts_bm.ko
+│   ├── ts_fsm.ko
+│   ├── ts_kmp.ko
+│   ├── tty
+│   ├── tty0
+│   ├── tty1
+│   ├── tun.ko
+│   ├── tunnel4.ko
+│   ├── tunnel6.ko
+│   ├── tx99tool
+│   ├── TZ -> /home/joe/Desktop/Firmware_lab/_BZ2.ipq53xx_8.6.11+18870.260526.1140.bin.extracted/_95504.extracted/tmp/TZ
+│   ├── uap-sysctl.conf
+│   ├── uas.ko
+│   ├── ubiattach
+│   ├── ubiblock
+│   ├── ubicrc32
+│   ├── ubidetach
+│   ├── ubiformat
+│   ├── ubimkvol
+│   ├── ubinfo
+│   ├── ubinize
+│   ├── ubirename
+│   ├── ubirmvol
+│   ├── ubirsvol
+│   ├── ubiupdatevol
+│   ├── ubnt_bootconf
+│   ├── ubntbox
+│   ├── ubnt_cfgsave
+│   ├── ubnt_common.ko
+│   ├── ubntconf -> ubntbox
+│   ├── ubntevent -> ubntbox
+│   ├── ubnt-fanctrl
+│   ├── ubnt-fanctrl-a681.conf
+│   ├── ubnt-fanctrl-a682.conf
+│   ├── ubnt-fanctrl-a682r8.conf
+│   ├── ubnt-fanctrl-a685.conf
+│   ├── ubnt-fanctrl-a686.conf
+│   ├── ubnt-fanctrl-a688.conf
+│   ├── ubnt-fanctrl-a693.conf
+│   ├── ubnt-fanctrl-a694.conf
+│   ├── ubnt-fanctrl-a696.conf
+│   ├── ubnt-fanctrl-a697.conf
+│   ├── ubnt-fanctrl-a698.conf
+│   ├── ubnt-fanctrl-a699.conf
+│   ├── ubnt-fanctrl-a69e.conf
+│   ├── ubnt-fanctrl-a69f.conf
+│   ├── ubnt-fanctrl-a6a4.conf
+│   ├── ubnt-fanctrl-a6a5.conf
+│   ├── ubnt-fanctrl-a6a6.conf
+│   ├── ubnt-fanctrl-a6a9.conf
+│   ├── ubnt-fanctrl-a6ab.conf
+│   ├── ubnt-fanctrl-a6ac.conf
+│   ├── ubnt-fanctrl-a6ae.conf
+│   ├── ubnt-fanctrl-a6af.conf
+│   ├── ubnt-fanctrl-a6b0.conf
+│   ├── ubnt-fanctrl-a6b1.conf
+│   ├── ubnt-fanctrl-a6bc.conf
+│   ├── ubnt-fanctrl-default.conf
+│   ├── ubnt-fanctrl-e630.conf
+│   ├── ubnt-fanctrl-e631.conf
+│   ├── ubnt-fanctrl-ea07.conf
+│   ├── ubnt-fanctrl-ed42.conf
+│   ├── ubnt-fanctrl-ed43.conf
+│   ├── ubnt-fanctrl-ed44.conf
+│   ├── ubnt-fanctrl-ed45.conf
+│   ├── ubnt-fanctrl-ed5b.conf
+│   ├── ubnt-fanctrl-ed5c.conf
+│   ├── ubnt-fanctrl-ed5d.conf
+│   ├── ubnt-fanctrl-ed5e.conf
+│   ├── ubnt-fanctrl-ed72.conf
+│   ├── ubnt-fanctrl-ed73.conf
+│   ├── ubnt-fanctrl-f067.conf
+│   ├── ubnt-fanctrl-f068.conf
+│   ├── ubnt-fanctrl-f069.conf
+│   ├── ubnt-fanctrl-f070.conf
+│   ├── ubnthal.ko
+│   ├── ubnt-netmon -> ubntbox
+│   ├── ubnt_plugins
+│   ├── ubntquickscan
+│   ├── ubnt-regdomain
+│   ├── ubntrfclient
+│   ├── ubnt-rssimon
+│   ├── ubnt_sysinit
+│   ├── ubootenv
+│   ├── uboot-envtools.sh
+│   ├── ubus
+│   ├── ubusd
+│   ├── ubusd.control
+│   ├── uci-defaults
+│   ├── udc-core.ko
+│   ├── udevtrigger
+│   ├── udhcpc
+│   ├── udhcpc6
+│   ├── udhcpc_ip_only
+│   ├── udhcpc_services
+│   ├── udp_tunnel.ko
+│   ├── ui_aps.ini
+│   ├── ulcmd_wrapper.sh
+│   ├── umac.ko
+│   ├── umount
+│   ├── umount_fw_partition.sh
+│   ├── uname -> busybox
+│   ├── unifi_hostapd_funcs.sh
+│   ├── unifi_util_funcs.sh
+│   ├── uniq
+│   ├── unsquashfs4
+│   ├── unxz
+│   ├── update_smp_affinity.sh
+│   ├── upgrade
+│   ├── uplink-monitor -> mcad
+│   ├── uptime
+│   ├── urandom
+│   ├── urandom_seed
+│   ├── urngd
+│   ├── usb-common.ko
+│   ├── usbcore.ko
+│   ├── usb_f_diag.ko
+│   ├── usb-storage
+│   ├── usb-storage.ko
+│   ├── usb-uas
+│   ├── usign
+│   ├── usr
+│   ├── utermd -> ubntbox
+│   ├── util-linux-flock
+│   ├── utrace
+│   ├── uwd
+│   ├── uwds
+│   ├── uwd.sh
+│   ├── v
+│   ├── validate_data
+│   ├── validate_firmware_image
+│   ├── vap_check.sh
+│   ├── var -> tmp
+│   ├── vconfig
+│   ├── vendor
+│   ├── version
+│   ├── vfat.ko
+│   ├── vi -> busybox
+│   ├── vt100
+│   ├── vt102
+│   ├── vwirectl -> ubntbox
+│   ├── vxlan.ko
+│   ├── vxlan.sh
+│   ├── walled_action.sh
+│   ├── wc
+│   ├── wevent -> ubntbox
+│   ├── which
+│   ├── wifi
+│   ├── wifi_3_0.ko
+│   ├── wifi_hw_mode
+│   ├── wifi_interface_helper.sh
+│   ├── wifi_list
+│   ├── wifimanserver -> ubntbox
+│   ├── wifi_nss
+│   ├── wifi_radar_test_app
+│   ├── wifistats
+│   ├── wifitelemetry
+│   ├── wifitool
+│   ├── wifi_try
+│   ├── wifi-utils.sh
+│   ├── wlanconfig
+│   ├── wpa_cli
+│   ├── wpa_supplicant -> qca-hapd-supp
+│   ├── wpa_supplicant.sh
+│   ├── wpa_supplicant_wrapper.sh
+│   ├── wpsd
+│   ├── wps_enhc
+│   ├── wps-hostapd-nbh-update
+│   ├── wps-hostapd-update-uci
+│   ├── wps-supplicant-update-uci
+│   ├── www
+│   ├── x
+│   ├── xargs
+│   ├── xattr.conf
+│   ├── xbl
+│   ├── xbl.tgz
+│   ├── _xbl.tgz.extracted
+│   │   ├── 0
+│   │   ├── _0.extracted
+│   │   │   ├── 0.tar
+│   │   │   ├── devcfg.mbn
+│   │   │   ├── tz.mbn
+│   │   │   └── xbl_nor_spf12.2-cs_1188mhz.elf
+│   │   └── 0.gz
+│   ├── xhci-hcd.ko
+│   ├── xhci-pci.ko
+│   ├── xhci-plat-hcd.ko
+│   ├── x_tables.ko
+│   ├── xtables-legacy-multi
+│   ├── _xtables-legacy-multi.extracted
+│   │   └── F51D.7z
+│   ├── xtables-nft-multi
+│   ├── xt_addrtype.ko
+│   ├── xt_bpf.ko
+│   ├── xt_cgroup.ko
+│   ├── xt_CLASSIFY.ko
+│   ├── xt_comment.ko
+│   ├── xt_connbytes.ko
+│   ├── xt_connlimit.ko
+│   ├── xt_connmark.ko
+│   ├── xt_conntrack.ko
+│   ├── xt_CT.ko
+│   ├── xt_dscp.ko
+│   ├── xt_DSCP.ko
+│   ├── xt_ecn.ko
+│   ├── xterm
+│   ├── xterm-256color
+│   ├── xterm-color
+│   ├── xt_esp.ko
+│   ├── xt_helper.ko
+│   ├── xt_hl.ko
+│   ├── xt_HL.ko
+│   ├── xt_length.ko
+│   ├── xt_limit.ko
+│   ├── xt_LOG.ko
+│   ├── xt_mac.ko
+│   ├── xt_mark.ko
+│   ├── xt_MASQUERADE.ko
+│   ├── xt_multiport.ko
+│   ├── xt_nat.ko
+│   ├── xt_NETMAP.ko
+│   ├── xt_owner.ko
+│   ├── xt_physdev.ko
+│   ├── xt_pkttype.ko
+│   ├── xt_quota.ko
+│   ├── xt_recent.ko
+│   ├── xt_REDIRECT.ko
+│   ├── xt_sctp.ko
+│   ├── xt_set.ko
+│   ├── xt_state.ko
+│   ├── xt_statistic.ko
+│   ├── xt_string.ko
+│   ├── xt_tcpmss.ko
+│   ├── xt_TCPMSS.ko
+│   ├── xt_tcpudp.ko
+│   ├── xt_time.ko
+│   ├── xz
+│   ├── yes
+│   ├── zcat -> busybox
+│   └── zero
+├── 95504.lzo
+└── squashfs-root
+    ├── miami-pebble
+    │   ├── firmware_rdp_feature.ini -> ./IPQ5332/firmware_rdp_feature.ini
+    │   ├── fw_ini_cfg_id.bin
+    │   ├── fw_ini_cfg_od.bin
+    │   ├── IPQ5332
+    │   │   ├── bdwlan_2G_HP.b42
+    │   │   ├── bdwlan.b12
+    │   │   ├── bdwlan.b13
+    │   │   ├── bdwlan.b16
+    │   │   ├── bdwlan.b1b
+    │   │   ├── bdwlan.b41
+    │   │   ├── bdwlan.b42
+    │   │   ├── bdwlan.b43
+    │   │   ├── bdwlan.bin
+    │   │   ├── bdwlanKCT.b12
+    │   │   ├── Data.msc
+    │   │   ├── firmware_rdp_feature_512P.ini
+    │   │   ├── firmware_rdp_feature.ini
+    │   │   ├── iu_fw.b00
+    │   │   ├── iu_fw.b01
+    │   │   ├── iu_fw.b02
+    │   │   ├── iu_fw.flist
+    │   │   ├── iu_fw.mdt
+    │   │   ├── license_info.ini
+    │   │   ├── license.pfm
+    │   │   ├── q6_fw0.b00
+    │   │   ├── q6_fw0.b01
+    │   │   ├── q6_fw0.b02
+    │   │   ├── q6_fw0.b03
+    │   │   ├── q6_fw0.b04
+    │   │   ├── q6_fw0.b05
+    │   │   ├── q6_fw0.b06
+    │   │   ├── q6_fw0.b07
+    │   │   ├── q6_fw0.b08
+    │   │   ├── q6_fw0.b09
+    │   │   ├── q6_fw0.b11
+    │   │   ├── q6_fw0.flist
+    │   │   ├── q6_fw0.mdt
+    │   │   ├── q6_fw1.b00
+    │   │   ├── q6_fw1.b01
+    │   │   ├── q6_fw1.b02
+    │   │   ├── q6_fw1.flist
+    │   │   ├── q6_fw1.mdt
+    │   │   ├── q6_fw2.b00
+    │   │   ├── q6_fw2.b01
+    │   │   ├── q6_fw2.b02
+    │   │   ├── q6_fw2.flist
+    │   │   ├── q6_fw2.mdt
+    │   │   ├── q6_fw3.b00
+    │   │   ├── q6_fw3.b01
+    │   │   ├── q6_fw3.b02
+    │   │   ├── q6_fw3.flist
+    │   │   ├── q6_fw3.mdt
+    │   │   ├── q6_fw4.b00
+    │   │   ├── q6_fw4.b01
+    │   │   ├── q6_fw4.b02
+    │   │   ├── q6_fw4.flist
+    │   │   ├── q6_fw4.mdt
+    │   │   ├── qdss_trace_config.bin
+    │   │   └── regdb.bin
+    │   └── qcn6432
+    │       ├── bdwlan.b0050
+    │       ├── bdwlan.b0051
+    │       ├── bdwlan.b0052
+    │       ├── bdwlan.b0053
+    │       ├── bdwlan.b0054
+    │       ├── bdwlan.b0060
+    │       ├── bdwlan.b0061
+    │       ├── bdwlan.b0070
+    │       ├── bdwlan.b0090
+    │       ├── bdwlan.b0091
+    │       ├── bdwlan.b00b0
+    │       ├── bdwlan.b00b1
+    │       ├── bdwlan.bin
+    │       ├── bdwlan_HP.b0052
+    │       ├── Data.msc
+    │       ├── fw_ini_cfg.bin
+    │       ├── iu_fw.b00
+    │       ├── iu_fw.b01
+    │       ├── iu_fw.b02
+    │       ├── iu_fw.flist
+    │       ├── iu_fw.mdt
+    │       ├── qdss_trace_config.bin
+    │       └── regdb.bin
+    └── miami-wkk
+        ├── firmware_rdp_feature.ini -> ./qcn9224/firmware_rdp_feature.ini
+        ├── fw_ini_cfg_id.bin
+        ├── fw_ini_cfg_od.bin
+        ├── IPQ5332
+        │   ├── bdwlan_2G_HP.b42
+        │   ├── bdwlan.b12
+        │   ├── bdwlan.b13
+        │   ├── bdwlan.b16
+        │   ├── bdwlan.b1b
+        │   ├── bdwlan.b41
+        │   ├── bdwlan.b42
+        │   ├── bdwlan.b43
+        │   ├── bdwlan.bin
+        │   ├── bdwlanKCT.b12
+        │   ├── Data.msc
+        │   ├── firmware_rdp_feature_512P.ini
+        │   ├── firmware_rdp_feature.ini
+        │   ├── iu_fw.b00
+        │   ├── iu_fw.b01
+        │   ├── iu_fw.b02
+        │   ├── iu_fw.flist
+        │   ├── iu_fw.mdt
+        │   ├── license_info.ini
+        │   ├── license.pfm
+        │   ├── q6_fw0.b00
+        │   ├── q6_fw0.b01
+        │   ├── q6_fw0.b02
+        │   ├── q6_fw0.b03
+        │   ├── q6_fw0.b04
+        │   ├── q6_fw0.b05
+        │   ├── q6_fw0.b06
+        │   ├── q6_fw0.b07
+        │   ├── q6_fw0.b08
+        │   ├── q6_fw0.b09
+        │   ├── q6_fw0.b11
+        │   ├── q6_fw0.flist
+        │   ├── q6_fw0.mdt
+        │   ├── q6_fw1.b00
+        │   ├── q6_fw1.b01
+        │   ├── q6_fw1.b02
+        │   ├── q6_fw1.flist
+        │   ├── q6_fw1.mdt
+        │   ├── qdss_trace_config.bin
+        │   └── regdb.bin
+        └── qcn9224
+            ├── amss.bin
+            ├── amss_dualmac.bin
+            ├── bdwlan.b0001
+            ├── bdwlan.b0002
+            ├── bdwlan.b0004
+            ├── bdwlan.b0007
+            ├── bdwlan.b000c
+            ├── bdwlan.b0011
+            ├── bdwlan.b0012
+            ├── bdwlan.b0013
+            ├── bdwlan.b0014
+            ├── bdwlan.b0015
+            ├── bdwlan.b0016
+            ├── bdwlan.b001c
+            ├── bdwlan.b001d
+            ├── bdwlan.b001e
+            ├── bdwlan.b0040
+            ├── bdwlan.b1003
+            ├── bdwlan.b1005
+            ├── bdwlan.b1006
+            ├── bdwlan.b1008
+            ├── bdwlan.b1009
+            ├── bdwlan.b100a
+            ├── bdwlan.b100b
+            ├── bdwlan.b100d
+            ├── bdwlan.b100e
+            ├── bdwlan.b100f
+            ├── bdwlan.b1010
+            ├── bdwlan.b1015
+            ├── bdwlan.b1016
+            ├── bdwlan.b1017
+            ├── bdwlan.b1018
+            ├── bdwlan.b1019
+            ├── bdwlan.b101a
+            ├── bdwlan.b101b
+            ├── bdwlan.bin
+            ├── bdwlanNL.b0001
+            ├── bdwlanNL.b0002
+            ├── bdwlanNL.b0004
+            ├── bdwlanSKY.b0001
+            ├── bdwlanSKY.b0002
+            ├── bdwlanSKY.b0004
+            ├── bdwlanSKY.b1003
+            ├── bdwlanSKY.b100e
+            ├── bdwlanSKY.b1010
+            ├── Data_dualmac.msc
+            ├── Data.msc
+            ├── firmware_rdp_feature_512P.ini
+            ├── firmware_rdp_feature.ini
+            ├── fw_ini_cfg.bin
+            ├── m3.bin
+            ├── qdss_trace_config.bin
+            ├── regdb.bin
+            └── rxgainlutSKY_6G.bin
+
+238 directories, 3912 files

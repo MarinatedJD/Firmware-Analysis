@@ -1,0 +1,67 @@
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Flattened device tree, size: 34936272 bytes, version: 17
+122156        0x1DD2C         ATAGs msm parition table (msmptbl), version: 3, number of paritions: 24
+253228        0x3DD2C         ATAGs msm parition table (msmptbl), version: 3, number of paritions: 24
+384532        0x5DE14         ATAGs msm parition table (msmptbl), version: 4, number of paritions: 16
+515604        0x7DE14         ATAGs msm parition table (msmptbl), version: 4, number of paritions: 16
+1168032       0x11D2A0        Qualcomm SBL1, image addr: ffffffff, image size: 4294967295, code size: 4294967295, sig size: 4294967295, cert chain size: 4294967295, oem_root_cert_sel: 4294967295, oem_num_root_certs: 4294967295
+1170080       0x11DAA0        Qualcomm SBL1, image addr: ffffffff, image size: 4294967295, code size: 4294967295, sig size: 4294967295, cert chain size: 4294967295, oem_root_cert_sel: 4294967295, oem_num_root_certs: 4294967295
+1172128       0x11E2A0        Qualcomm SBL1, image addr: ffffffff, image size: 4294967295, code size: 4294967295, sig size: 4294967295, cert chain size: 4294967295, oem_root_cert_sel: 4294967295, oem_num_root_certs: 4294967295
+1174176       0x11EAA0        Qualcomm SBL1, image addr: ffffffff, image size: 4294967295, code size: 4294967295, sig size: 4294967295, cert chain size: 4294967295, oem_root_cert_sel: 4294967295, oem_num_root_certs: 4294967295
+1178272       0x11FAA0        Qualcomm SBL1, image addr: 2a000000, image size: 55672, code size: 55672, sig size: 0, cert chain size: 0, oem_root_cert_sel: 1, oem_num_root_certs: 1
+1235848       0x12DB88        Qualcomm SBL1, image addr: ffffffff, image size: 4294967295, code size: 4294967295, sig size: 4294967295, cert chain size: 4294967295, oem_root_cert_sel: 4294967295, oem_num_root_certs: 4294967295
+1237896       0x12E388        Qualcomm SBL1, image addr: ffffffff, image size: 4294967295, code size: 4294967295, sig size: 4294967295, cert chain size: 4294967295, oem_root_cert_sel: 4294967295, oem_num_root_certs: 4294967295
+1239944       0x12EB88        Qualcomm SBL1, image addr: ffffffff, image size: 4294967295, code size: 4294967295, sig size: 4294967295, cert chain size: 4294967295, oem_root_cert_sel: 4294967295, oem_num_root_certs: 4294967295
+1241992       0x12F388        Qualcomm SBL1, image addr: ffffffff, image size: 4294967295, code size: 4294967295, sig size: 4294967295, cert chain size: 4294967295, oem_root_cert_sel: 4294967295, oem_num_root_certs: 4294967295
+1246088       0x130388        ELF, 32-bit LSB executable, ARM, version 1 (SYSV)
+1306675       0x13F033        ESP Image segment count: 2, flash mode: QUOUT, flash speed: 40MHz, flash size: 1MB, entry address: 0xb200421, hash: none
+1334752       0x145DE0        Unix path: /dev/icbcfg/boot
+1366920       0x14DB88        Qualcomm SBL1, image addr: a8dbc66, image size: 52, code size: 255, sig size: 52, cert chain size: 177060974, oem_root_cert_sel: 52, oem_num_root_certs: 255
+1387636       0x152C74        ELF, 32-bit LSB executable, ARM, version 1 (SYSV)
+1407068       0x15785C        Ubiquiti partition header, header size: 56 bytes, name: "PARTNUM_SHFT", base address: 0x08A16B46, data size: -1912995176 bytes
+1447607       0x1616B7        ESP Image segment count: 2, flash mode: QUOUT, flash speed: 40MHz, flash size: 1MB, entry address: 0xb200421, hash: none
+1469100       0x166AAC        Unix path: /dev/icbcfg/boot
+1523048       0x173D68        Qualcomm SBL1, image addr: ffffffff, image size: 4294967295, code size: 4294967295, sig size: 4294967295, cert chain size: 4294967295, oem_root_cert_sel: 4294967295, oem_num_root_certs: 4294967295
+1525096       0x174568        Qualcomm SBL1, image addr: ffffffff, image size: 4294967295, code size: 4294967295, sig size: 4294967295, cert chain size: 4294967295, oem_root_cert_sel: 4294967295, oem_num_root_certs: 4294967295
+1527144       0x174D68        Qualcomm SBL1, image addr: ffffffff, image size: 4294967295, code size: 4294967295, sig size: 4294967295, cert chain size: 4294967295, oem_root_cert_sel: 4294967295, oem_num_root_certs: 4294967295
+1529192       0x175568        Qualcomm SBL1, image addr: ffffffff, image size: 4294967295, code size: 4294967295, sig size: 4294967295, cert chain size: 4294967295, oem_root_cert_sel: 4294967295, oem_num_root_certs: 4294967295
+1533288       0x176568        ELF, 32-bit LSB executable, ARM, version 1 (SYSV)
+1593875       0x185213        ESP Image segment count: 2, flash mode: QUOUT, flash speed: 40MHz, flash size: 1MB, entry address: 0xb200421, hash: none
+1621952       0x18BFC0        Unix path: /dev/icbcfg/boot
+1654120       0x193D68        Qualcomm SBL1, image addr: a8dbc66, image size: 52, code size: 255, sig size: 52, cert chain size: 177060974, oem_root_cert_sel: 52, oem_num_root_certs: 255
+1689143       0x19C637        ESP Image segment count: 9, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x5000020a, hash: none
+1922472       0x1D55A8        CRC32 polynomial table, little endian
+2275605       0x22B915        Certificate in DER format (x509 v3), header length: 4, sequence length: 1284
+2275721       0x22B989        Certificate in DER format (x509 v3), header length: 4, sequence length: 1288
+2347023       0x23D00F        HTML document header
+2348456       0x23D5A8        HTML document footer
+2348692       0x23D694        PNG image, 16 x 16, 8-bit/color RGBA, non-interlaced
+2358544       0x23FD10        CRC32 polynomial table, little endian
+2361968       0x240A70        CRC32 polynomial table, little endian
+2367355       0x241F7B        LZO compressed data
+2442728       0x2545E8        Minix filesystem, V1, little endian, 10049 zones
+2470104       0x25B0D8        ELF, 32-bit LSB shared object, ARM, version 1 (SYSV)
+2783005       0x2A771D        Certificate in DER format (x509 v3), header length: 4, sequence length: 1284
+2783121       0x2A7791        Certificate in DER format (x509 v3), header length: 4, sequence length: 1288
+2855427       0x2B9203        HTML document header
+2856860       0x2B979C        HTML document footer
+2857096       0x2B9888        PNG image, 16 x 16, 8-bit/color RGBA, non-interlaced
+2866912       0x2BBEE0        CRC32 polynomial table, little endian
+2868600       0x2BC578        CRC32 polynomial table, little endian
+3123664       0x2FA9D0        Base64 standard index table
+3142512       0x2FF370        ESP Image segment count: 5, flash mode: QUIO, flash size: 4MB, entry address: 0x1, hash: none
+3239848       0x316FA8        UBI erase count header, version: 1, EC: 0x0, VID header offset: 0x800, data offset: 0x1000
+34566268      0x20F707C       Executable script, shebang: "/bin/sh"
+34567187      0x20F7413       Unix path: /etc/json-config/def.d/99-upgrade.json
+34569032      0x20F7B48       Executable script, shebang: "/bin/sh"
+34569156      0x20F7BC4       Unix path: /usr/bin/awk
+34569203      0x20F7BF3       Unix path: /usr/bin/json-config
+34570249      0x20F8009       Unix path: /etc/json-config/def.d/99-upgrade.json
+34588660      0x20FC7F4       ELF, 32-bit LSB executable, ARM, version 1 (SYSV)
+34817651      0x2134673       XML document, version: "1.0"
+34831780      0x2137DA4       DER SHA1 hash
+34831892      0x2137E14       DER SHA256 hash
+34832004      0x2137E84       DER SHA384 hash
+

@@ -1,0 +1,1 @@
+ubifs-root/316FA8.ubi/img-1052124842_vol-ubi_rootfs.ubifs: Squashfs filesystem, little endian, version 4.0, xz compressed, 25367209 bytes, 3144 inodes, blocksize: 262144 bytes, created: Wed Jul 29 09:07:17 2026

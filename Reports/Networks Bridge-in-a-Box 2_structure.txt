@@ -1,0 +1,28 @@
+===== DROPBEAR =====
+total 8
+drwxr-xr-x  2 joe joe 4096 Aug  4 08:53 .
+drwxr-xr-x 24 joe joe 4096 Aug  4 08:53 ..
+
+===== PASSWD =====
+root:x:0:0:root:/root:/bin/ash
+daemon:*:1:1:daemon:/var:/bin/false
+ftp:*:55:55:ftp:/home/ftp:/bin/false
+network:*:101:101:network:/var:/bin/false
+nobody:*:65534:65534:nobody:/var:/bin/false
+ntp:x:123:123:ntp:/var/run/ntp:/bin/false
+dnsmasq:x:453:453:dnsmasq:/var/run/dnsmasq:/bin/false
+lldp:x:121:129:lldp:/var/run/lldp:/bin/false
+logd:x:514:514:logd:/var/run/logd:/bin/false
+ubus:x:81:81:ubus:/var/run/ubus:/bin/false
+
+===== SHADOW =====
+root:::0:99999:7:::
+daemon:*:0:0:99999:7:::
+ftp:*:0:0:99999:7:::
+network:*:0:0:99999:7:::
+nobody:*:0:0:99999:7:::
+ntp:x:0:0:99999:7:::
+dnsmasq:x:0:0:99999:7:::
+lldp:x:0:0:99999:7:::
+logd:x:0:0:99999:7:::
+ubus:x:0:0:99999:7:::

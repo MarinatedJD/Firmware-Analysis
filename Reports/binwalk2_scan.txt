@@ -1,0 +1,86 @@
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Ubiquiti firmware header, header size: 264 bytes, ~CRC32: 0xAA2B76C6, version: "BZ2.ipq53xx_8.6.11+18870.260526.1140"
+268           0x10C           Ubiquiti partition header, header size: 56 bytes, name: "PARTu-boot", base address: 0x00260000, data size: 608844 bytes
+324           0x144           ELF, 32-bit LSB executable, ARM, version 1 (SYSV)
+112867        0x1B8E3         JBOOT STAG header, image id: 1, timestamp 0xBE9B06E1, image size: 2020088136 bytes, image JBOOT checksum: 0x3444, header JBOOT checksum: 0xEF0
+243306        0x3B66A         JBOOT STAG header, image id: 0, timestamp 0x640005, image size: 3499622400 bytes, image JBOOT checksum: 0x1, header JBOOT checksum: 0x2AEA
+310780        0x4BDFC         SHA256 hash constants, little endian
+345136        0x54430         CRC32 polynomial table, little endian
+386661        0x5E665         LZO compressed data
+391550        0x5F97E         DER SHA1 hash
+391770        0x5FA5A         DER SHA256 hash
+392250        0x5FC3A         DER SHA256 hash
+423576        0x67698         LZMA compressed data, properties: 0x5D, dictionary size: 67108864 bytes, uncompressed size: -1 bytes
+425211        0x67CFB         LZMA compressed data, properties: 0x5D, dictionary size: 67108864 bytes, uncompressed size: -1 bytes
+428596        0x68A34         LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: -1 bytes
+548804        0x85FC4         LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: -1 bytes
+581332        0x8DED4         gzip compressed data, maximum compression, from Unix, last modified: 1970-01-01 00:00:00 (null date)
+611344        0x95410         Flattened device tree, size: 30527675 bytes, version: 17
+611588        0x95504         LZO compressed data
+2183954       0x215312        JBOOT STAG header, image id: 13, timestamp 0xCCF4FC23, image size: 34757715 bytes, image JBOOT checksum: 0x2031, header JBOOT checksum: 0xE54B
+2306270       0x2330DE        SHA256 hash constants, little endian
+4480072       0x445C48        Private key in DER format (PKCS#8), header length: 4, sequence length: 799
+4614192       0x466830        Cisco IOS microcode, for "sx"
+4929954       0x4B39A2        Zlib compressed data, default compression
+4930147       0x4B3A63        Zlib compressed data, default compression
+5841616       0x5922D0        SHA256 hash constants, little endian
+5874400       0x59A2E0        xz compressed data
+5967447       0x5B0E57        Executable script, shebang: "/bin/sh"
+6053021       0x5C5C9D        Broadcom header, number of sections: 1230121828,
+6528903       0x639F87        Unix path: /var/run/nscd/socket
+6615175       0x64F087        Base64 standard index table
+6615620       0x64F244        ELF, 32-bit LSB processor-specific, (">5(")
+7224661       0x6E3D55        Certificate in DER format (x509 v3), header length: 4, sequence length: 5404
+8250144       0x7DE320        mcrypt 2.5 encrypted data, algorithm: "9", keysize: 8230 bytes, mode: "5",
+9242304       0x8D06C0        Certificate in DER format (x509 v3), header length: 4, sequence length: 5384
+13920730      0xD469DA        AES Inverse S-Box
+14289116      0xDA08DC        JBOOT STAG header, image id: 0, timestamp 0x134007E, image size: 302005288 bytes, image JBOOT checksum: 0x8BC1, header JBOOT checksum: 0x2DE4
+15770776      0xF0A498        mcrypt 2.5 encrypted data, algorithm: "9m", keysize: 14786 bytes, mode: "m",
+16311560      0xF8E508        Executable script, shebang: "/bin/sh"
+16368878      0xF9C4EE        Copyright string: "Copyright (c) 2014,u"
+16377942      0xF9E856        Executable script, shebang: "/bin/sh"
+16415885      0xFA7C8D        Executable script, shebang: "/bin/sh"
+17678367      0x10DC01F       SHA256 hash constants, little endian
+18401171      0x118C793       Private key in DER format (PKCS#8), header length: 4, sequence length: 8680
+18470176      0x119D520       Unix path: /var/run/ipold.$IFACE ]; then
+18476084      0x119EC34       JBOOT STAG header, image id: 0, timestamp 0x225C037F, image size: 10758444 bytes, image JBOOT checksum: 0x489, header JBOOT checksum: 0x4C20
+18703463      0x11D6467       JBOOT STAG header, image id: 5, timestamp 0x2F44005E, image size: 1167183897 bytes, image JBOOT checksum: 0x3936, header JBOOT checksum: 0x4E
+19579752      0x12AC368       LUKS_MAGIC
+19586119      0x12ADC47       SHA256 hash constants, little endian
+20792109      0x13D432D       AES Inverse S-Box
+20930333      0x13F5F1D       SHA256 hash constants, little endian
+21270138      0x1448E7A       Unix path: /sys/power/u
+21899584      0x14E2940       ELF, 32-bit LSB processor-specific, ("~N(")
+22117736      0x1517D68       ELF, 32-bit LSB processor-specific, ("")
+22480127      0x15704FF       SHA256 hash constants, little endian
+22526209      0x157B901       ELF, 32-bit LSB processor-specific, ("")
+24359874      0x173B3C2       Base64 standard index table
+24360442      0x173B5FA       Unix path: /sys/class/net/%s/wireles2h
+24376493      0x173F4AD       SHA256 hash constants, little endian
+24421250      0x174A382       ELF, MSB ("self/exe")
+26322555      0x191A67B       DER SHA1 hash
+26327411      0x191B973       SHA256 hash constants, little endian
+26329800      0x191C2C8       mcrypt 2.5 encrypted data, algorithm: " ", keysize: 2940 bytes, mode: "}",
+26437686      0x1936836       mcrypt 2.5 encrypted data, algorithm: "\", keysize: 3693 bytes, mode: "\",
+26635393      0x1966C81       Copyright string: "Copyright (c) 2004-2022, Jouni Malinen <j@w1.fi> and contributors"
+26992148      0x19BDE14       Unix path: /sys/net/ipv4Q
+27332875      0x1A1110B       mcrypt 2.5 encrypted data, algorithm: "1m", keysize: 5044 bytes, mode: "0",
+28611730      0x1B49492       Base64 standard index table
+28709182      0x1B6113E       mcrypt 2.5 encrypted data, algorithm: ")m", keysize: 11652 bytes, mode: "m",
+29719701      0x1C57C95       ELF, 32-bit LSB processor-specific, ("")
+29894527      0x1C8277F       Copyright string: "Copyright (c) 2004-2022, Jouni Malinen <j@w1.fi> and contributors"
+29956670      0x1C91A3E       ELF, 32-bit LSB processor-specific, ("^[")
+30628245      0x1D35995       AES Inverse S-Box
+30628501      0x1D35A95       AES S-Box
+30709412      0x1D496A4       Flattened device tree, size: 57521 bytes, version: 17
+30767524      0x1D579A4       Flattened device tree, size: 57521 bytes, version: 17
+30825636      0x1D65CA4       Flattened device tree, size: 57695 bytes, version: 17
+30883920      0x1D74050       Flattened device tree, size: 57808 bytes, version: 17
+30942316      0x1D8246C       Flattened device tree, size: 60538 bytes, version: 17
+31003444      0x1D91334       Flattened device tree, size: 57687 bytes, version: 17
+31061720      0x1D9F6D8       Flattened device tree, size: 57515 bytes, version: 17
+31139083      0x1DB250B       Squashfs filesystem, little endian, version 4.0, compression:xz, size: 14998802 bytes, 185 inodes, blocksize: 1048576 bytes, created: 2024-07-22 20:17:07
+46138643      0x2C00513       Signed Ubiquiti end header, RSA 2048 bit, header size: 264 bytes
+

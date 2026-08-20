@@ -1,0 +1,1 @@
+ePMP-AC-v5.12.0.img: Device Tree Blob version 17, size=34936272, boot CPU=0, string block size=60, DT structure block size=34934844

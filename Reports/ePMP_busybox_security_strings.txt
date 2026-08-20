@@ -1,0 +1,55 @@
+chroot
+pivot_root
+chroot
+login
+pivot_root
+switch_root
+telnet
+telnetd
+you must be root
+permission denied (are you root?)
+can't change root directory to '%s'
+Login timed out after %u seconds
+LOGIN_TIMEOUT
+-f is for root only
+Login incorrect
+invalid password for '%s'%s
+.hushlogin
+root login%s
+%s can't change password for %s
+can't change locked password for %s
+Changing password for %s
+Old password: 
+incorrect password for %s
+Incorrect password
+New password: 
+Retype password: 
+Passwords don't match
+password for %s is unchanged
+password encryption failed
+can't update password file %s
+password for %s changed by %s
+password for %s is already %slocked
+incorrect password
+designated_root
+root_id
+ designated root	%s
+ root port		%4u			
+upassword
+non-root must specify config file
+non-root must run services as himself
+can't scan /proc - are you root?
+peer %s unfit for selection: root distance %f too high, jitter:%f
+reply from %s: offset:%+f delay:%f status:0x%02x strat:%d refid:0x%08x rootdelay:%f reach:0x%02x
+ z	suspend telnet
+ e	exit telnet
+/bin/login
+rootpath
+ is a %sshell builtin
+root filesystem is not ramfs/tmpfs
+error moving root
+%sautoindent %sexpandtab %sflash %signorecase %sshowmatch tabstop=%u
+Password: 
+ login: 
+?pc?d?b?-?l?s???rwxSTstsimilar to old password
+Bad password: %s

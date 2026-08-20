@@ -1,0 +1,5 @@
+ubifs-root
+ubifs-root/316FA8.ubi
+ubifs-root/316FA8.ubi/img-1052124842_vol-kernel.ubifs
+ubifs-root/316FA8.ubi/img-1052124842_vol-ubi_rootfs.ubifs
+ubifs-root/316FA8.ubi/img-1052124842_vol-rootfs_data.ubifs

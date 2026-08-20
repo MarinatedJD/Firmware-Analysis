@@ -1,0 +1,343 @@
+rootfs_extracted
+├── bin
+│   ├── ash -> busybox
+│   ├── board_detect
+│   ├── busybox
+│   ├── cat -> busybox
+│   ├── chgrp -> busybox
+│   ├── chmod -> busybox
+│   ├── chown -> busybox
+│   ├── config_generate
+│   ├── cp -> busybox
+│   ├── date -> busybox
+│   ├── dd -> busybox
+│   ├── df -> busybox
+│   ├── dmesg -> busybox
+│   ├── echo -> busybox
+│   ├── egrep -> busybox
+│   ├── false -> busybox
+│   ├── fgrep -> busybox
+│   ├── fsync -> busybox
+│   ├── gpiocontrol.sh
+│   ├── gpioset.sh
+│   ├── gpsd_need_restart.sh
+│   ├── grep -> busybox
+│   ├── gunzip -> busybox
+│   ├── gzip -> busybox
+│   ├── ipcalc.sh
+│   ├── kill -> busybox
+│   ├── led_blink.sh
+│   ├── ln -> busybox
+│   ├── lock -> busybox
+│   ├── login -> busybox
+│   ├── login.sh
+│   ├── ls -> busybox
+│   ├── mkdir -> busybox
+│   ├── mknod -> busybox
+│   ├── mktemp -> busybox
+│   ├── mount -> busybox
+│   ├── mv -> busybox
+│   ├── netmsg -> busybox
+│   ├── netstat -> busybox
+│   ├── nice -> busybox
+│   ├── opkg
+│   ├── passwd -> busybox
+│   ├── pidof -> busybox
+│   ├── ping6 -> busybox
+│   ├── ps -> busybox
+│   ├── pwd -> busybox
+│   ├── rm -> busybox
+│   ├── rmdir -> busybox
+│   ├── sed -> busybox
+│   ├── set_gps_sat_led_state.sh
+│   ├── sh -> busybox
+│   ├── sleep -> busybox
+│   ├── stat -> busybox
+│   ├── su -> busybox
+│   ├── sync -> busybox
+│   ├── tar -> busybox
+│   ├── touch -> busybox
+│   ├── traceroute -> busybox
+│   ├── true -> busybox
+│   ├── ubus
+│   ├── umount -> busybox
+│   ├── uname -> busybox
+│   ├── vi -> busybox
+│   └── zcat -> busybox
+├── dev
+├── etc
+│   ├── acfg_common.conf
+│   ├── ath
+│   ├── athx100.conf
+│   ├── banner
+│   ├── banner.failsafe
+│   ├── caldata_onfly
+│   ├── cambium-project
+│   ├── cdt_raw_patcher
+│   ├── cert
+│   ├── clish
+│   ├── cnvision_version
+│   ├── config
+│   ├── conntrackd
+│   ├── crontabs
+│   ├── dcs.conf
+│   ├── default
+│   ├── device_info
+│   ├── diag.sh
+│   ├── dnsmasq.conf
+│   ├── dropbear
+│   ├── ethertypes
+│   ├── firewall.d
+│   ├── firewall.user
+│   ├── fstab -> /tmp/fstab
+│   ├── group
+│   ├── hosts
+│   ├── hotplug.d
+│   ├── hotplug.json
+│   ├── hotplug-preinit.json
+│   ├── inetd.conf
+│   ├── init.d
+│   ├── inittab
+│   ├── iproute2
+│   ├── json-config
+│   ├── lighttpd
+│   ├── lldpd.d
+│   ├── lowi
+│   ├── mgtcom.d
+│   ├── modules-boot.d
+│   ├── modules.d
+│   ├── mtab -> /proc/mounts
+│   ├── openwrt_release
+│   ├── openwrt_version
+│   ├── opkg
+│   ├── opkg.conf
+│   ├── pam.conf
+│   ├── pam.d
+│   ├── passwd
+│   ├── patterndb.d
+│   ├── pm
+│   ├── ppp
+│   ├── preinit
+│   ├── profile
+│   ├── protocols
+│   ├── rc.button
+│   ├── rc.common
+│   ├── rc.d
+│   ├── rc.local
+│   ├── reboot.d
+│   ├── resolv.conf -> /tmp/resolv.conf
+│   ├── security
+│   ├── services
+│   ├── shadow
+│   ├── shells
+│   ├── snmp
+│   ├── spectraldaemon.filters
+│   ├── ssl
+│   ├── sudoers
+│   ├── sudoers.d
+│   ├── sysctl.conf
+│   ├── sysctl.d
+│   ├── syslog-ng.conf
+│   ├── syslog-ng.d
+│   ├── sysstat
+│   ├── sysupgrade.conf
+│   ├── thermal
+│   ├── TZ -> /tmp/TZ
+│   ├── uci-defaults
+│   ├── udhcpc.user
+│   ├── upgrade-image-names.list
+│   ├── version
+│   └── xattr.conf
+├── init
+├── lib
+│   ├── cfgmtd_ubifs.sh
+│   ├── config
+│   ├── dcs
+│   ├── debug
+│   ├── debug-wrapper
+│   ├── defconfig
+│   ├── eirpv_chooser.sh
+│   ├── firmware
+│   ├── functions
+│   ├── functions.sh
+│   ├── get_mtd.sh
+│   ├── ipq806x.sh
+│   ├── json-configd
+│   ├── l2_nat.sh
+│   ├── ld-uClibc-1.0.14.so
+│   ├── ld-uClibc.so.0 -> ld-uClibc.so.1
+│   ├── ld-uClibc.so.1 -> ld-uClibc-1.0.14.so
+│   ├── libblobmsg_json.so
+│   ├── libcrypt-1.0.14.so
+│   ├── libcrypt.so -> libcrypt.so.1
+│   ├── libcrypt.so.1 -> libcrypt-1.0.14.so
+│   ├── libc.so
+│   ├── libc.so.1 -> libuClibc-1.0.14.so
+│   ├── libdl-1.0.14.so
+│   ├── libdl.so -> libdl.so.1
+│   ├── libdl.so.1 -> libdl-1.0.14.so
+│   ├── libfstools.so
+│   ├── libgcc_s.so.1
+│   ├── libjson_script.so
+│   ├── libm-1.0.14.so
+│   ├── libm.so -> libm.so.1
+│   ├── libm.so.1 -> libm-1.0.14.so
+│   ├── libpamc.so -> libpamc.so.0.82.1
+│   ├── libpamc.so.0 -> libpamc.so.0.82.1
+│   ├── libpamc.so.0.82.1
+│   ├── libpam_misc.so -> libpam_misc.so.0.82.1
+│   ├── libpam_misc.so.0 -> libpam_misc.so.0.82.1
+│   ├── libpam_misc.so.0.82.1
+│   ├── libpam.so -> libpam.so.0.85.1
+│   ├── libpam.so.0 -> libpam.so.0.85.1
+│   ├── libpam.so.0.85.1
+│   ├── libpthread-1.0.14.so
+│   ├── libpthread.so
+│   ├── libpthread.so.1 -> libpthread-1.0.14.so
+│   ├── librpc.so
+│   ├── librt-1.0.14.so
+│   ├── librt.so -> librt.so.1
+│   ├── librt.so.1 -> librt-1.0.14.so
+│   ├── libsetlbf.so
+│   ├── libstdc++.so.6 -> libstdc++.so.6.0.19
+│   ├── libstdc++.so.6.0.19
+│   ├── libstdc++.so.6.0.19-gdb.py
+│   ├── libubox.so
+│   ├── libubus.so
+│   ├── libuci.so
+│   ├── libuClibc-1.0.14.so
+│   ├── libutil-1.0.14.so
+│   ├── libutil.so -> libutil.so.1
+│   ├── libutil.so.1 -> libutil-1.0.14.so
+│   ├── libvalidate.so
+│   ├── log-rotate-and-move
+│   ├── mgtcomd -> debug-wrapper
+│   ├── mgtcomq
+│   ├── modules
+│   ├── netifd
+│   ├── network
+│   ├── nss_setup.sh
+│   ├── preinit
+│   ├── read_caldata_to_fs.sh
+│   ├── sbin
+│   ├── security
+│   ├── spectraldaemon
+│   ├── spectraldaemon.sh
+│   ├── telnet_login.sh
+│   ├── uboot-envtools.sh
+│   ├── uci
+│   ├── update_smp_affinity.sh
+│   ├── update_system_params.sh
+│   ├── upgrade
+│   └── wifi
+├── mnt
+│   ├── dpi
+│   └── lionic -> /mnt/dpi
+├── overlay
+├── proc
+├── rom
+│   └── note
+├── root
+├── sbin
+│   ├── askfirst
+│   ├── backrest.sh
+│   ├── bridge.sh
+│   ├── bridge-stp
+│   ├── cambupgrade
+│   ├── click_through_watchdog
+│   ├── devmem -> ../bin/busybox
+│   ├── devstatus
+│   ├── firstboot
+│   ├── fw3
+│   ├── gpsd-restart
+│   ├── gpsd-wd
+│   ├── halt -> ../bin/busybox
+│   ├── hotplug-call
+│   ├── hwclock -> ../bin/busybox
+│   ├── ifconfig -> ../bin/busybox
+│   ├── ifdown -> ifup
+│   ├── ifstatus
+│   ├── ifup
+│   ├── init
+│   ├── jffs2mark -> jffs2reset
+│   ├── jffs2reset
+│   ├── kmodloader
+│   ├── lanspdx.sh
+│   ├── led.sh
+│   ├── loadsuccess.sh
+│   ├── luci-reload
+│   ├── membershipvlan.sh
+│   ├── mkswap -> ../bin/busybox
+│   ├── mount_root
+│   ├── mtd
+│   ├── mtu.sh
+│   ├── ne_cli
+│   ├── ne_import
+│   ├── netifd
+│   ├── on_ac_power
+│   ├── pivot_root -> ../bin/busybox
+│   ├── poweroff -> ../bin/busybox
+│   ├── procd
+│   ├── radius_client
+│   ├── radius_proxyd
+│   ├── reboot -> ../bin/busybox
+│   ├── reload_config
+│   ├── request_params
+│   ├── rngd
+│   ├── route -> ../bin/busybox
+│   ├── rpcd
+│   ├── rstpctl
+│   ├── rstpd
+│   ├── setmac
+│   ├── sm_cns-notify
+│   ├── sminfo-notify
+│   ├── snapshot
+│   ├── snapshot_tool
+│   ├── spidev_test
+│   ├── start-stop-daemon -> ../bin/busybox
+│   ├── swapoff -> ../bin/busybox
+│   ├── swapon -> ../bin/busybox
+│   ├── swconfig
+│   ├── switch_root -> ../bin/busybox
+│   ├── sysctl -> ../bin/busybox
+│   ├── sysdebug
+│   ├── sysupgrade
+│   ├── ubusd
+│   ├── uci
+│   ├── uci2cfg.sh
+│   ├── udevtrigger
+│   ├── udhcpc -> ../bin/busybox
+│   ├── upgraded
+│   ├── validate_data
+│   ├── vconfig -> ../bin/busybox
+│   ├── vlanmap.sh
+│   ├── vlan.sh
+│   └── wifi
+├── sys
+├── tmp
+├── usr
+│   ├── bin
+│   ├── lib
+│   ├── sbin
+│   └── share
+├── var -> /tmp
+└── www
+    ├── cgi-bin
+    ├── css
+    ├── dl -> /tmp/dl
+    ├── eirp
+    ├── fonts
+    ├── help.html
+    ├── images
+    ├── index.html
+    ├── index_offline.html
+    ├── js
+    ├── luci-static
+    ├── maintenance.html
+    ├── new_js -> /www/js/
+    ├── robots.txt
+    ├── sh-scripts
+    ├── tcpdump -> /tmp/tcpdump
+    └── vms.html
+
+83 directories, 258 files

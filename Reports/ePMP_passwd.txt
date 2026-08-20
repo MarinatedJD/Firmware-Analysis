@@ -1,0 +1,11 @@
+root:$1$FxTRRvQw$GToB7akybeJVrxqNhE33q1:0:0:root:/root:/bin/ash
+daemon:*:1:1:daemon:/var:/bin/false
+ftp:*:55:55:ftp:/home/ftp:/bin/false
+network:*:101:101:network:/var:/bin/false
+admin:$1$Q4yAUtfC$E0acJjgS3LxPdxVTghsYh.:1000:4:admin:/tmp:/usr/bin/clish
+installer:!*:2000:100:installer:/tmp:/bin/false
+home:!*:3000:100:home:/tmp:/bin/false
+readonly:!*:4000:100:readonly:/tmp:/bin/false
+dashboard:$1$Y9oz6eRg$ysokBk9VZCGo4AN6WQgVF0:5000:100:dashboard:/tmp:/bin/false
+nobody:*:65534:65534:nobody:/var:/bin/false
+lldp:x:121:129:lldp:/var/run/lldp:/bin/false
